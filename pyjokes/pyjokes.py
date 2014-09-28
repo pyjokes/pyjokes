@@ -10,7 +10,7 @@ def get_chuck_nerd_jokes():
 	return d['joke']
 
 def main():
-	print get_chuck_nerd_jokes()
+	print(get_chuck_nerd_jokes())
 
 if __name__ == '__main__':
     main()
