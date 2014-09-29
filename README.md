@@ -2,10 +2,19 @@
 
 One line jokes for programmers (jokes as a service)
 
+## Install
+
+python setup.py install
+
+
 ## Usage
 
-First joke:
-
+For local jokes
 ```bash
-python3 pyjokes.py
+pyjoke
+```
+
+For Chuck Norris jokes
+```bash
+pyjoke -s chuck
 ```
