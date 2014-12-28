@@ -1,34 +1,30 @@
-# -*- coding: utf-8 -*-
-
 import os
-import setuptools
+from setuptools import setup
 
 
-setuptools.setup(
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+
+setup(
     name="pyjokes",
-    version="0.1.0",
-#    url="",
-
-    author="",
-    author_email="",
-
-    description="",
-    long_description=open('README.md').read(),
-
-    packages=setuptools.find_packages(),
-
-    #install_requires=[str(ir.req) for ir in install_reqs],
-
-    #extra_files=['CHANGES.rst', 'LICENSE', 'README.rst'],
-
+    version="0.1.1",
+    author="Ben Nuttall",
+    author_email="ben@raspberrypi.org",
+    description="One line jokes for programmers (jokes as a service)",
+    license="BSD",
+    keywords=[
+        "pyjokes",
+        "jokes",
+    ],
+    url="https://github.com/bennuttall/pyjokes",
+    packages=[
+        "pyjokes",
+    ],
+    long_description=read('README.rst'),
     scripts=['scripts/pyjoke'],
-
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
-        'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
+        "Development Status :: 4 - Beta",
+        "Topic :: Utilities",
+        "License :: OSI Approved :: BSD License",
     ],
 )
