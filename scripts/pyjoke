@@ -1,25 +1,25 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#!/usr/bin/python3
 
 import os
 import argparse
 from pyjokes.pyjokes import get_local_joke
-from pyjokes.chuck import get_chuck_nerd_jokes
+from pyjokes.chuck import get_chuck_nerd_joke
 
 
 def create_argparser():
     parser = argparse.ArgumentParser(description='One line jokes for programmers (jokes as a service)')
-    parser.add_argument('-s', '--source',
-                        dest='source',
-                        choices=['local', 'chuck'],
-                        default='local',
-                        help='Jokes database source.')
+    parser.add_argument(
+        '-s', '--source',
+        dest='source',
+        choices=['local', 'chuck'],
+        default='local',
+        help='Jokes database source.'
+    )
 
     return parser
 
 
-if __name__ == '__main__':
-
+def main():
     parser = create_argparser()
 
     try:
@@ -29,13 +29,13 @@ if __name__ == '__main__':
         parser.error(str(exc.message))
         exit(-1)
 
-    if args.source == 'local':
-        joke = get_local_joke()
-    elif args.source == 'get_chuck_nerd_jokes':
-        joke = get_chuck_nerd_jokes()
-    else:
-        print('You did not tell me from where to get the joke.')
-        exit(-1)
+    joke = {
+        'local': get_local_joke,
+        'chuck': get_chuck_nerd_joke,
+    }[args.source]()
 
     print(joke)
 
+
+if __name__ == '__main__':
+    main()
