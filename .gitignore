@@ -1,1 +1,4 @@
 *.pyc
+pyjokes.egg-info/
+build/
+dist/
