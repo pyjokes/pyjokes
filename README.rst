@@ -22,7 +22,7 @@ or on some systems::
 Python 2::
 
     sudo apt-get install python-pip
-    sudo pip install energenie
+    sudo pip install pyjokes
 
 Usage
 =====
