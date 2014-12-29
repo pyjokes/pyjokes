@@ -27,9 +27,9 @@ Python 2::
 Usage
 =====
 
-Once installed, simply call `pyjokes` from the command line.
+Once installed, simply call `pyjoke` from the command line.
 
-Alternatively pass in the argument `-chuck` for Chuck Norris themed jokes
+Alternatively pass in the argument `-s chuck` for Chuck Norris themed jokes
 
 You can also access the jokes in your own project by importing `pyjokes`. You have access to the `jokes` list, and the `get_local_joke` and `get_chuck_nerd_joke` functions.
 
