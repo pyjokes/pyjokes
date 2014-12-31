@@ -3,7 +3,6 @@
 import os
 import argparse
 from pyjokes.pyjokes import get_local_joke
-from pyjokes.chuck import get_chuck_nerd_joke
 
 
 def create_argparser():
@@ -11,8 +10,15 @@ def create_argparser():
     parser.add_argument(
         '-s', '--source',
         dest='source',
-        choices=['local', 'chuck'],
-        default='local',
+        choices=['geek_neutral',
+                 'geek_explicit',
+                 'chuck_neutral',
+                 'chuck_explicit',
+                 'chuck_nerdy',
+                 'all_nerdy',
+                 'all_explicit',
+                 'all'],
+        default='geek_neutral',
         help='Jokes database source.'
     )
 
@@ -29,12 +35,18 @@ def main():
         parser.error(str(exc.message))
         exit(-1)
 
-    joke = {
-        'local': get_local_joke,
-        'chuck': get_chuck_nerd_joke,
-    }[args.source]()
+    joke_settings = {'geek_neutral'  : ['geek_neutral'],
+                     'geek_explicit' : ['geek_explicit'],
+                     'chuck_neutral' : ['chuck_neutral'],
+                     'chuck_explicit': ['chuck_explicit'],
+                     'chuck_nerdy'   : ['chuck_nerdy'],
+                     'all_nerdy'     : ['geek_neutral', 'chuck_nerdy'],
+                     'all_explicit'  : ['geek_neutral', 'geek_explicit', 'chuck_explicit'],
+                     'all'           : ['geek_neutral', 'geek_explicit', 'chuck_neutral',
+                                        'chuck_explicit', 'chuck_nerdy'],
+                     }
 
-    print(joke)
+    print(get_local_joke(joke_settings[args.source]))
 
 
 if __name__ == '__main__':
