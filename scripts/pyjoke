@@ -2,18 +2,17 @@
 
 import os
 import argparse
-from pyjokes.pyjokes import get_local_joke
-from pyjokes.chuck import get_chuck_nerd_joke
+from pyjokes.pyjokes import get_joke
 
 
 def create_argparser():
     parser = argparse.ArgumentParser(description='One line jokes for programmers (jokes as a service)')
     parser.add_argument(
-        '-s', '--source',
-        dest='source',
-        choices=['local', 'chuck'],
-        default='local',
-        help='Jokes database source.'
+        '-c', '--category',
+        dest='category',
+        choices=['neutral', 'explicit', 'chuck', 'all'],
+        default='neutral',
+        help='Joke category.'
     )
 
     return parser
@@ -29,10 +28,7 @@ def main():
         parser.error(str(exc.message))
         exit(-1)
 
-    joke = {
-        'local': get_local_joke,
-        'chuck': get_chuck_nerd_joke,
-    }[args.source]()
+    joke = get_joke(args.category)
 
     print(joke)
 
