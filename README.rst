@@ -29,9 +29,14 @@ Usage
 
 Once installed, simply call `pyjoke` from the command line.
 
-Alternatively pass in the argument `-s chuck` for Chuck Norris themed jokes
+Alternatively use the `-c` flag to get jokes from a specific category. Options:
 
-You can also access the jokes in your own project by importing `pyjokes`. You have access to the `jokes` list, and the `get_local_joke` and `get_chuck_nerd_joke` functions.
+    -c neutral [default] (neutral geek jokes)
+    -c explicit (explicit geek jokes)
+    -c chuck (Chuck Norris geek jokes)
+    -c all (all jokes)
+
+You can also access the jokes in your own project by importing `pyjokes`. You have access to the `get_joke` function, the `jokes` list, and the joke catgeory lists separately: `geek_neutral`, `geek_explicit`, `chuck_nerdy`.
 
 Contributors
 ============
