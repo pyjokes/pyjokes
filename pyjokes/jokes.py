@@ -5,7 +5,7 @@ Jokes from stackoverflow - provided under CC BY-SA 3.0
 http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page=4&tab=votes#tab-top
 """
 
-geek_neutral = [
+neutral = [
     "A SQL query goes into a bar, walks up to two tables and asks, 'Can I join you?'",
     "When your hammer is C++, everything begins to look like a thumb.",
     "If you put a million monkeys at a million keyboards, one of them will eventually write a Java program. The rest of them will write Perl programs.",
@@ -56,7 +56,7 @@ geek_neutral = [
     "Child: Dad, why does the sun rise in the east and set in the west? Dad: Son, it's working, don't touch",
 ]
 
-geek_explicit = [
+explicit = [
     "Programming is like sex: One mistake and you have to support it for the rest of your life.",
     "Software is like sex: It's better when it's free. (Linus Torvalds)",
     "Software is like sex: It's never REALLY free.",
@@ -75,7 +75,7 @@ Jokes from The Internet Chuck Norris DB (ICNDB) (http://www.icndb.com/) - provid
 http://api.icndb.com/jokes/
 """
 
-chuck_nerdy = [
+chuck = [
     "The Chuck Norris military unit was not used in the game Civilization 4, because a single Chuck Norris could defeat the entire combined nations of the world in one turn.",
     "Chuck Norris is the only human being to display the Heisenberg uncertainty principle - you can never know both exactly where and how quickly he will roundhouse-kick you in the face.",
     "Chuck Norris originally appeared in the 'Street Fighter II' video game, but was removed by Beta Testers because every button caused him to do a roundhouse kick. When asked about this glitch, Norris replied 'That's no glitch.'",
