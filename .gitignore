@@ -1,4 +1,5 @@
 *.pyc
-pyjokes.egg-info/
+*.egg-info/
 build/
 dist/
+pythonhosted
