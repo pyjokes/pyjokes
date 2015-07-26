@@ -67,7 +67,7 @@ Open Source
 .. _Ben Nuttall: https://github.com/bennuttall
 .. _Alex Savio: https://github.com/alexsavio
 .. _Borja Ayerdi: https://github.com/borjaayerdi
-.. _https://github.com/pyjokes/pyjokes/issues/10
+.. _proposal issue: _https://github.com/pyjokes/pyjokes/issues/10
 .. _Pyjokes Society: https://github.com/pyjokes/society
 .. _PySS 2014: http://www.pyss.org/
 .. _BSD Licence: http://opensource.org/licenses/BSD-3-Clause
