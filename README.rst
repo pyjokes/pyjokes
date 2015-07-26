@@ -1,13 +1,13 @@
-=========
+=======
 pyjokes
-=========
+=======
 
 One line jokes for programmers (jokes as a service)
 
 Installation
 ============
 
-Install the `pyjokes` module in pip.
+Install the `pyjokes` module with pip.
 
 Python 3::
 
@@ -29,7 +29,7 @@ Usage
 
 Once installed, simply call `pyjoke` from the command line.
 
-Alternatively use the `-c` flag to get jokes from a specific category. Options:
+Alternatively use the `-c` flag to get jokes from a specific category. Options::
 
     -c neutral [default] (neutral geek jokes)
     -c explicit (explicit geek jokes)
@@ -45,7 +45,15 @@ Contributors
 * `Alex Savio`_
 * `Borja Ayerdi`_
 
-This project began at the `PySS 2014`_ conference in San Sebastian.
+Contributing
+============
+
+New jokes should be proposed in the `proposal issue`_ or via pull request.
+
+Pyjokes Society
+===============
+
+This project is directed by the `Pyjokes Society`_
 
 Open Source
 ===========
@@ -59,7 +67,9 @@ Open Source
 .. _Ben Nuttall: https://github.com/bennuttall
 .. _Alex Savio: https://github.com/alexsavio
 .. _Borja Ayerdi: https://github.com/borjaayerdi
+.. _https://github.com/pyjokes/pyjokes/issues/10
+.. _Pyjokes Society: https://github.com/pyjokes/society
 .. _PySS 2014: http://www.pyss.org/
 .. _BSD Licence: http://opensource.org/licenses/BSD-3-Clause
-.. _GitHub Issues: https://github.com/bennuttall/pyjokes
-.. _GitHub: https://github.com/bennuttall/pyjokes/issues
+.. _GitHub Issues: https://github.com/pyjokes/pyjokes
+.. _GitHub: https://github.com/pyjokes/pyjokes/issues
