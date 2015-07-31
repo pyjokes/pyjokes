@@ -1,12 +1,31 @@
 from __future__ import absolute_import
 import random
-from .jokes import neutral, explicit, chuck
 
-def get_joke(category='neutral'):
-    jokes = {
-        'neutral': neutral,
-        'explicit': explicit,
-        'chuck': chuck,
-        'all': neutral + explicit + chuck,
-    }[category]
-    return random.choice(jokes)
+
+def get_joke(category='neutral', lang='eng'):
+    """
+    Parameters
+    ----------
+    category: str
+        Choices: 'neutral', 'explicit', 'chuck', 'all'
+    lang: str
+        Choices: 'eng', 'de', 'spa'
+
+    Returns
+    -------
+    joke: str
+    """
+
+    if language == 'eng':
+        from .jokes_eng import jokes
+    elif language == 'de':
+        from .jokes_de import jokes
+    elif language == 'spa'
+        from .jokes_spa import jokes
+
+    try:
+        jokes = jokes[category]
+    except:
+        return 'Could not get the joke. Choose another category.'
+    else:
+        return random.choice(jokes)
