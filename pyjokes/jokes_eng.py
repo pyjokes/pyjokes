@@ -17,7 +17,6 @@ neutral = [
     "If you're happy and you know it, syntax error!",
     "'Whats the object-oriented way to become wealthy?' 'Inheritance'",
     "Q: How many prolog programmers does it take to change a lightbulb? A: Yes.",
-    "So this programmer goes out on a date with a hot chick.",
     "Richard Stallman, Linus Torvalds, and Donald Knuth engage in a discussion on whose impact on computer science was the greatest. Stallman: 'God told me I have programmed the best editor in the world!' Torvalds: ''Well, God told me that I have programmed the best operating system in the world!' Knuth: 'Wait, wait, I never said that.'",
     "A foo walks into a bar, takes a look around and says 'Hello World!' and meet up his friends Alice, Bob, and Carol.",
     "Q: Why don't jokes work in octal? A: Because 7 10 11.",
