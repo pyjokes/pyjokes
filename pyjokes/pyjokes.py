@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 import random
+import importlib
 
-
-def get_joke(category='neutral', lang='eng'):
+def get_joke(category='neutral', language='eng'):
     """
     Parameters
     ----------
@@ -20,7 +20,7 @@ def get_joke(category='neutral', lang='eng'):
         from .jokes_eng import jokes
     elif language == 'de':
         from .jokes_de import jokes
-    elif language == 'spa'
+    elif language == 'spa':
         from .jokes_spa import jokes
 
     try:

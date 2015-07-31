@@ -17,7 +17,7 @@ def create_argparser():
 
     parser.add_argument(
         '-l', '--language',
-        dest='lang',
+        dest='language',
         choices=['eng', 'de', 'spa'],
         default='eng',
         help='Joke language.'
@@ -39,7 +39,6 @@ def main():
     joke = get_joke(args.category, args.language)
 
     print(joke)
-
 
 if __name__ == '__main__':
     main()

@@ -5,14 +5,6 @@ Jokes from stackoverflow - provided under CC BY-SA 3.0
 http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page=4&tab=votes#tab-top
 """
 
-jokes = {
-    'neutral': neutral,
-    'explicit': explicit,
-    'chuck': chuck,
-    'all': neutral + explicit + chuck,
-}
-
-
 neutral = [
     "A SQL query goes into a bar, walks up to two tables and asks, 'Can I join you?'",
     "When your hammer is C++, everything begins to look like a thumb.",
@@ -189,3 +181,10 @@ chuck = [
     "Chuck Norris could use anything in java.util.* to kill you, including the javadocs.",
     "Code runs faster when Chuck Norris watches it."
 ]
+
+jokes = {
+    'neutral': neutral,
+    'explicit': explicit,
+    'chuck': chuck,
+    'all': neutral + explicit + chuck,
+}
