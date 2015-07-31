@@ -18,7 +18,8 @@ setup(
     url="https://github.com/pyjokes/pyjokes",
     packages=find_packages(),
     long_description=read('README.rst'),
-    scripts=['scripts/pyjoke'],
+    scripts=['scripts/pyjoke',
+             'scripts/pyjokes'],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Utilities",
