@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+
+def main():
+    print('Did you mean pyjoke?')
+
+if __name__ == '__main__':
+    main()
