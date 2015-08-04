@@ -1,3 +1,6 @@
+.. image:: https://travis-ci.org/pyjokes/pyjokes.svg
+    :target: https://travis-ci.org/pyjokes/pyjokes
+    
 =======
 pyjokes
 =======
