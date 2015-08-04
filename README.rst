@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/pyjokes/pyjokes.svg)](https://travis-ci.org/pyjokes/pyjokes)
+.. image:: https://travis-ci.org/pyjokes/pyjokes.svg
+    :target: https://travis-ci.org/pyjokes/pyjokes
+    
 =======
 pyjokes
 =======
