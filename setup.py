@@ -9,7 +9,7 @@ def read(fname):
 class PyTest(TestCommand):
     def finalize_options(self):
         TestCommand.finalize_options(self)
-        self.test_args = ['pyjokes/tests']
+        self.test_args = []
         self.test_suite = True
     def run_tests(self):
         import pytest
@@ -18,7 +18,7 @@ class PyTest(TestCommand):
         # re-import them from build location. Require when 2to3 is used
         # with namespace packages.
         if sys.version_info >= (3,) and getattr(self.distribution, 'use_2to3', False):
-            module = self.test_args[-1].split(.)[0]
+            module = self.test_args[-1].split('.')[0]
             if module in _namespace_packages:
                 del_modules = []
                 if module in sys.modules:
