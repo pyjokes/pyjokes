@@ -7,6 +7,21 @@ pyjokes
 
 One line jokes for programmers (jokes as a service)
 
+Tests
+=====
+Install requirements
+
+Python 3::
+
+    pip install -r requirements.txt
+
+Run tests
+
+    python setup.py test
+
+
+
+
 Installation
 ============
 
