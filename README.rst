@@ -9,11 +9,7 @@ One line jokes for programmers (jokes as a service)
 
 Tests
 =====
-Install requirements
-
-Python 3::
-
-    pip install -r requirements.txt
+Install requirements (pytest)
 
 Run tests::
 
