@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/pyjokes/pyjokes.svg)](https://travis-ci.org/pyjokes/pyjokes)
 =======
 pyjokes
 =======
