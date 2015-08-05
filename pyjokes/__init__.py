@@ -5,4 +5,4 @@ from .pyjokes import get_joke
 #jokes = neutral + explicit + chuck
 
 
-__version__ = '0.2.1'
+__version__ = '0.3.0'
