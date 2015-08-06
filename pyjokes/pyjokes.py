@@ -1,6 +1,25 @@
 from __future__ import absolute_import
 import random
-import importlib
+
+from .jokes_en import jokes as jokes_en
+from .jokes_de import jokes as jokes_de
+from .jokes_es import jokes as jokes_es
+
+
+all_jokes = {
+    'en': jokes_en,
+    'de': jokes_de,
+    'es': jokes_es,
+}
+
+
+class LanguageNotFoundError(Exception):
+    pass
+
+
+class CategoryNotFoundError(Exception):
+    pass
+
 
 def get_joke(category='neutral', language='en'):
     """
@@ -16,16 +35,13 @@ def get_joke(category='neutral', language='en'):
     joke: str
     """
 
-    if language == 'en':
-        from .jokes_en import jokes
-    elif language == 'de':
-        from .jokes_de import jokes
-    elif language == 'es':
-        from .jokes_es import jokes
-
-    try:
-        jokes = jokes[category]
-    except:
-        return 'Could not get the joke. Choose another category.'
+    if language in all_jokes:
+        jokes = all_jokes[language]
     else:
+        raise LanguageNotFoundError('No such language %s' % language)
+
+    if category in jokes:
+        jokes = jokes[category]
         return random.choice(jokes)
+    else:
+        raise CategoryNotFound('No such category %s' % category)
