@@ -27,7 +27,7 @@ neutral = [
     "Software developers like to solve problems. If there are no problems handily available, they will create their own problems.",
     ".NET was named .NET so that it wouldn't show up in a Unix directory listing.",
     "Hardware: The part of a computer that you can kick.",
-    "A programmer was found dead in the shower. Next to his body was a bottle of shampoo with the insructions 'Lather, Rinse and Repeat'.",
+    "A programmer was found dead in the shower. Next to his body was a bottle of shampoo with the instructions 'Lather, Rinse and Repeat'.",
     "Optimist: The glass is half full. Pessimist: The glass is half empty. Programmer: The glass is twice as large as necessary.",
     "In C we had to code our own bugs. In C++ we can inherit them.",
     "How come there is not obfuscated Perl contest? Because everyone would win.",
