@@ -36,7 +36,7 @@ def main():
         parser.error(str(exc.message))
         exit(-1)
 
-    joke = get_joke(args.category, args.language)
+    joke = get_joke(args.language, args.category)
 
     print(joke)
 

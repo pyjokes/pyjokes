@@ -21,7 +21,24 @@ class CategoryNotFoundError(Exception):
     pass
 
 
-def get_joke(category='neutral', language='en'):
+def _get_jokes(language='en', category='neutral', singular=True):
+    if language in all_jokes:
+        jokes = all_jokes[language]
+    else:
+        raise LanguageNotFoundError('No such language %s' % language)
+
+    if category in jokes:
+        jokes = jokes[category]
+        if singular:
+            return random.choice(jokes)
+        else:
+            return jokes
+    else:
+        raise CategoryNotFound('No such category %s' % category)
+
+
+
+def get_joke(language='en', category='neutral'):
     """
     Parameters
     ----------
@@ -35,13 +52,20 @@ def get_joke(category='neutral', language='en'):
     joke: str
     """
 
-    if language in all_jokes:
-        jokes = all_jokes[language]
-    else:
-        raise LanguageNotFoundError('No such language %s' % language)
+    return _get_jokes(language, category, singular=True)
 
-    if category in jokes:
-        jokes = jokes[category]
-        return random.choice(jokes)
-    else:
-        raise CategoryNotFound('No such category %s' % category)
+def get_jokes(language='en', category='neutral'):
+    """
+    Parameters
+    ----------
+    category: str
+        Choices: 'neutral', 'explicit', 'chuck', 'all'
+    lang: str
+        Choices: 'en', 'de', 'es'
+
+    Returns
+    -------
+    jokes: list
+    """
+
+    return _get_jokes(language, category, singular=False)
