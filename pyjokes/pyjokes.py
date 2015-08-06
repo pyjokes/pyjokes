@@ -22,20 +22,20 @@ class CategoryNotFoundError(Exception):
 
 
 def _get_jokes(language='en', category='neutral', singular=True):
-    if language in all_jokes:
-        jokes = all_jokes[language]
-    else:
+    if language not in all_jokes:
         raise LanguageNotFoundError('No such language %s' % language)
 
-    if category in jokes:
-        jokes = jokes[category]
-        if singular:
-            return random.choice(jokes)
-        else:
-            return jokes
-    else:
+    jokes = all_jokes[language]
+
+    if category not in jokes:
         raise CategoryNotFound('No such category %s' % category)
 
+    jokes = jokes[category]
+
+    if singular:
+        return random.choice(jokes)
+    else:
+        return jokes
 
 
 def get_joke(language='en', category='neutral'):
@@ -53,6 +53,7 @@ def get_joke(language='en', category='neutral'):
     """
 
     return _get_jokes(language, category, singular=True)
+
 
 def get_jokes(language='en', category='neutral'):
     """
