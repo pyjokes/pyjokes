@@ -196,7 +196,7 @@ chuck = [
     "Chuck Norris once shifted a bit so hard, it ended up on a different computer.",
 ]
 
-jokes = {
+jokes_en = {
     'neutral': neutral,
     'explicit': explicit,
     'chuck': chuck,

@@ -12,7 +12,7 @@ explicit = [
     'Esto es un mainframe que le dice a un PC: "tan pequeno y ya "computas"?'
 ]
 
-jokes = {
+jokes_es = {
     'neutral': neutral,
     'explicit': explicit,
     'all': neutral + explicit,

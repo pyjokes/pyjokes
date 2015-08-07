@@ -7,7 +7,7 @@ def read(fname):
 
 setup(
     name="pyjokes",
-    version="0.3.0",
+    version="0.4.0",
     author="Pyjokes Society",
     description="One line jokes for programmers (jokes as a service)",
     license="BSD",

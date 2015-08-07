@@ -1,9 +1,9 @@
 from __future__ import absolute_import
 import random
 
-from .jokes_en import jokes as jokes_en
-from .jokes_de import jokes as jokes_de
-from .jokes_es import jokes as jokes_es
+from .jokes_en import jokes_en
+from .jokes_de import jokes_de
+from .jokes_es import jokes_es
 
 
 all_jokes = {
