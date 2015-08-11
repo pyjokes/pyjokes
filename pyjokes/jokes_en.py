@@ -66,6 +66,10 @@ neutral = [
     "My friend's in a band called '1023 Megabytes'... They haven't got a gig yet!",
     "tabs > spaces",
     "spaces > tabs",
+    "I had a problem so I thought I'd use Java. Now I have a ProblemFactory.",
+    "Knock knock...Who's there?...Data integrity...Data📠✹$%@‽📠⁂#%*❾%🕞 ⑦⬜%@‽^📠☝📠✝!#^",
+    "QA Engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a sfdeljknesv.",
+    "A product manager walks into a bar, asks for drink. Bartender says no, but will consider adding later.",
 ]
 
 explicit = [
