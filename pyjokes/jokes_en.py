@@ -44,7 +44,6 @@ neutral = [
     "Why do programmers confuse Halloween with Christmas? Because OCT 31 == DEC 25",
     "/* no comment */",
     "How many Prolog programmers does it take to change a lightbulb? false.",
-    "PHP",
     "Real programmers can write assembly code in any language",
     "alias please=sudo",
     "Girlfriend: Would you like to go to a movie or go bowling? Programmer: Yes.",
