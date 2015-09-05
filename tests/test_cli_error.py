@@ -2,7 +2,8 @@
 
 import pytest
 import subprocess
-from   subprocess import Popen, PIPE
+from   subprocess import PIPE
+
 
 def test_pyjokes_call_exception():
     pytest.raises(subprocess.CalledProcessError, "subprocess.check_call('pyjokes')")
