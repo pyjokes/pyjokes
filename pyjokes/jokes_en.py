@@ -68,7 +68,7 @@ neutral = [
     "A product manager walks into a bar, asks for drink. Bartender says no, but will consider adding later.",
 ]
 
-explicit = [
+adult = [
     "JIT Happens!",
     "Programming is like sex: One mistake and you have to support it for the rest of your life.",
     "Software is like sex: It's better when it's free.",
@@ -198,7 +198,7 @@ chuck = [
 
 jokes_en = {
     'neutral': neutral,
-    'explicit': explicit,
+    'adult': adult,
     'chuck': chuck,
-    'all': neutral + explicit + chuck,
+    'all': neutral + adult + chuck,
 }
