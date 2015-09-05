@@ -6,7 +6,10 @@ from pyjokes.pyjokes import get_joke
 
 
 def create_argparser():
-    parser = argparse.ArgumentParser(description='One line jokes for programmers (jokes as a service)')
+    parser = argparse.ArgumentParser(
+        description='One line jokes for programmers (jokes as a service)'
+    )
+
     parser.add_argument(
         '-c', '--category',
         dest='category',
@@ -36,7 +39,7 @@ def main():
         parser.error(str(exc.message))
         exit(-1)
 
-    joke = get_joke(args.category, args.language)
+    joke = get_joke(language=args.language, category=args.category)
 
     print(joke)
 

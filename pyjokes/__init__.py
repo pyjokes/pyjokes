@@ -1,8 +1,5 @@
 from __future__ import absolute_import
-from .pyjokes import get_joke
-#from .jokes import neutral, explicit, chuck
-
-#jokes = neutral + explicit + chuck
+from .pyjokes import get_joke, get_jokes
 
 
-__version__ = '0.2.1'
+__version__ = '0.4.1'

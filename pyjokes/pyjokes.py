@@ -1,8 +1,44 @@
 from __future__ import absolute_import
 import random
-import importlib
 
-def get_joke(category='neutral', language='en'):
+from .jokes_en import jokes_en
+from .jokes_de import jokes_de
+from .jokes_es import jokes_es
+
+
+all_jokes = {
+    'en': jokes_en,
+    'de': jokes_de,
+    'es': jokes_es,
+}
+
+
+class LanguageNotFoundError(Exception):
+    pass
+
+
+class CategoryNotFoundError(Exception):
+    pass
+
+
+def _get_jokes(language='en', category='neutral', singular=True):
+    if language not in all_jokes:
+        raise LanguageNotFoundError('No such language %s' % language)
+
+    jokes = all_jokes[language]
+
+    if category not in jokes:
+        raise CategoryNotFound('No such category %s' % category)
+
+    jokes = jokes[category]
+
+    if singular:
+        return random.choice(jokes)
+    else:
+        return jokes
+
+
+def get_joke(language='en', category='neutral'):
     """
     Parameters
     ----------
@@ -16,16 +52,21 @@ def get_joke(category='neutral', language='en'):
     joke: str
     """
 
-    if language == 'en':
-        from .jokes_en import jokes
-    elif language == 'de':
-        from .jokes_de import jokes
-    elif language == 'es':
-        from .jokes_es import jokes
+    return _get_jokes(language, category, singular=True)
 
-    try:
-        jokes = jokes[category]
-    except:
-        return 'Could not get the joke. Choose another category.'
-    else:
-        return random.choice(jokes)
+
+def get_jokes(language='en', category='neutral'):
+    """
+    Parameters
+    ----------
+    category: str
+        Choices: 'neutral', 'explicit', 'chuck', 'all'
+    lang: str
+        Choices: 'en', 'de', 'es'
+
+    Returns
+    -------
+    jokes: list
+    """
+
+    return _get_jokes(language, category, singular=False)
