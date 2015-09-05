@@ -7,4 +7,6 @@ python:
 env:
   - PIP_USE_MIRRORS=true
 
-script: "python setup.py test"
+install: python setup.py install
+
+script: python setup.py test
