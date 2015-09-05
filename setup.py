@@ -1,43 +1,31 @@
 import os
-from setuptools import setup, find_packages
-from setuptools.command.test import test as TestCommand
 import sys
+from   setuptools import setup, find_packages
+from   setuptools.command.test import test as TestCommand
+
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+
 class PyTest(TestCommand):
+    user_options = [('pytest-args=', 'a', "Arguments to pass to py.test")]
+
+    def initialize_options(self):
+        TestCommand.initialize_options(self)
+        self.pytest_args = []
+
     def finalize_options(self):
         TestCommand.finalize_options(self)
         self.test_args = []
         self.test_suite = True
+
     def run_tests(self):
+        #import here, cause outside the eggs aren't loaded
         import pytest
-        
-        # Purge modules under test from sys.modules. the test loader will
-        # re-import them from build location. Require when 2to3 is used
-        # with namespace packages.
-        if sys.version_info >= (3,) and getattr(self.distribution, 'use_2to3', False):
-            module = self.test_args[-1].split('.')[0]
-            if module in _namespace_packages:
-                del_modules = []
-                if module in sys.modules:
-                    del_modules.append(module)
-                module += '.'
-                for name in sys.modules:
-                    if name.startwith(module):
-                         del_modules.append(name)
-                map(sys.modules.__delitem__, del_modules)
-
-            ## Run on the build directory for 2to3-build code
-            ## this will prevent the old 2.x code from being found
-            ## by py.test discovery mechanism, that apparently
-            ## ignores sys.path..
-            ei_cmd = self.get_finalized_command('egg_info')
-            self.test_args = [normalized_path(ei_cmd.egg_base)]
-
-        errno = pytest.main(self.test_args)
+        errno = pytest.main(self.pytest_args)
         sys.exit(errno)
+
 
 setup(
     name="pyjokes",
@@ -62,6 +50,6 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     #test requirements and class specification:
-    test_require=['pytest'],
+    tests_require=['pytest'],
     cmdclass={ 'test' : PyTest },
 )
