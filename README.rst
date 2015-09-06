@@ -22,7 +22,7 @@ Once installed, simply call `pyjoke` from the command line.
 Alternatively use the `-c` flag to get jokes from a specific category. Options::
 
     -c neutral [default] (neutral geek jokes)
-    -c explicit (explicit geek jokes)
+    -c adult (adult geek jokes)
     -c chuck (Chuck Norris geek jokes)
     -c all (all jokes)
 
