@@ -71,7 +71,7 @@ neutral = [
     "How do you know whether a person is a Vim user? Don't worry, they'll tell you.",
     "[a person is choking] Waiter: Is anyone a doctor? Programmer: I'm a Vim user.",
     "3 Database Admins walked into a NoSQL bar. A little while later they walked out because they couldn’t find a table.",
-    "How do you explain the movie Inception to a programmer? Basically, when you run a VM inside another VM, inside another VM, inside another VM…, everything runs real slow!",
+    "How to explain the movie Inception to a programmer? When you run a VM inside another VM, inside another VM ..., everything runs real slow!",
 ]
 
 adult = [
