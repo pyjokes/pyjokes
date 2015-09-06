@@ -7,6 +7,17 @@ pyjokes
 
 One line jokes for programmers (jokes as a service)
 
+Tests
+=====
+Install requirements (pytest)
+
+Run tests::
+
+    python setup.py test
+
+
+
+
 Installation
 ============
 
