@@ -13,7 +13,7 @@ def create_argparser():
     parser.add_argument(
         '-c', '--category',
         dest='category',
-        choices=['neutral', 'explicit', 'chuck', 'all'],
+        choices=['neutral', 'adult', 'chuck', 'all'],
         default='neutral',
         help='Joke category.'
     )

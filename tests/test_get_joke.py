@@ -8,7 +8,7 @@ def test_get_joke():
     assert get_joke()
 
     languages = ['en', 'de', 'es']
-    categories = ['neutral', 'explicit', 'all']
+    categories = ['neutral', 'adult', 'all']
 
     for lang in languages:
         assert get_joke(language=lang)
