@@ -44,7 +44,7 @@ neutral = [
     "/* no comment */",
     "How many Prolog programmers does it take to change a lightbulb? false.",
     "Real programmers can write assembly code in any language",
-    "Girlfriend: Would you like to go to a movie or go bowling? Programmer: Yes.",
+    "Waiter: Would you like coffee or tea? Programmer: Yes.",
     "What do you get when you cross a cat and a dog? Cat dog sin theta.",
     "#define _(x) ((x) < score)",
     "If loving you is ROM I don't wanna read write.",
@@ -84,10 +84,7 @@ adult = [
     "C++ - where your friends have access to your private members.",
     "The only intuitive user interface is the nipple. After that, it's all learned.",
     "What's the difference between software development and sex? In sex, you don't get a bonus for releasing early.",
-    "All of my girlfriends' names have ended in .jpg",
     "Your mother is so fat, the recursive function calculating her mass causes a stack overflow.",
-    "long penis = 8==D;",
-    "short stamina;",
 ]
 
 """
