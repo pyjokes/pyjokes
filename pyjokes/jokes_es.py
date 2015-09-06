@@ -5,7 +5,7 @@ neutral = [
     'Qué le dice un bit al otro? Nos vemos en el bus.',
 ]
 
-explicit = [
+adult = [
     '¿Qué es una mujer objeto? Un instancia de una mujer con clase',
     '- Cuántos dalmatas habia en la peli? - 101. - Por el culo te la hinco!',
     'Encuentran programador muerto en la ducha con un bote de champu: "enjabonar, aclarar y vuelta a empezar"',
@@ -14,6 +14,6 @@ explicit = [
 
 jokes_es = {
     'neutral': neutral,
-    'explicit': explicit,
-    'all': neutral + explicit,
+    'adult': adult,
+    'all': neutral + adult,
 }
