@@ -66,6 +66,10 @@ neutral = [
     "Knock knock ... Who's there? ... Data integrity ... Data📠✹$%@‽📠⁂#%*❾%🕞 ⑦⬜%@‽^📠☝📠✝!#^",
     "QA Engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a sfdeljknesv.",
     "A product manager walks into a bar, asks for drink. Bartender says no, but will consider adding later.",
+    "How do you generate a random string? Put a first year CS student in front of VIM and tell him to save and exit.",
+    "I've been using vim for a long time now, mainly because I can't figure out how to exit.",
+    "How do you know whether a person is a vim user? They'll tell you themselves.",
+    "[a man is choking] waiter: Quick is anyone a doctor? vim user: I’m a vim user.",
 ]
 
 explicit = [
