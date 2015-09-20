@@ -87,6 +87,9 @@ neutral = [
     "There are 10 types of people: those who understand binary, those who don't, and those who were expecting this joke to be in trinary.",
     "There are 10 types of people: those who understand trinary, those who don't, and those who have never heard of it.",
     "What do you call eight hobbits? A hobbyte.",
+    "The best thing about a Boolean is even if you are wrong, you are only off by a bit.",
+    "A good programmer is someone who always looks both ways before crossing a one-way street.",
+    "There are two ways to write error-free programs; only the third one works.",
 ]
 
 adult = [
