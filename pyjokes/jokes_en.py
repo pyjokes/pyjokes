@@ -78,7 +78,8 @@ neutral = [
     "[a person is choking] Waiter: Is anyone a doctor? Programmer: I'm a Vim user.",
     "3 Database Admins walked into a NoSQL bar. A little while later they walked out because they couldn’t find a table.",
     "How to explain the movie Inception to a programmer? When you run a VM inside another VM, inside another VM ..., everything runs real slow!",
-    "What do you call eight hobbits? A hobbyte."
+    "What do you call eight hobbits? A hobbyte.",
+    "What do you call a parrot that says \"Squawk! Pieces of nine! Pieces of nine!\"? A parrot-ey error.",
 ]
 
 adult = [
