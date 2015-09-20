@@ -36,5 +36,5 @@ def test_get_joke_in_language_with_category_raises():
     for category in test_data:
         assert pytest.raises(
             CategoryNotFoundError, get_joke,
-            language=language, category=category
+            language='en', category=category
         )
