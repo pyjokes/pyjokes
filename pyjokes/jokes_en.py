@@ -11,7 +11,7 @@ neutral = [
     "I wonder if the MPs voting on the Digital Economy Bill think that Creative Commons is a Parliamentary initiative.",
     "MongoDB.",
     "Asked to explain Unicode during an interview, Geoff went into detail about their final year university project. They were not hired.",
-    "Triumphantly, Beth removed Python 2.7 from his server in 2020. 'Finally!' they said with glee, only to see the announcement for Python 4.4.",
+    "Triumphantly, Beth removed Python 2.7 from her server in 2020. 'Finally!' she said with glee, only to see the announcement for Python 4.4.",
     "An SQL query goes into a bar, walks up to two tables and asks, 'Can I join you?'",
     "When your hammer is C++, everything begins to look like a thumb.",
     "If you put a million monkeys at a million keyboards, one of them will eventually write a Java program. The rest of them will write Perl.",
