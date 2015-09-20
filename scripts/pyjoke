@@ -2,7 +2,7 @@
 
 import os
 import argparse
-from pyjokes.pyjokes import get_joke
+from pyjokes import pyjokes
 
 
 def create_argparser():
@@ -39,7 +39,14 @@ def main():
         parser.error(str(exc.message))
         exit(-1)
 
-    joke = get_joke(language=args.language, category=args.category)
+    try:
+        joke = pyjokes.get_joke(language=args.language, category=args.category)
+    except pyjokes.LanguageNotFoundError:
+        print('No such language %s' % args.language)
+        exit(-1)
+    except pyjokes.CategoryNotFoundError:
+        print('No such category %s' % args.category)
+        exit(-1)
 
     print(joke)
 
