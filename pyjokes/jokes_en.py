@@ -6,6 +6,12 @@ http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page
 """
 
 neutral = [
+    "Ubuntu users are apt to get this joke.",
+    "Obfuscated Reality Mappers (ORMs) can be useful database tools.",
+    "I wonder if the MPs voting on the Digital Economy Bill think that Creative Commons is a Parliamentary initiative.",
+    "MongoDB.",
+    "Asked to explain Unicode during an interview, Geoff went into detail about his final year university project. He was not hired.",
+    "Triumphantly, Bob removed Python 2.7 from his server in 2020. 'Finally!' he said with glee, only to see the announcement for Python 4.4.",
     "An SQL query goes into a bar, walks up to two tables and asks, 'Can I join you?'",
     "When your hammer is C++, everything begins to look like a thumb.",
     "If you put a million monkeys at a million keyboards, one of them will eventually write a Java program. The rest of them will write Perl.",
