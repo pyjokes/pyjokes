@@ -1,16 +1,19 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 
 import os
 import argparse
-from pyjokes.pyjokes import get_joke
+from pyjokes import pyjokes
 
 
 def create_argparser():
-    parser = argparse.ArgumentParser(description='One line jokes for programmers (jokes as a service)')
+    parser = argparse.ArgumentParser(
+        description='One line jokes for programmers (jokes as a service)'
+    )
+
     parser.add_argument(
         '-c', '--category',
         dest='category',
-        choices=['neutral', 'explicit', 'chuck', 'all'],
+        choices=['neutral', 'adult', 'chuck', 'all'],
         default='neutral',
         help='Joke category.'
     )
@@ -18,8 +21,8 @@ def create_argparser():
     parser.add_argument(
         '-l', '--language',
         dest='language',
-        choices=['eng', 'de', 'spa'],
-        default='eng',
+        choices=['en', 'de', 'es'],
+        default='en',
         help='Joke language.'
     )
 
@@ -36,7 +39,14 @@ def main():
         parser.error(str(exc.message))
         exit(-1)
 
-    joke = get_joke(args.category, args.language)
+    try:
+        joke = pyjokes.get_joke(language=args.language, category=args.category)
+    except pyjokes.LanguageNotFoundError:
+        print('No such language %s' % args.language)
+        exit(-1)
+    except pyjokes.CategoryNotFoundError:
+        print('No such category %s' % args.category)
+        exit(-1)
 
     print(joke)
 

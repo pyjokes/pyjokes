@@ -1,67 +1,49 @@
 # pyjokes
 
-Pyjokes is a Python module for one-line programmer jokes. `pip install pyjokes` and run `pyjoke`. Pyjokes was founded at [PySS14](http://pyss.org/) and directed by the [Pyjokes Society](https://github.com/pyjokes).
+One line jokes for programmers (jokes as a service)
 
-## Pyjokes Society
+![pyjokes](images/pyjokes.png)
 
-Founders:
+## Install
 
-- [Ben Nuttall](https://github.com/bennuttall) - Chairperson
-- [Alex Savio](https://github.com/alexsavio) - Vice-chairperson
-- [Borja Ayerdi](https://github.com/borjaayerdi) - Treasurer
-- [Oier Etxaniz](https://github.com/oiertwo) - Spokesperson
-
-See members on the [wiki](https://github.com/pyjokes/pyjokes/wiki).
-
-## Installation
-
-Install with `pip`:
+Install with pip:
 
 ```bash
 sudo pip install pyjokes
 ```
 
+See the [install](install.md) page for information on installing on different platforms.
+
 ## Usage
 
-Command line usage:
+### Command line
 
-```bash
-pyjoke
+Run `pyjoke` at the command line to get a random joke:
+
+```
+$ pyjoke
+Why did the programmer quit his job? Because he didn't get arrays.
 ```
 
-## API reference
+### Python
 
-Import the pyjokes module to access `pyjokes` in any Python application:
+Import the `pyjokes` module in a Python file and use the `get_joke` function to easily drop a random joke into your application:
 
 ```python
 import pyjokes
+
+print(pyjokes.get_joke())
 ```
 
-### Functions
-
-#### pyjokes.get_joke()
-
-**Arguments:**
-
-`category` - Default: 'neutral', Options: 'explicit', 'chuck', 'all'
-
-### jokes lists
-
-The following jokes lists are available:
-
-- `neutral` (neutral jokes)
-- `explicit` (explicit jokes)
-- `chuck` (Chuck Norris themed jokes)
-
-Example usage:
-
-```python
-import pyjokes
-import random
-
-print(random.choice(pyjokes.neutral))
-```
+See the [API reference](api.md) for full documentation.
 
 ## Proposal of new jokes
 
 New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/pyjokes/issues/10) or via pull request.
+
+## Reference
+
+- [GitHub](https://github.com/pyjokes/pyjokes)
+- [Wiki](https://github.com/pyjokes/pyjokes/wiki)
+- [PyPi](https://pypi.python.org/pypi/pyjokes)
+- [Twitter](https://twitter.com/pyjokes_bot)

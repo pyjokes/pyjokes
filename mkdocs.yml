@@ -1,7 +1,13 @@
 site_name: pyjokes
-theme: readthedocs
-site_url: https://pythonhosted.org/pyjokes/
+theme: mkdocs
+site_url: http://pyjok.es/
 repo_url: https://github.com/pyjokes/pyjokes
 site_description: One-line programmer jokes (jokes-as-a-service)
 site_author: Pyjokes Society
-site_dir: pythonhosted
+site_dir: website
+google_analytics: ['UA-65996819-1', 'pyjok.es']
+pages:
+- 'Home': 'index.md'
+- 'Install': 'install.md'
+- 'API Reference': 'api.md'
+- 'Pyjokes Society': 'society.md'
