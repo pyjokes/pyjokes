@@ -1,13 +1,19 @@
 # -*- coding: utf-8 -*-
 
 neutral = [
-    'Se abre el ascensor y hay un programador dentro, le preguntan: - ¿Sube o baja? A lo que el programador responde: - Sí.',
-    'Qué le dice un bit al otro? Nos vemos en el bus.',
+    #'Se abre el ascensor y hay un programador dentro, le preguntan: - ¿Sube o baja? A lo que el programador responde: - Sí.',
+    'Se abre el ascensor y hay un programador dentro, le preguntan: - Sube o baja? A lo que el programador responde: - Si.',
+    #'Qué le dice un bit al otro? Nos vemos en el bus.',
+    'Que le dice un bit al otro? Nos vemos en el bus.',
 ]
 
 adult = [
-    '¿Qué es una mujer objeto? Un instancia de una mujer con clase',
-    '- Cuántos dalmatas habia en la peli? - 101. - Por el culo te la hinco!',
+    #'Qué es una mujer objeto? Un instancia de una mujer con clase',
+    #'- Cuántos dalmatas habia en la peli? - 101. - Por el culo te la hinco!',
+    #'Encuentran programador muerto en la ducha con un bote de champu: "enjabonar, aclarar y vuelta a empezar"',
+    #'Esto es un mainframe que le dice a un PC: "tan pequeno y ya "computas"?'
+    'Que es una mujer objeto? Un instancia de una mujer con clase',
+    '- Cuantos dalmatas habia en la peli? - 101. - Por el culo te la hinco!',
     'Encuentran programador muerto en la ducha con un bote de champu: "enjabonar, aclarar y vuelta a empezar"',
     'Esto es un mainframe que le dice a un PC: "tan pequeno y ya "computas"?'
 ]
