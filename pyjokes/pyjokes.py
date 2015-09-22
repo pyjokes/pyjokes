@@ -1,6 +1,5 @@
 from __future__ import absolute_import
 import random
-import importlib
 
 def get_joke(category='neutral', language='eng'):
     """
