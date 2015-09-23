@@ -6,6 +6,8 @@ http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page
 """
 
 neutral = [
+    "Complaining about the lack of smoking shelters, the nicotine addicted Python "
+    "programmers said there ought to be 'spaces for tabs'.",
     "Ubuntu users are apt to get this joke.",
     "Obfuscated Reality Mappers (ORMs) can be useful database tools.",
     "I wonder if the MPs voting on the Digital Economy Bill think that Creative Commons is a Parliamentary initiative.",
