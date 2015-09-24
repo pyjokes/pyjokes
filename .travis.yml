@@ -9,7 +9,7 @@ env:
 
 install: 
   - python setup.py install
-  - python install coveralls
+  - pip install coveralls
 
 script: python setup.py test
 
