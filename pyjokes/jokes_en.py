@@ -73,7 +73,7 @@ neutral = [
     "What do you call a parrot that says \"Squawk! Pieces of nine! Pieces of nine!\"? A parrot-ey error.",
     "There are only two hard problems in Computer Science: cache invalidation, naming things and off-by-one-errors.",
     "There are 10 types of people: those who understand binary and those who don't",
-    "There are 2 types of people: those who can interpret incomplete data sets...",
+    "There are 2 types of people: those who can extrapolate from incomplete data sets...",
     "There are II types of people: Those who understand Roman Numerals and those who don't.",
     "There are 10 types of people: those who understand hexadecimal and 15 others",
     "There are 10 types of people: those who understand binary, those who don't, and those who were expecting this joke to be in trinary.",
