@@ -28,7 +28,7 @@ Alternatively use the `-c` flag to get jokes from a specific category. Options::
 
 You can also access the jokes in your own project by importing `pyjokes` and using the functions `get_joke` and `get_jokes`
 
-Comprehensive documentation is available at `http://pyjoke.es`_
+Comprehensive documentation is available at `http://pyjok.es`_
 
 Contributors
 ============
