@@ -82,7 +82,7 @@ neutral = [
     "The best thing about a Boolean is even if you are wrong, you are only off by a bit.",
     "A good programmer is someone who always looks both ways before crossing a one-way street.",
     "There are two ways to write error-free programs; only the third one works.",
-    "QA’s consist of 55% water, 30% blood and 15% Jira tickets.",
+    "QAs consist of 55% water, 30% blood and 15% Jira tickets.",
     "Sympathy for the Devil is really just about being nice to QAs.",
     "Q: How many QAs does it take to change a light bulb? A: 0 .They noticed that the room was dark. They don't fix the problems, they find them.",
 ]
