@@ -48,6 +48,8 @@ Jokes:
 * `Yash Mehrotra`_
 * `Marc Kirkwood`_
 * `Gregory Parker`_
+* `Martin O'Hanlon`_
+* `Graham Markall`_
 
 Contributing
 ============
@@ -85,6 +87,8 @@ This project is was founded at `PySS 2014`_ and is directed by the `Pyjokes Soci
 .. _Yash Mehrotra: https://github.com/yashmehrotra
 .. _Marc Kirkwood: https://github.com/trojjer
 .. _Gregory Parker: https://github.com/ElectronicsGeek
+.. _Martin O'Hanlon: https://github.com/martinohanlon
+.. _Graham Markall: https://github.com/gmarkall
 .. _BSD Licence: http://opensource.org/licenses/BSD-3-Clause
 .. _GitHub: https://github.com/pyjokes/pyjokes
 .. _GitHub Issues: https://github.com/pyjokes/pyjokes/issues
