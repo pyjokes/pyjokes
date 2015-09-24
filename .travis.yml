@@ -11,7 +11,9 @@ install:
   - python setup.py install
   - pip install coveralls
 
-script: python setup.py test
+script: 
+  - python setup.py test
+  - coverage run --source=pyjokes setup.py test 
 
 after_success:
   - coveralls
