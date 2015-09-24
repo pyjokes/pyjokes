@@ -73,8 +73,8 @@ Pyjokes Society
 This project is was founded at `PySS 2014`_ and is directed by the `Pyjokes Society`_.
 
 
-.. _documentation: http://pyjoke.es/install/
-.. _http://pyjoke.es: http://pyjoke.es
+.. _documentation: http://pyjok.es/install/
+.. _http://pyjok.es: http://pyjok.es/
 .. _Ben Nuttall: https://github.com/bennuttall
 .. _Alex Savio: https://github.com/alexsavio
 .. _Borja Ayerdi: https://github.com/borjaayerdi
