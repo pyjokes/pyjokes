@@ -85,7 +85,7 @@ neutral = [
     "QAs consist of 55% water, 30% blood and 15% Jira tickets.",
     "Sympathy for the Devil is really just about being nice to QAs.",
     "How many QAs does it take to change a light bulb? They noticed that the room was dark. They don't fix problems, they find them.",
-    "A programmer crashes a car at the bottom of a hill, a bystander asks What happened, No idea he replied Lets push it back up and try again.",
+    "A programmer crashes a car at the bottom of a hill, a bystander asks what happened, he says \"No idea. Let's push it back up and try again\".",
 ]
 
 adult = [
