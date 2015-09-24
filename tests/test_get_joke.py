@@ -1,5 +1,5 @@
 import pytest
-from pyjokes import get_joke
+from pyjokes import get_joke, get_jokes
 from pyjokes.pyjokes import LanguageNotFoundError, CategoryNotFoundError
 
 
@@ -38,3 +38,9 @@ def test_get_joke_in_language_with_category_raises():
             CategoryNotFoundError, get_joke,
             language='en', category=category
         )
+
+def test_all_jokes_are_funny():
+    for language in languages:
+        jokes = get_jokes(language=language, category='all')
+        for joke in jokes:
+            assert True
