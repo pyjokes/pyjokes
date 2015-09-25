@@ -86,6 +86,8 @@ neutral = [
     "Sympathy for the Devil is really just about being nice to QAs.",
     "How many QAs does it take to change a light bulb? They noticed that the room was dark. They don't fix problems, they find them.",
     "A programmer crashes a car at the bottom of a hill, a bystander asks what happened, he says \"No idea. Let's push it back up and try again\".",
+    "What do you mean 911 is only for emergencies, I've got a merge conflict and it doesn't look good.",
+    "Writing PHP is like peeing in the swimming pool, Everyone did it, but we don't to bring it up in public.",
 ]
 
 adult = [
@@ -210,6 +212,7 @@ chuck = [
     "Chuck Norris once implemented an HTTP server in a single printf call. It is now the heart of Apache webserver.",
     "Chuck Norris writes directly in binary. He then writes the source code as documentation for other programers.",
     "Chuck Norris once shifted a bit so hard, it ended up on a different computer.",
+    "Q: What is Chuck Norris's favorite javascript framework? A: Knockout.js",
 ]
 
 jokes_en = {
