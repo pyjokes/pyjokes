@@ -1,6 +1,7 @@
 .. image:: https://travis-ci.org/pyjokes/pyjokes.svg
     :target: https://travis-ci.org/pyjokes/pyjokes
-.. image:: https://coveralls.io/repos/pyjokes/pyjokes/badge.svg?branch=master&service=github :target: https://coveralls.io/github/pyjokes/pyjokes?branch=master 
+.. image:: https://coveralls.io/repos/pyjokes/pyjokes/badge.svg?branch=master&service=github 
+    :target: https://coveralls.io/github/pyjokes/pyjokes?branch=master 
 
 =======
 pyjokes
