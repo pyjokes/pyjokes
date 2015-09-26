@@ -87,7 +87,7 @@ neutral = [
     "How many QAs does it take to change a light bulb? They noticed that the room was dark. They don't fix problems, they find them.",
     "A programmer crashes a car at the bottom of a hill, a bystander asks what happened, he says \"No idea. Let's push it back up and try again\".",
     "What do you mean 911 is only for emergencies, I've got a merge conflict and it doesn't look good.",
-    "Writing PHP is like peeing in the swimming pool, Everyone did it, but we don't to bring it up in public.",
+    "Writing PHP is like peeing in the swimming pool, everyone did it, but we don't need to bring it up in public.",
 ]
 
 adult = [
