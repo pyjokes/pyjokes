@@ -86,6 +86,9 @@ neutral = [
     "Sympathy for the Devil is really just about being nice to QAs.",
     "How many QAs does it take to change a light bulb? They noticed that the room was dark. They don't fix problems, they find them.",
     "A programmer crashes a car at the bottom of a hill, a bystander asks what happened, he says \"No idea. Let's push it back up and try again\".",
+    "How Unix users play Russian Roulette: [ $[ $RANDOM % 6 ] == 0 ] && rm -rf / || echo *Click*",
+    "How many Microsoft programmers does it take to change a light bulb? None, they make darkness a standard and say 'this behavior is by design'"
+
 ]
 
 adult = [
