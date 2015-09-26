@@ -29,7 +29,7 @@ class PyTest(TestCommand):
 
 setup(
     name="pyjokes",
-    version="0.4.1",
+    version="0.5.0",
     author="Pyjokes Society",
     description="One line jokes for programmers (jokes as a service)",
     license="BSD",

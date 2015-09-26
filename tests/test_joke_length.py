@@ -1,5 +1,3 @@
-
-
 from pyjokes.jokes_en import jokes_en
 from pyjokes.jokes_de import jokes_de
 from pyjokes.jokes_es import jokes_es

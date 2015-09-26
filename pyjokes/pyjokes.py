@@ -41,7 +41,7 @@ def get_jokes(language='en', category='neutral'):
     jokes = all_jokes[language]
 
     if category not in jokes:
-        raise CategoryNotFoundError('No such category %s' % category)
+        raise CategoryNotFoundError('No such category %s in language %s' % (category, language))
 
     return jokes[category]
 

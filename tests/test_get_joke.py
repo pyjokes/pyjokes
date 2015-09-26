@@ -1,25 +1,46 @@
-
 import pytest
-from   pyjokes import get_joke
-from   pyjokes.pyjokes import LanguageNotFoundError, CategoryNotFoundError
+from pyjokes import get_joke, get_jokes
+from pyjokes.pyjokes import LanguageNotFoundError, CategoryNotFoundError
+
+
+languages = ['en', 'de', 'es']
+categories = ['neutral', 'adult', 'all']
+test_data = ['', 'abc', '123']
 
 
 def test_get_joke():
     assert get_joke()
 
-    languages = ['en', 'de', 'es']
-    categories = ['neutral', 'adult', 'all']
+    for language in languages:
+        assert get_joke(language=language)
 
-    for lang in languages:
-        assert get_joke(language=lang)
-
-    for cat in categories:
-        assert get_joke(category=cat)
+    for category in categories:
+        assert get_joke(category=category)
 
 
-def test_get_joke_raises():
-    assert pytest.raises(LanguageNotFoundError, get_joke, language='eu')
+def test_get_joke_with_language_raises():
+    for language in test_data:
+        assert pytest.raises(
+            LanguageNotFoundError, get_joke, language=language
+        )
 
-    assert pytest.raises(LanguageNotFoundError, get_joke, language='tr')
 
-    assert pytest.raises(CategoryNotFoundError, get_joke, category='123')
+def test_get_joke_with_category_raises():
+    for category in test_data:
+        assert pytest.raises(
+            CategoryNotFoundError, get_joke, category=category
+        )
+
+
+def test_get_joke_in_language_with_category_raises():
+    for category in test_data:
+        assert pytest.raises(
+            CategoryNotFoundError, get_joke,
+            language='en', category=category
+        )
+
+def test_all_jokes_are_funny():
+    for language in languages:
+        jokes = get_jokes(language=language, category='all')
+        for joke in jokes:
+            assert True

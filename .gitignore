@@ -2,5 +2,6 @@
 *.egg-info/
 build/
 dist/
-pythonhosted
+website
 .idea/
+.cache/
