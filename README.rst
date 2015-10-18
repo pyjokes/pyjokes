@@ -1,7 +1,7 @@
 .. image:: https://travis-ci.org/pyjokes/pyjokes.svg
     :target: https://travis-ci.org/pyjokes/pyjokes
-.. image:: https://coveralls.io/repos/pyjokes/pyjokes/badge.svg?branch=master&service=github 
-    :target: https://coveralls.io/github/pyjokes/pyjokes?branch=master 
+.. image:: https://coveralls.io/repos/pyjokes/pyjokes/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/pyjokes/pyjokes?branch=master
 
 =======
 pyjokes
@@ -74,7 +74,7 @@ Run tests::
 Pyjokes Society
 ===============
 
-This project is was founded at `PySS 2014`_ and is directed by the `Pyjokes Society`_.
+This project was founded at `PySS 2014`_ and is directed by the `Pyjokes Society`_.
 
 
 .. _documentation: http://pyjok.es/install/
