@@ -92,6 +92,8 @@ neutral = [
     "Number of days since I have encountered an array index error: -1",
     "Speed dating is useless, 5 minutes is not enough to properly explain the benefits of the unix philosophy",
     "Whats worse than designers writing javascript? PHP developers attempting javascript",
+    "Microsoft hold a bi-monthly internal \"productive week\" where they use Google instead of Bing",
+    "Schrodinger's Cat in Web Development: If I don't look at in in Internet Explorer then there's a chance it looks fine",
 ]
 
 adult = [
