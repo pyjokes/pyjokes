@@ -88,6 +88,8 @@ neutral = [
     "A programmer crashes a car at the bottom of a hill, a bystander asks what happened, he says \"No idea. Let's push it back up and try again\".",
     "What do you mean 911 is only for emergencies, I've got a merge conflict and it doesn't look good.",
     "Writing PHP is like peeing in the swimming pool, everyone did it, but we don't need to bring it up in public.",
+    "Why did the QA cross the road? To ruin everyone's day",
+    "Number of days since I have encountered an array index error: -1",
 ]
 
 adult = [
