@@ -90,6 +90,8 @@ neutral = [
     "Writing PHP is like peeing in the swimming pool, everyone did it, but we don't need to bring it up in public.",
     "Why did the QA cross the road? To ruin everyone's day",
     "Number of days since I have encountered an array index error: -1",
+    "Speed dating is useless, 5 minutes is not enough to properly explain the benefits of the unix philosophy",
+    "Whats worse than designers writing javascript? PHP developers attempting javascript",
 ]
 
 adult = [
