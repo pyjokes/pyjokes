@@ -4,12 +4,14 @@ import random
 from .jokes_en import jokes_en
 from .jokes_de import jokes_de
 from .jokes_es import jokes_es
+from .jokes_gl import jokes_gl
 
 
 all_jokes = {
     'en': jokes_en,
     'de': jokes_de,
     'es': jokes_es,
+    'gl': jokes_gl,
 }
 
 
@@ -28,7 +30,7 @@ def get_jokes(language='en', category='neutral'):
     category: str
         Choices: 'neutral', 'adult', 'chuck', 'all'
     lang: str
-        Choices: 'en', 'de', 'es'
+        Choices: 'en', 'de', 'es', 'gl'
 
     Returns
     -------
@@ -53,7 +55,7 @@ def get_joke(language='en', category='neutral'):
     category: str
         Choices: 'neutral', 'adult', 'chuck', 'all'
     lang: str
-        Choices: 'en', 'de', 'es'
+        Choices: 'en', 'de', 'es', 'gl'
 
     Returns
     -------
