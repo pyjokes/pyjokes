@@ -91,9 +91,9 @@ neutral = [
     "Why did the QA cross the road? To ruin everyone's day.",
     "Number of days since I have encountered an array index error: -1",
     "Speed dating is useless. 5 minutes is not enough to properly explain the benefits of the Unix philosophy.",
-    "What's worse than designers writing JavaScript? PHP developers attempting JavaScript.",
     "Microsoft hold a bi-monthly internal \"productive week\" where they use Google instead of Bing.",
     "Schrodinger's Cat in Web Development: If I don't look at in in Internet Explorer then there's a chance it looks fine.",
+    "Finding a good PHP developer is like looking for a needle in a haystack. Or is it a hackstack in a needle?",
 ]
 
 adult = [
