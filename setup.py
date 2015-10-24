@@ -40,8 +40,6 @@ setup(
     url="https://github.com/pyjokes/pyjokes",
     packages=find_packages(),
     long_description=read('README.rst'),
-    scripts=['scripts/pyjoke',
-             'scripts/pyjokes'],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Utilities",
@@ -52,4 +50,10 @@ setup(
     #test requirements and class specification:
     tests_require=['pytest'],
     cmdclass={ 'test' : PyTest },
+    entry_points={
+        'console_scripts': [
+            'pyjokes=pyjokes.cmdparse:typo',
+            'pyjoke=pyjokes.cmdparse:main'
+        ]
+    }
 )

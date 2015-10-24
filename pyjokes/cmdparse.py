@@ -2,7 +2,8 @@
 
 import os
 import argparse
-from pyjokes import pyjokes
+import sys
+from . import pyjokes
 
 
 def create_argparser():
@@ -29,11 +30,18 @@ def create_argparser():
     return parser
 
 
-def main():
+def typo():
+    print('Did you mean pyjoke?')
+    sys.exit(1)
+
+
+def main(arg=None):
+    if arg is None:
+        arg = sys.argv
     parser = create_argparser()
 
     try:
-        args = parser.parse_args()
+        args = parser.parse_args(arg)
     except argparse.ArgumentError as exc:
         print('Error parsing arguments.')
         parser.error(str(exc.message))
