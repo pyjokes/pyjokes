@@ -217,7 +217,7 @@ chuck = [
     "Chuck Norris's calculator has only 3 keys: 0, 1, and NAND.",
     "Chuck Norris only uses global variables. He has nothing to hide.",
     "Chuck Norris once implemented an HTTP server in a single printf call. It is now the heart of Apache webserver.",
-    "Chuck Norris writes directly in binary. He then writes the source code as documentation for other programers.",
+    "Chuck Norris writes directly in binary. He then writes the source code as documentation for other programmers.",
     "Chuck Norris once shifted a bit so hard, it ended up on a different computer.",
     "Q: What is Chuck Norris's favorite javascript framework? A: Knockout.js",
 ]
