@@ -94,8 +94,8 @@ neutral = [
     "Microsoft hold a bi-monthly internal \"productive week\" where they use Google instead of Bing.",
     "Schrodinger's Cat in Web Development: If I don't look at in in Internet Explorer then there's a chance it looks fine.",
     "Finding a good PHP developer is like looking for a needle in a haystack. Or is it a hackstack in a needle?",
-    "A COBOL programmer makes millions with Y2K remediation and decides to get cryogenically frozen. \"It's 9999BC. You know COBOL right?\""
-]
+    "A COBOL programmer makes millions with Y2K remediation and decides to get cryogenically frozen. \"It's 9999CE. You know COBOL right?\""
+    "A SEO expert walks into a bar, bars, pub, public house, Irish pub, tavern, bartender, beer, liquor, wine, alcohol, spirits..."]
 
 adult = [
     "Programming is like sex: One mistake and you have to support it for the rest of your life.",
