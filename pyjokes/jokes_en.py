@@ -113,6 +113,8 @@ adult = [
     "The only intuitive user interface is the nipple. After that, it's all learned.",
     "What's the difference between software development and sex? In sex, you don't get a bonus for releasing early.",
     "Your momma's so fat, the recursive function calculating her mass causes a stack overflow.",
+    "Happiness is a hard disk.",
+    "Debug is human, de-fix divine."
 ]
 
 """
