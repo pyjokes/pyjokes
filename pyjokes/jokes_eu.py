@@ -12,7 +12,7 @@ adult = [
     '',
 ]
 
-jokes_eus = {
+jokes_eu = {
     'neutral': neutral,
     'adult': adult,
     'all': neutral + adult,
