@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 neutral = [
-    'No jokes found.',
+    'Ich habs gleich!',
 ]
 
 jokes_de = {

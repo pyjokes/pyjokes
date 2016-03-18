@@ -99,6 +99,7 @@ neutral = [
     "The C language combines all the power of assembly language with all the ease-of-use of assembly language.",
     "An SEO expert walks into a bar, bars, pub, public house, Irish pub, tavern, bartender, beer, liquor, wine, alcohol, spirits...",
     "What does 'Emacs' stand for? 'Exclusively used by middle aged computer scientists.'",
+    "Debug is human, de-fix divine.",
 ]
 
 adult = [
@@ -113,6 +114,7 @@ adult = [
     "The only intuitive user interface is the nipple. After that, it's all learned.",
     "What's the difference between software development and sex? In sex, you don't get a bonus for releasing early.",
     "Your momma's so fat, the recursive function calculating her mass causes a stack overflow.",
+    "Happiness is a hard disk.",
 ]
 
 """
