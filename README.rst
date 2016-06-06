@@ -19,9 +19,9 @@ See the `documentation`_ for installation instructions.
 Usage
 =====
 
-Once installed, simply call `pyjoke` from the command line.
+Once installed, simply call `pyjoke` from the command line or add it to your .bashrc file to see a joke everytime you start a terminal session.
 
-Alternatively use the `-c` flag to get jokes from a specific category. Options::
+Use the `-c` flag to get jokes from a specific category. Options::
 
     -c neutral [default] (neutral geek jokes)
     -c adult (adult geek jokes)

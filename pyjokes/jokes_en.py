@@ -94,8 +94,13 @@ neutral = [
     "Microsoft hold a bi-monthly internal \"productive week\" where they use Google instead of Bing.",
     "Schrodinger's Cat in Web Development: If I don't look at in in Internet Explorer then there's a chance it looks fine.",
     "Finding a good PHP developer is like looking for a needle in a haystack. Or is it a hackstack in a needle?",
-    "A COBOL programmer makes millions with Y2K remediation and decides to get cryogenically frozen. \"It's 9999CE. You know COBOL right?\""
-    "A SEO expert walks into a bar, bars, pub, public house, Irish pub, tavern, bartender, beer, liquor, wine, alcohol, spirits..."]
+    "Unix is user friendly. It's just very particular about who its friends are.",
+    "A COBOL programmer makes millions with Y2K remediation and decides to get cryogenically frozen. \"The year is 9999. You know COBOL, right?\"",
+    "The C language combines all the power of assembly language with all the ease-of-use of assembly language.",
+    "An SEO expert walks into a bar, bars, pub, public house, Irish pub, tavern, bartender, beer, liquor, wine, alcohol, spirits...",
+    "What does 'Emacs' stand for? 'Exclusively used by middle aged computer scientists.'",
+]
+
 
 adult = [
     "Programming is like sex: One mistake and you have to support it for the rest of your life.",
@@ -217,7 +222,7 @@ chuck = [
     "Chuck Norris's calculator has only 3 keys: 0, 1, and NAND.",
     "Chuck Norris only uses global variables. He has nothing to hide.",
     "Chuck Norris once implemented an HTTP server in a single printf call. It is now the heart of Apache webserver.",
-    "Chuck Norris writes directly in binary. He then writes the source code as documentation for other programers.",
+    "Chuck Norris writes directly in binary. He then writes the source code as documentation for other programmers.",
     "Chuck Norris once shifted a bit so hard, it ended up on a different computer.",
     "Q: What is Chuck Norris's favorite javascript framework? A: Knockout.js",
 ]
