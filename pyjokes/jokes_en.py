@@ -99,7 +99,9 @@ neutral = [
     "The C language combines all the power of assembly language with all the ease-of-use of assembly language.",
     "An SEO expert walks into a bar, bars, pub, public house, Irish pub, tavern, bartender, beer, liquor, wine, alcohol, spirits...",
     "What does 'Emacs' stand for? 'Exclusively used by middle aged computer scientists.'",
+    "What does PyJokes's jokes have in common with Adobe Flash? They get updated all the time, but they don't get any better.",
 ]
+
 
 adult = [
     "Programming is like sex: One mistake and you have to support it for the rest of your life.",
