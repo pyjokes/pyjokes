@@ -100,6 +100,7 @@ neutral = [
     "An SEO expert walks into a bar, bars, pub, public house, Irish pub, tavern, bartender, beer, liquor, wine, alcohol, spirits...",
     "What does 'Emacs' stand for? 'Exclusively used by middle aged computer scientists.'",
     "What does PyJokes's jokes have in common with Adobe Flash? They get updated all the time, but they don't get any better.",
+    "How many demosceners are needed to change a lightbulb? Half. With a full one there is no challenge.",
 ]
 
 
