@@ -51,6 +51,8 @@ Jokes:
 * `Gregory Parker`_
 * `Martin O'Hanlon`_
 * `Graham Markall`_
+* `Andreas Reinle`_
+ 
 
 Contributing
 ============
