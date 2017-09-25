@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 neutral = [
-    "Mercedes Benz ist es nun gelungen, für eine Entwicklungssumme von über einer Milliarde Euro ein Auto zu entwickeln, welches sich bei Gefahr auf den Rücken legt und tot stellt. ",
-    "Was steht auf dem Grabstein eines Mathematikers? – 'Damit hat er nicht gerechnet.'",
+    "Was steht auf dem Grabstein eines Mathematikers? 'Damit hat er nicht gerechnet.'",
+    "Mercedes Benz ist es nun gelungen, für eine Entwicklungssumme von über einer Milliarde Euro ein Auto zu entwickeln, welches sich bei Gefahr auf den Rücken legt und tot stellt.",
     "Wenn ein Yogalehrer seine Beine senkrecht nach oben streckt und dabei furzt, welche Yoga Figur stellt er da? Eine Duftkerze.",
     "Frage: Was ist das beste geschenkt für trump? Antwort : klopapier was soll man einem arschloch denn sonst schenken",
     "Warum freut sich eine Blondine so, wenn sie ein Puzzle nach 6 Monaten fertig hat? – Weil auf der Packung steht: 2-4 Jahre.",
@@ -36,7 +36,7 @@ neutral = [
     "Alle Tiere warten in einer langen Schlange vor Noahs Arche. Plötzlich stockt der lange Zug. Da sagt der Frosch zur Giraffe: „Guck mal, was da los ist!“ Die Giraffe reckt ihren langen Hals und sagt dann seufzend: „Das kann lange dauern. Der Tausendfüßler zieht sich gerade seine Hausschuhe an!",
     "Sagt der Bauer zu seinem Urlaubsgast: „Bei uns auf dem Land, weckt einen der Hahn.“ – „Sehr gut, bitte auf 11 Uhr stellen!“",
     "Fragt der Richter den Angeklagten: „Wo waren Sie zwischen 3 und 4?“ – „Im Kindergarten!“, antwortet der Angeklagte.",
-    "Kai: „Du, Max, ich war schon immer ein ganz schön kluges Kind. Ich konnte schon vor meinem ersten Geburtstag laufen.” Max: „Das nennst du klug? Ich habe mich bis zu meinem sechsten Lebensjahr tragen lassen.”",
+    "Kai: „Du, Max, ich war schon immer ein ganz schön kluges Kind. Ich konnte schon vor meinem ersten Geburtstag laufen. Max: „Das nennst du klug? Ich habe mich bis zu meinem sechsten Lebensjahr tragen lassen.”",
     "Zwei Hühner stehen vor dem Schaufenster eines Kaufhauses und bewundern die dort ausgestellten Eierbecher. Sagt das eine Huhn: „Was für schöne Kinderwagen die haben!“",
     "Der Lehrer  fragt : „Warum ist Strom so wichtig?“ Peter antwortet: „Wenn es keinen Strom gäbe, müssten wir bei Kerzenlicht fernsehen.“",
     "Maxi kommt von der Schule nach Hause und erzählt: „Der Lehrer hat heute gesagt, dass der Strom wieder teurer wird. Da kannst du aber froh sein, dass ich keine große Leuchte bin!“",
@@ -47,7 +47,7 @@ neutral = [
     "Die Nachbarn haben sich eine neue Mikrowelle gekauft. Niklas kommt ganz aufgeregt von nebenan nach Hause und ruft: „Mami, stell dir vor: Tante Huber kocht ihr Essen jetzt im Fernseher!“",
     "Herr Grünspan fragt die Kellnerin: „Was können Sie mir empfehlen? Ich habe Hunger wie ein Wolf!“– „Dann empfehle ich Ihnen unseren Lammbraten!“",
     "Was ist schlimmer als ein Wurm im Apfel? – Ein halber Wurm in einem angebissenen Apfel.",
-    "Ein Gauner jammert vor Gericht: „Herr Richter, Ihnen kann man auch nichts recht machen. Breche ich ein, werde ich verurteilt, breche ich aus, werde ich auch verurteilt!"",
+    "Ein Gauner jammert vor Gericht: 'Herr Richter, Ihnen kann man auch nichts recht machen. Breche ich ein, werde ich verurteilt, breche ich aus, werde ich auch verurteilt!'",
     "Der Ehemann kommt in die Küche und sagt zu seiner Frau: 'Aber Liebling, du brauchst an deinem Geburtstag doch nicht zu spülen! Mach es morgen!'",
     "Emma kommt mit nassen Haaren ins Wohnzimmer. Schimpft der Vater:„Musst du eigentlich jeden Abend deinem Goldfisch einen Gute-Nacht-Kuss geben?“",
     "Lukas beschwert sich zu Hause: „Diese doofe Lehrerin! Beklagt sich über meine Schrift, dabei sehen ihre Einser wie Vierer aus!“",
@@ -163,5 +163,4 @@ jokes_de = {
     'all': neutral + adult + chuck,
     'adult': adult,
     'chuck': chuck,
-
 }
