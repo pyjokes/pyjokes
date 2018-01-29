@@ -6,6 +6,7 @@ from .jokes_de import jokes_de
 from .jokes_es import jokes_es
 from .jokes_gl import jokes_gl
 from .jokes_eu import jokes_eu
+from .jokes_it import jokes_it
 
 all_jokes = {
     'en': jokes_en,
@@ -13,6 +14,7 @@ all_jokes = {
     'es': jokes_es,
     'gl': jokes_gl,
     'eu': jokes_eu,
+    'it': jokes_it,
 }
 
 
@@ -31,7 +33,7 @@ def get_jokes(language='en', category='neutral'):
     category: str
         Choices: 'neutral', 'adult', 'chuck', 'all'
     lang: str
-        Choices: 'en', 'de', 'es', 'gl', 'eu'
+        Choices: 'en', 'de', 'es', 'gl', 'eu', 'it'
 
     Returns
     -------
@@ -56,7 +58,7 @@ def get_joke(language='en', category='neutral'):
     category: str
         Choices: 'neutral', 'adult', 'chuck', 'all'
     lang: str
-        Choices: 'en', 'de', 'es', 'gl', 'eu'
+        Choices: 'en', 'de', 'es', 'gl', 'eu', 'it'
 
     Returns
     -------
