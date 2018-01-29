@@ -6,8 +6,8 @@ http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page
 """
 
 neutral = [
-    "Trionfalmente, Beth ha rimosso Python 2.7 dal suo server nel 2020." Finalmente! " ha detto con gioia, solo per vedere l'annuncio per Python 4.4. ",
-    "Una query SQL entra in un bar, cammina verso a due table e chiede: "Posso unirvi ?",
+    "Trionfalmente, Beth ha rimosso Python 2.7 dal suo server nel 2020.'Finalmente!' ha detto con gioia, solo per vedere l'annuncio per Python 4.4. ",
+    "Una query SQL entra in un bar, cammina verso a due table e chiede: 'Posso unirvi ?',
     "Quando il tuo martello è C ++, tutto inizia a sembrare un pollice.",
     "Se metti un milione di scimmie su un milione di tastiere, uno di loro alla fine scriverà un programma Java, il resto scriverà Perl.",
     "Per comprendere la ricorsione devi prima capire la ricorsione.",
@@ -21,7 +21,7 @@ neutral = [
     "Gli sviluppatori di software amano risolvere i problemi: se non ci sono problemi facilmente disponibili li creeranno.",
     ".NET è stato chiamato .NET in modo che non si visualizzasse in un elenco di directory Unix.",
     "Hardware: la parte di un computer che puoi calciare.",
-    "Un programmatore e' stato trovato morto sotto la doccia, accanto al loro corpo c'era una bottiglia di shampoo con le istruzioni" Insapona, risciacqua e ripeti ".
+    "Un programmatore e' stato trovato morto sotto la doccia, accanto al loro corpo c'era una bottiglia di shampoo con le istruzioni: Insapona, risciacqua e ripeti".
     "Ottimista: il bicchiere e' mezzo pieno Pessimista: il bicchiere e' mezzo vuoto Programmatore: il bicchiere e' il doppio del necessario.",
     "In C abbiamo dovuto codificare i nostri bug. In C ++ possiamo ereditarli.",
     "Come mai non c'e' una gara Perl offuscato? Perche' tutti vincerebbero",
@@ -39,7 +39,7 @@ neutral = [
     "Qual e' il secondo nome di Benoit B. Mandelbrot? Benoit B. Mandelbrot.",
     "Perche' sorridi sempre? Questa e' solo la mia ... espressione regolare.",
     "Domanda stupida ASCII, ottiene uno stupido ANSI.",
-    "Un programmatore aveva un problema: penso' a se stesso:" Lo so, lo risolvo con i threads! ", ora ha due problemi",
+    "Un programmatore aveva un problema: penso' a se stesso: 'lo risolvo con i threads!', ora ha due problemi",
     "Java: scrivi una volta e scappa.",
     "Ti direi una battuta su UDP, ma non lo capiresti mai.",
     "Un ingegnere di QA entra in un bar, si imbatte in un bar, striscia in un bar, balla in un bar, punta i piedi in un bar, scala un bar, salta in un bar",
