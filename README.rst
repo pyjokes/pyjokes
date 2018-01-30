@@ -27,6 +27,7 @@ Use the `-c` flag to get jokes from a specific category. Options::
     -c adult (adult geek jokes)
     -c chuck (Chuck Norris geek jokes)
     -c all (all jokes)
+    -c twister (Tongue-twister)
 
 You can also access the jokes in your own project by importing `pyjokes` and using the functions `get_joke` and `get_jokes`
 
@@ -51,6 +52,8 @@ Jokes:
 * `Gregory Parker`_
 * `Martin O'Hanlon`_
 * `Graham Markall`_
+* `Andreas Reinle`_
+ 
 
 Contributing
 ============

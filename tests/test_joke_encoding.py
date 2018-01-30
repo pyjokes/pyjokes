@@ -7,7 +7,7 @@ from pyjokes.jokes_eu import jokes_eu
 
 #test if joke is windows compatible
 def _test_joke_win(joke):
-    assert len(joke) <= len(joke.encode('ascii', 'ignore'))
+    assert len(joke) <= len(joke.encode('iso-8859-1', 'ignore')) ##ascii don't support umlauts
 
 def _test_default_locale(joke):
     import locale
