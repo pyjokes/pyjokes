@@ -16,7 +16,7 @@ neutral = [
     "'toc, toc'. 'Chi e' la'?' ... molto lunga pausa ... 'Java.' ",
     "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, e' un problema hardware.",
     "Qual e' il modo orientato agli oggetti per diventare ricchi? Ereditarieta'."
-    "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, possono rendere l'oscurità uno standard.",
+    "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, possono rendere l'oscurita' uno standard.",
     "I vecchi programmatori C non muoiono, sono solo gettati nel void.",
     "Gli sviluppatori di software amano risolvere i problemi: se non ci sono problemi facilmente disponibili li creeranno.",
     ".NET e' stato chiamato .NET in modo che non si visualizzasse in un elenco di directory Unix.",
