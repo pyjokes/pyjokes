@@ -52,9 +52,9 @@ neutral = [
     "un cameriere urla: 'sta soffocando! Qualcuno è un dottore?' Programmatore: 'sono un utente Vim.'",
     "3 Database Admins sono entrati in un bar NoSQL e poco dopo sono usciti perché non sono riusciti a trovare un table.",
     "Come spiegare il film Inception a un programmatore? Quando esegui una VM all'interno di un'altra VM, all'interno di un'altra VM ... tutto procede molto lentamente!",
-    "Come si chiama un pappagallo che dice 'Squawk! Pezzi di nove! Pezzi di nove!' Un errore a pappagallo."
-    "Ci sono solo due problemi difficili in Informatica: invalidazione della cache, denominazione delle cose e errori di off-by-one".
-    "Ci sono 10 tipi di persone: quelli che comprendono il binario e quelli che non li sanno.",
+    "Come si chiama un pappagallo che dice 'Squawk! Pezzi di nove! Pezzi di nove!' Un errore a pappagallo.",
+    "Ci sono solo due problemi difficili in Informatica: invalidazione della cache, denominazione delle cose e errori di off-by-one",
+    "Ci sono 10 tipi di persone: quelli che comprendono il binario e quelli che non lo sanno.",
     "Ci sono 2 tipi di persone: quelli che possono estrapolare dati da insiemi incompleti ...",
     "Esistono II tipi di persone: quelli che comprendono i numeri romani e quelli che non li conoscono.",
     "Ci sono 10 tipi di persone: quelli che comprendono l'esadecimale e altri 15.",
