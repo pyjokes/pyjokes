@@ -124,7 +124,7 @@ chuck = [
     "Chuck Norris puo' far traboccare il tuo stack solo guardandolo.",
     "Per Chuck Norris, tutto contiene una vulnerabilita'.",
     "Chuck Norris non usa sudo, la shell sa solo che e' lui e fa quello che gli viene detto.",
-    "Chuck Norris non ha bisogno di un debugger, si limita a fissare il codice finché non confessa.",
+    "Chuck Norris non ha bisogno di un debugger, si limita a fissare il codice finche' non confessa.",
     "Chuck Norris puo' accedere a metodi privati.",
     "Chuck Norris puo' istanziare una classe astratta.",
     "L'oggetto classe eredita da Chuck Norris.",
