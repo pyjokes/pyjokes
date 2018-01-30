@@ -15,7 +15,7 @@ neutral = [
     "Ho suggerito di tenere un 'Python Object Oriented Programming Seminar', ma l'acronimo era impopolare.",
     "'toc, toc'. 'Chi e' la'?' ... molto lunga pausa ... 'Java.' ",
     "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, e' un problema hardware.",
-    "Qual e' il modo orientato agli oggetti per diventare ricchi? Ereditarieta'."
+    "Qual e' il modo orientato agli oggetti per diventare ricchi? Ereditarieta'.",
     "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, possono rendere l'oscurita' uno standard.",
     "I vecchi programmatori C non muoiono, sono solo gettati nel void.",
     "Gli sviluppatori di software amano risolvere i problemi: se non ci sono problemi facilmente disponibili li creeranno.",
