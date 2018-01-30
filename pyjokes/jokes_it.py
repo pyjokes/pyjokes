@@ -21,7 +21,7 @@ neutral = [
     "Gli sviluppatori di software amano risolvere i problemi: se non ci sono problemi facilmente disponibili li creeranno.",
     ".NET è stato chiamato .NET in modo che non si visualizzasse in un elenco di directory Unix.",
     "Hardware: la parte di un computer che puoi calciare.",
-    "Un programmatore e' stato trovato morto sotto la doccia, accanto al loro corpo c'era una bottiglia di shampoo con le istruzioni: Insapona, risciacqua e ripeti".
+    "Un programmatore e' stato trovato morto sotto la doccia, accanto al loro corpo c'era una bottiglia di shampoo con le istruzioni: Insapona, risciacqua e ripeti",
     "Ottimista: il bicchiere e' mezzo pieno Pessimista: il bicchiere e' mezzo vuoto Programmatore: il bicchiere e' il doppio del necessario.",
     "In C abbiamo dovuto codificare i nostri bug. In C ++ possiamo ereditarli.",
     "Come mai non c'e' una gara Perl offuscato? Perche' tutti vincerebbero",
