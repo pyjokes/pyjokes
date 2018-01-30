@@ -76,7 +76,7 @@ neutral = [
     "Un programmatore COBOL guadagna milioni con la riparazione Y2K e decide di congelarsi criogenicamente.  L'anno e' 9999. Conosci COBOL, giusto? ",
     "Il linguaggio C combina tutta la potenza del linguaggio assembly con tutta la facilità d'uso del linguaggio assembly.",
     "Un esperto SEO entra in un bar, pub, pub irlandese, taverna, barista, birra, liquore, vino, alcolici, liquori ...",
-    "Che cosa significa Emacs ? Utilizzato esclusivamente dagli scienziati informatici di mezza età." ",
+    "Che cosa significa Emacs ? Utilizzato esclusivamente dagli scienziati informatici di mezza età.",
     "Che cosa hanno in comune le battute di PyJokes con Adobe Flash? Si aggiornano sempre, ma non migliorano.",
     "Quanti demosceners sono necessari per cambiare una lampadina? Meta'. Con uno intero non ci sono sfide.",
 
