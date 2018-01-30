@@ -7,7 +7,7 @@ http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page
 
 neutral = [
     "Trionfalmente, Beth ha rimosso Python 2.7 dal suo server nel 2020.'Finalmente!' ha detto con gioia, solo per vedere l'annuncio per Python 4.4. ",
-    "Una query SQL entra in un bar, cammina verso a due table e chiede: 'Posso unirvi ?',
+    "Una query SQL entra in un bar, cammina verso a due table e chiede: 'Posso unirvi ?'",
     "Quando il tuo martello è C ++, tutto inizia a sembrare un pollice.",
     "Se metti un milione di scimmie su un milione di tastiere, uno di loro alla fine scriverà un programma Java, il resto scriverà Perl.",
     "Per comprendere la ricorsione devi prima capire la ricorsione.",
