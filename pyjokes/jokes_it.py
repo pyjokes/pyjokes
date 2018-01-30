@@ -130,7 +130,7 @@ chuck = [
     "L'oggetto classe eredita da Chuck Norris.",
     "Per Chuck Norris, NP-Hard = O (1).",
     "Chuck Norris conosce l'ultima cifra del Pi greco.",
-    "La connessione di Chuck Norris e' più veloce in up che in down perche' i dati sono più incentivati a correre via da lui.",
+    "La connessione di Chuck Norris e' piu' veloce in up che in down perche' i dati sono incentivati a correre via da lui.",
     "Nessuna affermazione puo' prendere la ChuckNorrisException.",
     "Chuck Norris puo' scrivere applicazioni multi-thread con un singolo thread.",
     "Chuck Norris non ha bisogno di usare AJAX perche' le pagine hanno troppa paura di postback comunque.",
