@@ -13,7 +13,7 @@ neutral = [
     "Per comprendere la ricorsione devi prima capire la ricorsione.",
     "Gli amici non permettono agli amici di usare Python 2.7.",
     "Ho suggerito di tenere un 'Python Object Oriented Programming Seminar', ma l'acronimo era impopolare.",
-    "'toc, toc'. 'Chi e` la'?' ... molto lunga pausa ... Java.",
+    "'toc, toc'. 'Chi e` la`?' ... pausa molto lunga ... Java.",
     "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, e` un problema hardware.",
     "Qual e` il modo orientato agli oggetti per diventare ricchi? Ereditarieta`.",
     "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, possono rendere l'oscurita` uno standard.",
@@ -78,7 +78,6 @@ neutral = [
     "Che cosa significa Emacs? Utilizzato esclusivamente dagli scienziati informatici di mezza eta`.",
     "Che cosa hanno in comune le battute di PyJokes con Adobe Flash? Si aggiornano sempre, ma non migliorano.",
     "Quanti demosceners sono necessari per cambiare una lampadina? Meta`. Con uno intero non ci sono sfide.",
-
 ]
 
 
