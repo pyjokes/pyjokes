@@ -92,7 +92,7 @@ neutral = [
     "Number of days since I have encountered an array index error: -1.",
     "Speed dating is useless. 5 minutes is not enough to properly explain the benefits of the Unix philosophy.",
     "Microsoft hold a bi-monthly internal \"productive week\" where they use Google instead of Bing.",
-    "Schrodinger's Cat in Web Development: If I don't look at in in Internet Explorer then there's a chance it looks fine.",
+    "Schrodinger's Cat in Web Development: If I don't look at it in Internet Explorer then there's a chance it looks fine.",
     "Finding a good PHP developer is like looking for a needle in a haystack. Or is it a hackstack in a needle?",
     "Unix is user friendly. It's just very particular about who its friends are.",
     "A COBOL programmer makes millions with Y2K remediation and decides to get cryogenically frozen. \"The year is 9999. You know COBOL, right?\"",
