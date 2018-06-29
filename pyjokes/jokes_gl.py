@@ -17,15 +17,7 @@ neutral = [
     'En que se diferencian Windows e un virus? En que o virus funciona, e e gratis.'
 ]
 
-adult = [
-    'Que e unha muller obxecto? Unha instancia dunha muller con clase',
-    '- Cantos dalmatas habia na peli? - 101. - Polo cu cha finco!',
-    'Atopan programador morto na ducha cun bote de champu: "enxaboar, aclarar e repetir"',
-    'Isto e un mainframe que lle di a un PC: "Tan pequeno e xa "computas"?"'
-]
-
 jokes_gl = {
     'neutral': neutral,
-    'adult': adult,
-    'all': neutral + adult,
+    'all': neutral,
 }

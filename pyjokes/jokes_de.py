@@ -65,25 +65,7 @@ neutral = [
     "Auf dem Standesamt:'Sagen Sie, Herr Zufall, sind Sie sicher, dass Sie Ihren Sohn 'Rainer' nennen wollen?'",
     u"Fährt ein Mann zur Tankstelle:'Wieviel kostet ein Tropfen Benzin ?''Nichts''Also, dann tropfen Sie mir bitte den Tank voll !'",
 ]
-adult = [
-    u"Ein Pärchen beim Sex. Sie fängt an zu stöhnen: 'Jaa, gib's mir.' Sag mir dreckige Sachen!  'Er:' Küche, Bad, Wohnzimmer ",
-    "Angeklagter, was dachten Sie sich, als sie der Frau unter den Rock griffen?? Mir frisst ein Pferd aus der Hand. ",
-    u"Was versteht man unter einem Gentleman? Einen Herrn, der, bevor er die Dame küßt, die Zigarette aus dem Mund nimmt! ",
-    "Frau beim Sex: 'Was jetzt, raus oder rein!'",
-    "Wie wechselt ein Dinosaurier den Tampon? Na, ganz einfach. Altes Schaf raus, neues Schaf rein... ",
-    "Nach dem Sex im Bett: 'Frau:' 'Woran denkst du?''Mann:''Kennst du nicht!'",
-    "Treffen sich zwei Freunde.'Stell dir vor,' ich habe heute Morgen meine Frau mit Oralverkehr geweckt.'Und, was hat sie gesagt?''Laff daff!'",
-    u"Warum haben Politiker Hornhaut an den Eiern? 'Weil Lügen kurze Beine1 hat.'",
-    "Was sagt man, wenn ein Spanner gestorben ist? Der ist weg vom Fenster!",
-    u"'Herr Doktor, alle sagen ich sei nymphoman'.'Ja, liebe Frau, bevor ich eine Diagnose stelle, müssen Sie aber bitte meinen Penis loslassen'.",
-    u"Die Stewardess zum Fluggast: 'Wie wünschen Sie Ihre Eier zum Lunch, Mr. Smith? Gebraten, roh oder gekocht?', 'Gestreichelt!'",
-    u"Was haben ein Schäferhund und ein kurzsichtiger Gynäkologe gemeinsam? Eine feuchte Nase",
-    u"Das stand in einer Jugendzeitschrift: Junges Mädchen mit Pferdeschwanz sucht Junge mit gleichen Eigenschaften!",
-    "Ich habe versucht, ohne Sex und Alkohol zu leben. Es war die schlimmste Viertelstunde meines Lebens.",
-    u"Wie funktioniert der Öko-Vibrator? Hummel im Bambusrohr...",
-    "Was liegt in der Ecke und klappert? Pinoccio beim onanieren... ",
-    "Hast du schon gewusst, dass man vom Onanieren taub werden kann? Wie bitte?",
-]
+
 chuck = [
     u"Chuck Norris streichelt keine Tiere, die Tiere streicheln sich selbst, wenn er in der Nähe ist",
     u"Chuck Norris braucht die Toilette nicht zu spülen. Er sagt einfach  Buh!  und schon haut die Scheiße von alleine ab.",
@@ -181,8 +163,7 @@ twister = [
 
 jokes_de = {
     'neutral': neutral,
-    'all': neutral + adult + chuck + twister,
-    'adult': adult,
+    'all': neutral + chuck + twister,
     'chuck': chuck,
     'twister': twister
 }
