@@ -244,9 +244,26 @@ chuck = [
     "Q: What is Chuck Norris's favorite Javascript framework? A: Knockout.js.",
 ]
 
+from random import choice
+
+p1 = ["why did the", "would a", "can you make a", "ever seen a"]
+p2 = ["pope", "german", "java programmer", "chicken", "pyjoke", "bear", "$ANIMAL", "country", "american", "englishman", "irishman", "scotsman", "welshman", "$NATIONALITY", "barman", "code monkey", "python programmer"]
+p3 = ["eat cheese?", "cross the road?", "tell a bad joke?", "say sorry?", "go to a bar?", "EOL?", "get muddy?", "tell a good joke?", "get really clean?", "code the road?", "learn assembly?", "play pong?"]
+p4 = ["to get to the other side", "sex", "german sex", "yes", "PARSE ERROR", "germans.", "for the interview", "no"]
+
+def autojoke():
+	return "%s %s %s %s" % (choice(p1), choice(p2), choice(p3), choice(p4))
+
+def auto_joke_list(count=1):
+	return [autojoke() for x in range(count)]
+
+auto = auto_joke_list(100)
+
+
 jokes_en = {
     'neutral': neutral,
     'adult': adult,
     'chuck': chuck,
-    'all': neutral + adult + chuck,
+    'auto': auto,
+    'all': neutral + adult + chuck + auto,
 }
