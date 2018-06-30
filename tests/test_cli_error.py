@@ -10,6 +10,7 @@ def test_pyjokes_call_exception():
 
 
 def test_pyjokes_call_output():
+    p = None
     try:
         p = subprocess.Popen('pyjokes', stdin=PIPE, stdout=PIPE, stderr=PIPE)
     except:

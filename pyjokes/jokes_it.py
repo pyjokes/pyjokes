@@ -17,20 +17,14 @@ neutral = [
     "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, e` un problema hardware.",
     "Qual e` il modo orientato agli oggetti per diventare ricchi? Ereditarieta`.",
     "Quanti programmatori ci vogliono per cambiare una lampadina? Nessuno, possono rendere l'oscurita` uno standard.",
-    "I vecchi programmatori C non muoiono, sono solo gettati nel void.",
     "Gli sviluppatori di software amano risolvere i problemi: se non ci sono problemi facilmente disponibili li creeranno.",
-    ".NET e` stato chiamato .NET in modo che non si visualizzasse in un elenco di directory Unix.",
     "Hardware: la parte di un computer che puoi calciare.",
     "Un programmatore e` stato trovato morto nella doccia, accanto al corpo c'era uno shampoo con le istruzioni:Insapona, risciacqua  ripeti.",
     "Ottimista: il bicchiere e` mezzo pieno Pessimista: il bicchiere e` mezzo vuoto Programmatore: il bicchiere e` il doppio del necessario.",
     "In C abbiamo dovuto codificare i nostri bug. In C ++ possiamo ereditarli.",
     "Come mai non c'e` una gara Perl offuscato? Perche` tutti vincerebbero.",
-    "Se riproduci un CD di Windows all'indietro, ascolterai il canto satanico ... peggio ancora, se lo riproduci in avanti, installa Windows.",
-    "Quanti programmatori ci vogliono per uccidere uno scarafaggio? Due: uno tiene, l'altro installa Windows su di esso.",
     "Come si chiama un programmatore finlandese? Nerdic.",
     "Cosa ha detto il codice Java al codice C? : Non hai classe.",
-    "Perche` Microsoft ha chiamato il proprio motore di ricerca BING? Because It's Not Google.",
-    "I venditori di software e i venditori di auto usate si differenziano perche` questi ultimi sanno quando mentono.",
     "Bambino: 'papa', perche` il sole sorge ad est e tramonta ad ovest?' Papa': 'figlio, sta funzionando, non toccarlo'.",
     "Quanti programmatori Prolog ci vogliono per cambiare una lampadina? Falso.",
     "I veri programmatori possono scrivere codice assembly in qualsiasi lingua.",
@@ -63,35 +57,17 @@ neutral = [
     "La cosa migliore di un booleano e` che anche se ti sbagli, sei solo fuori di un bit.",
     "Un buon programmatore e` qualcuno che guarda sempre in entrambe le direzioni prima di attraversare una strada a senso unico.",
     "Esistono due modi per scrivere programmi privi di errori: solo il terzo funziona.",
-    "I controlli di qualita` consistono nel 55% di acqua, 30% di sangue e 15% di ticket in Jira.",
-    "Quanti QA servono per cambiare una lampadina? Hanno notato che la stanza era buia,: non risolvono i problemi, li trovano.",
     "Un programmatore si schianta contro un'auto , l'uomo chiede 'cosa e` successo', l'altro risponde'Non so. Facciamo il backup e riprova'.",
-    "Scrivere PHP e` come fare pipi` in piscina, tutti lo hanno fatto, ma non hanno bisogno di renderlo pubblico.",
     "Numero di giorni da quando ho riscontrato un errore di indice di array: -1.",
     "gli appuntamenti veloci sono inutili, 5 minuti non sono sufficienti per spiegare correttamente i benefici della filosofia Unix.",
-    "Microsoft ha ogni quindici giorni una 'settimana produttiva' dove usa Google invece di Bing.",
-    "Trovare un buon sviluppatore PHP e` come cercare un ago in un pagliaio o e` un hackstack in un ago?.",
     "Unix e` user friendly, e` solo molto particolare nella scelta di chi siano i suoi amici.",
     "Un programmatore COBOL guadagna milioni con la riparazione Y2K e decide di congelarsi criogenicamente. L'anno e` 9999.",
     "Il linguaggio C combina tutta la potenza del linguaggio assembly con tutta la facilita` d'uso del linguaggio assembly.",
     "Un esperto SEO entra in un bar, pub, pub irlandese, taverna, barista, birra, liquore, vino, alcolici, liquori ...",
     "Che cosa significa Emacs? Utilizzato esclusivamente dagli scienziati informatici di mezza eta`.",
     "Che cosa hanno in comune le battute di PyJokes con Adobe Flash? Si aggiornano sempre, ma non migliorano.",
-    "Quanti demosceners sono necessari per cambiare una lampadina? Meta`. Con uno intero non ci sono sfide.",
 ]
 
-
-adult = [
-    "La programmazione e` come il sesso: un solo errore e devi supportarlo per il resto della tua vita.",
-    "Il software e` come il sesso: E` meglio quando e` gratis.",
-    "Il software e` come il sesso: Non e` mai VERAMENTE libero.",
-    "Ci sono 10 tipi di persone: quelle che comprendono il binario e quelle che si fanno scopare.",
-    "Perche` ai programmatori piace UNIX: unzip, strip, touch, finger, grep, mount, fsck, more, yes, fsck, fsck, fsck, umount, sleep.",
-    "Tua mamma e` cosi` grassa che nemmeno Dijkstra e` in grado di trovare un percorso piu` breve intorno a lei.",
-    "L'unica interfaccia utente intuitiva e` il capezzolo. Dopo hai dovuto imparare tutto.",
-    "Qual e` la differenza tra lo sviluppo del software e il sesso? Nel sesso, non si ottiene un bonus per il rilascio anticipato.",
-    "Tua mamma e` cosi` grassa che la funzione ricorsiva che calcola la sua massa causa un overflow dello stack.",
-]
 
 """
 Jokes from The Internet Chuck Norris DB (ICNDB) (http://www.icndb.com/) - provided under CC BY-SA 3.0
@@ -190,7 +166,6 @@ chuck = [
 
 jokes_it = {
     'neutral': neutral,
-    'adult': adult,
     'chuck': chuck,
-    'all': neutral + adult + chuck,
+    'all': neutral + chuck,
 }

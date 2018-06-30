@@ -30,19 +30,14 @@ neutral = [
     "Why did the programmer quit his job? Because they didn't get arrays.",
     "Why do Java programmers have to wear glasses? Because they don't see sharp.",
     "Software developers like to solve problems. If there are no problems handily available, they will create their own problems.",
-    ".NET was named .NET so that it wouldn't show up in a Unix directory listing.",
     "Hardware: The part of a computer that you can kick.",
     "A programmer was found dead in the shower. Next to their body was a bottle of shampoo with the instructions 'Lather, Rinse and Repeat'.",
     "Optimist: The glass is half full. Pessimist: The glass is half empty. Programmer: The glass is twice as large as necessary.",
     "In C we had to code our own bugs. In C++ we can inherit them.",
     "How come there is not obfuscated Perl contest? Because everyone would win.",
-    "If you play a Windows CD backwards, you'll hear satanic chanting ... worse still, if you play it forwards, it installs Windows.",
-    "How many programmers does it take to kill a cockroach? Two: one holds, the other installs Windows on it.",
     "What do you call a programmer from Finland? Nerdic.",
     "What did the Java code say to the C code? A: You've got no class.",
-    "Why did Microsoft name their search engine BING? Because It's Not Google.",
     "Pirates go 'arg!', computer pirates go 'argv!'",
-    "Software salesmen and used-car salesmen differ in that the latter know when they are lying.",
     "Child: Dad, why does the sun rise in the east and set in the west? Dad: Son, it's working, don't touch it.",
     "Why do programmers confuse Halloween with Christmas? Because OCT 31 == DEC 25.",
     "How many Prolog programmers does it take to change a lightbulb? false.",
@@ -82,26 +77,16 @@ neutral = [
     "The best thing about a Boolean is even if you are wrong, you are only off by a bit.",
     "A good programmer is someone who always looks both ways before crossing a one-way street.",
     "There are two ways to write error-free programs; only the third one works.",
-    "QAs consist of 55% water, 30% blood and 15% Jira tickets.",
-    "Sympathy for the Devil is really just about being nice to QAs.",
-    "How many QAs does it take to change a light bulb? They noticed that the room was dark. They don't fix problems, they find them.",
     "A programmer crashes a car at the bottom of a hill, a bystander asks what happened, he says \"No idea. Let's push it back up and try again\".",
     "What do you mean 911 is only for emergencies, I've got a merge conflict and it doesn't look good.",
-    "Writing PHP is like peeing in the swimming pool, everyone did it, but we don't need to bring it up in public.",
-    "Why did the QA cross the road? To ruin everyone's day.",
     "Number of days since I have encountered an array index error: -1.",
     "Speed dating is useless. 5 minutes is not enough to properly explain the benefits of the Unix philosophy.",
-    "Microsoft hold a bi-monthly internal \"productive week\" where they use Google instead of Bing.",
-    "Schrodinger's Cat in Web Development: If I don't look at it in Internet Explorer then there's a chance it looks fine.",
-    "Finding a good PHP developer is like looking for a needle in a haystack. Or is it a hackstack in a needle?",
     "Unix is user friendly. It's just very particular about who its friends are.",
     "A COBOL programmer makes millions with Y2K remediation and decides to get cryogenically frozen. \"The year is 9999. You know COBOL, right?\"",
     "The C language combines all the power of assembly language with all the ease-of-use of assembly language.",
     "An SEO expert walks into a bar, bars, pub, public house, Irish pub, tavern, bartender, beer, liquor, wine, alcohol, spirits...",
     "What does 'Emacs' stand for? 'Exclusively used by middle aged computer scientists.'",
     "What does PyJokes's jokes have in common with Adobe Flash? They get updated all the time, but they don't get any better.",
-    "How many demosceners are needed to change a lightbulb? Half. With a full one there is no challenge.",
-    "Did you hear the one about the guy with the broken hearing aid? Neither did he.",
     "What do you call a fly without wings? A walk.",
     "When my wife told me to stop impersonating a flamingo, I had to put my foot down.",
     "What do you call someone with no nose? Nobody knows.",
@@ -118,20 +103,6 @@ neutral = [
     "What's the worst thing about ancient history class? The teachers tend to Babylon."
 ]
 
-
-adult = [
-    "Programming is like sex: One mistake and you have to support it for the rest of your life.",
-    "Software is like sex: It's better when it's free.",
-    "Software is like sex: It's never REALLY free.",
-    "There are 10 types of people: those who understand binary, and those who get laid.",
-    "Why programmers like UNIX: unzip, strip, touch, finger, grep, mount, fsck, more, yes, fsck, fsck, fsck, umount, sleep",
-    "If your mom was a collection class, her insert method would be public.",
-    "Your momma's so fat that not even Dijkstra is able to find a shortest path around her.",
-    "C++ - where your friends have access to your private members.",
-    "The only intuitive user interface is the nipple. After that, it's all learned.",
-    "What's the difference between software development and sex? In sex, you don't get a bonus for releasing early.",
-    "Your momma's so fat, the recursive function calculating her mass causes a stack overflow.",
-]
 
 """
 Jokes from The Internet Chuck Norris DB (ICNDB) (http://www.icndb.com/) - provided under CC BY-SA 3.0
@@ -246,7 +217,6 @@ chuck = [
 
 jokes_en = {
     'neutral': neutral,
-    'adult': adult,
     'chuck': chuck,
-    'all': neutral + adult + chuck,
+    'all': neutral + chuck,
 }

@@ -14,6 +14,12 @@ New categories should be proposed in a [GitHub issue](https://github.com/pyjokes
 - Gender neutrality (mix of he/she/they)
 - No assumption of gender or sexuality
 - No racism
+- No sexism
+- No political jokes
+- No jokes about physical or mental ability
+- No jokes about appearance, such as jokes about weight or blonde jokes
+- No jokes about mental illness or self-harm
+- No jokes about language or framework choice -- i.e php or javascript
 
 ## Technical Issues
 
