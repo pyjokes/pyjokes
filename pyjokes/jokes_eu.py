@@ -8,12 +8,7 @@ neutral = [
     'Matematika liburu batek bere buruaz beste egin zuen...zergatik? Problema asko zituelako.'
 ]
 
-adult = [
-    '',
-]
-
 jokes_eu = {
     'neutral': neutral,
-    'adult': adult,
-    'all': neutral + adult,
+    'all': neutral,
 }

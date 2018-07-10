@@ -119,20 +119,6 @@ neutral = [
 ]
 
 
-adult = [
-    "Programming is like sex: One mistake and you have to support it for the rest of your life.",
-    "Software is like sex: It's better when it's free.",
-    "Software is like sex: It's never REALLY free.",
-    "There are 10 types of people: those who understand binary, and those who get laid.",
-    "Why programmers like UNIX: unzip, strip, touch, finger, grep, mount, fsck, more, yes, fsck, fsck, fsck, umount, sleep",
-    "If your mom was a collection class, her insert method would be public.",
-    "Your momma's so fat that not even Dijkstra is able to find a shortest path around her.",
-    "C++ - where your friends have access to your private members.",
-    "The only intuitive user interface is the nipple. After that, it's all learned.",
-    "What's the difference between software development and sex? In sex, you don't get a bonus for releasing early.",
-    "Your momma's so fat, the recursive function calculating her mass causes a stack overflow.",
-]
-
 """
 Jokes from The Internet Chuck Norris DB (ICNDB) (http://www.icndb.com/) - provided under CC BY-SA 3.0
 http://api.icndb.com/jokes/
@@ -246,7 +232,6 @@ chuck = [
 
 jokes_en = {
     'neutral': neutral,
-    'adult': adult,
     'chuck': chuck,
-    'all': neutral + adult + chuck,
+    'all': neutral + chuck,
 }
