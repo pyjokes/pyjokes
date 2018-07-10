@@ -4,7 +4,7 @@ from pyjokes.pyjokes import LanguageNotFoundError, CategoryNotFoundError
 
 
 languages = ['en', 'de', 'es', 'gl', 'eu', 'it']
-categories = ['neutral', 'adult', 'all']
+categories = ['neutral', 'all']
 test_data = ['', 'abc', '123']
 
 

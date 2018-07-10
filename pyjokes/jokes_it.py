@@ -80,19 +80,6 @@ neutral = [
     "Quanti demosceners sono necessari per cambiare una lampadina? Meta`. Con uno intero non ci sono sfide.",
 ]
 
-
-adult = [
-    "La programmazione e` come il sesso: un solo errore e devi supportarlo per il resto della tua vita.",
-    "Il software e` come il sesso: E` meglio quando e` gratis.",
-    "Il software e` come il sesso: Non e` mai VERAMENTE libero.",
-    "Ci sono 10 tipi di persone: quelle che comprendono il binario e quelle che si fanno scopare.",
-    "Perche` ai programmatori piace UNIX: unzip, strip, touch, finger, grep, mount, fsck, more, yes, fsck, fsck, fsck, umount, sleep.",
-    "Tua mamma e` cosi` grassa che nemmeno Dijkstra e` in grado di trovare un percorso piu` breve intorno a lei.",
-    "L'unica interfaccia utente intuitiva e` il capezzolo. Dopo hai dovuto imparare tutto.",
-    "Qual e` la differenza tra lo sviluppo del software e il sesso? Nel sesso, non si ottiene un bonus per il rilascio anticipato.",
-    "Tua mamma e` cosi` grassa che la funzione ricorsiva che calcola la sua massa causa un overflow dello stack.",
-]
-
 """
 Jokes from The Internet Chuck Norris DB (ICNDB) (http://www.icndb.com/) - provided under CC BY-SA 3.0
 http://api.icndb.com/jokes/
@@ -190,7 +177,6 @@ chuck = [
 
 jokes_it = {
     'neutral': neutral,
-    'adult': adult,
     'chuck': chuck,
-    'all': neutral + adult + chuck,
+    'all': neutral + chuck,
 }

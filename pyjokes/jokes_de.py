@@ -5,11 +5,8 @@ neutral = [
     "Ein Beamter zum anderen: 'Was haben die Leute nur, wir tun doch nichts'.",
     "Wenn ein Yogalehrer seine Beine senkrecht nach oben streckt und dabei furzt, welche Yoga Figur stellt er da? Eine Duftkerze.",
    u"Frage: Was ist das beste geschenkt für trump? Antwort : klopapier was soll man einem arschloch denn sonst schenken",
-    "Warum freut sich eine Blondine so, wenn sie ein Puzzle nach 6 Monaten fertig hat?... Weil auf der Packung steht: 2-4 Jahre.",
-    "Sitzen 2 Polen im Auto, kommt die Polizei: 'Wir suchen 2 Autodiebe.' Schauen sich die Polen an: 'Wir machen's.'",
     "Ich wollte Spiderman anrufen, aber er hatte kein Netz.",
     "Sitzen 2 Bomben im Keller. Sagt die eine: 'Komm, lass hoch gehen.'",
-    u"Wie nennt man einen übergewichtigen Vegetarier? Biotonne",
     u"Wie nennt man jemand der so tut als würde er etwas werfen?  Einen Scheinwerfer.",
     "Was steht auf dem Grabstein einer Putzfrau?  'Sie wird nie wieder kehren.'",
     u"Abwasser ist ein Thema, das unbedingt geklärt werden muss.",
@@ -17,7 +14,6 @@ neutral = [
     "Was steht auf dem Grabstein eines Spanners?  'Der ist weg vom Fenster.'",
     u"Warum können Geister so schlecht lügen?  Weil sie so leicht zu durchschauen sind.",
     "Bei Adidas wurde eingebrochen. Was macht die Polizei? Sie schickt 3 Streifen.",
-    "Was machen zwei Polen auf dem Eis? Einbrechen.",
     "Egal wie dicht du bist, Goethe war Dichter.",
     "Wie war die Stimmung in der DDR ?  Sie hielt sich in Grenzen",
     u"Auch im Osten trägt man Westen.",
@@ -65,25 +61,6 @@ neutral = [
     "Auf dem Standesamt:'Sagen Sie, Herr Zufall, sind Sie sicher, dass Sie Ihren Sohn 'Rainer' nennen wollen?'",
     u"Fährt ein Mann zur Tankstelle:'Wieviel kostet ein Tropfen Benzin ?''Nichts''Also, dann tropfen Sie mir bitte den Tank voll !'",
 ]
-adult = [
-    u"Ein Pärchen beim Sex. Sie fängt an zu stöhnen: 'Jaa, gib's mir.' Sag mir dreckige Sachen!  'Er:' Küche, Bad, Wohnzimmer ",
-    "Angeklagter, was dachten Sie sich, als sie der Frau unter den Rock griffen?? Mir frisst ein Pferd aus der Hand. ",
-    u"Was versteht man unter einem Gentleman? Einen Herrn, der, bevor er die Dame küßt, die Zigarette aus dem Mund nimmt! ",
-    "Frau beim Sex: 'Was jetzt, raus oder rein!'",
-    "Wie wechselt ein Dinosaurier den Tampon? Na, ganz einfach. Altes Schaf raus, neues Schaf rein... ",
-    "Nach dem Sex im Bett: 'Frau:' 'Woran denkst du?''Mann:''Kennst du nicht!'",
-    "Treffen sich zwei Freunde.'Stell dir vor,' ich habe heute Morgen meine Frau mit Oralverkehr geweckt.'Und, was hat sie gesagt?''Laff daff!'",
-    u"Warum haben Politiker Hornhaut an den Eiern? 'Weil Lügen kurze Beine1 hat.'",
-    "Was sagt man, wenn ein Spanner gestorben ist? Der ist weg vom Fenster!",
-    u"'Herr Doktor, alle sagen ich sei nymphoman'.'Ja, liebe Frau, bevor ich eine Diagnose stelle, müssen Sie aber bitte meinen Penis loslassen'.",
-    u"Die Stewardess zum Fluggast: 'Wie wünschen Sie Ihre Eier zum Lunch, Mr. Smith? Gebraten, roh oder gekocht?', 'Gestreichelt!'",
-    u"Was haben ein Schäferhund und ein kurzsichtiger Gynäkologe gemeinsam? Eine feuchte Nase",
-    u"Das stand in einer Jugendzeitschrift: Junges Mädchen mit Pferdeschwanz sucht Junge mit gleichen Eigenschaften!",
-    "Ich habe versucht, ohne Sex und Alkohol zu leben. Es war die schlimmste Viertelstunde meines Lebens.",
-    u"Wie funktioniert der Öko-Vibrator? Hummel im Bambusrohr...",
-    "Was liegt in der Ecke und klappert? Pinoccio beim onanieren... ",
-    "Hast du schon gewusst, dass man vom Onanieren taub werden kann? Wie bitte?",
-]
 chuck = [
     u"Chuck Norris streichelt keine Tiere, die Tiere streicheln sich selbst, wenn er in der Nähe ist",
     u"Chuck Norris braucht die Toilette nicht zu spülen. Er sagt einfach  Buh!  und schon haut die Scheiße von alleine ab.",
@@ -91,7 +68,6 @@ chuck = [
     u"Chuck Norris hat einen Grizzlybär-Teppich. Der Bär lebt, hat bloß Angst, sich zu bewegen.",
     "Wenn Chuck Norris mit nassen Fingern an der Steckdose rumfummelt, kriegt das Kraftwerk einen Schlag.",
     "Chuck Norris kann mit Durchfall furzen.",
-    "Chuck Norris klaut den Polen die Autos.",
     u"Wenn Chuck Norris einen Raum betritt, stehen sogar die Stühle auf!",
     "Chuck Norris hat bei Burgerking einen Big Mac bestellt - und hat ihn ohne Wiederworte bekommen",
     u"Chuck Norris war bereits auf dem Mars. Das ist der Grund dafür, warum es dort kein Leben mehr gibt.",
@@ -121,7 +97,6 @@ chuck = [
     u"Chuck Norris hat keine Herzattacken. Kein Herz wäre so verrückt Chuck zu attackieren."
     "Chuck Norris kann einen Hut aus einem Hasen zaubern.",
     "Besser mit Chuck Norris teilen als von Chuck Norris geteilt zu werden. ",
-    u"Chuck Norris spielte GTA 5. Er tötet 45 Menschen, klaut 21 Autos und tut es mit 7 Prostituierten ......während das Spiel lädt!.",
     u"Chuck Norris war in der Hölle. Der Teufel ist vor Angst gestorben.",
     "Warum weinen Kinder wenn sie auf die Welt kommen, weil sie wissen dass sie eine Welt mit Chuck Norris betreten haben.",
     "Chuck Norris ist der Einzige, der die Zeit wirklich totschlagen kann.",
@@ -181,8 +156,7 @@ twister = [
 
 jokes_de = {
     'neutral': neutral,
-    'all': neutral + adult + chuck + twister,
-    'adult': adult,
+    'all': neutral + chuck + twister,
     'chuck': chuck,
     'twister': twister
 }

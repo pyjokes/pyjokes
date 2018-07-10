@@ -13,7 +13,7 @@ Returns a random joke from the given category in the given language.
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
 | language   | str   | 'en', 'de', 'es', 'gl' , 'eus'| 'en' |
-| category   | str   | 'neutral', 'adult', 'chuck', 'all' | 'neutral' |
+| category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
 
 Return type: str
 
@@ -28,7 +28,7 @@ Returns a list of jokes from the given category in the given language.
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
 | language   | str   | 'en', 'de', 'es', 'gl', 'eus' | 'en' |
-| category   | str   | 'neutral', 'adult', 'chuck', 'all' | 'neutral' |
+| category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
 
 Return type: list
 

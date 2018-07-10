@@ -101,7 +101,6 @@ neutral = [
     "What does 'Emacs' stand for? 'Exclusively used by middle aged computer scientists.'",
     "What does PyJokes's jokes have in common with Adobe Flash? They get updated all the time, but they don't get any better.",
     "How many demosceners are needed to change a lightbulb? Half. With a full one there is no challenge.",
-    "Did you hear the one about the guy with the broken hearing aid? Neither did he.",
     "What do you call a fly without wings? A walk.",
     "When my wife told me to stop impersonating a flamingo, I had to put my foot down.",
     "What do you call someone with no nose? Nobody knows.",
@@ -118,20 +117,6 @@ neutral = [
     "What's the worst thing about ancient history class? The teachers tend to Babylon."
 ]
 
-
-adult = [
-    "Programming is like sex: One mistake and you have to support it for the rest of your life.",
-    "Software is like sex: It's better when it's free.",
-    "Software is like sex: It's never REALLY free.",
-    "There are 10 types of people: those who understand binary, and those who get laid.",
-    "Why programmers like UNIX: unzip, strip, touch, finger, grep, mount, fsck, more, yes, fsck, fsck, fsck, umount, sleep",
-    "If your mom was a collection class, her insert method would be public.",
-    "Your momma's so fat that not even Dijkstra is able to find a shortest path around her.",
-    "C++ - where your friends have access to your private members.",
-    "The only intuitive user interface is the nipple. After that, it's all learned.",
-    "What's the difference between software development and sex? In sex, you don't get a bonus for releasing early.",
-    "Your momma's so fat, the recursive function calculating her mass causes a stack overflow.",
-]
 
 """
 Jokes from The Internet Chuck Norris DB (ICNDB) (http://www.icndb.com/) - provided under CC BY-SA 3.0
@@ -246,7 +231,6 @@ chuck = [
 
 jokes_en = {
     'neutral': neutral,
-    'adult': adult,
     'chuck': chuck,
-    'all': neutral + adult + chuck,
+    'all': neutral + chuck,
 }
