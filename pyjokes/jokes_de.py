@@ -7,7 +7,6 @@ neutral = [
    u"Frage: Was ist das beste geschenkt für trump? Antwort : klopapier was soll man einem arschloch denn sonst schenken",
     "Ich wollte Spiderman anrufen, aber er hatte kein Netz.",
     "Sitzen 2 Bomben im Keller. Sagt die eine: 'Komm, lass hoch gehen.'",
-    u"Wie nennt man einen übergewichtigen Vegetarier? Biotonne",
     u"Wie nennt man jemand der so tut als würde er etwas werfen?  Einen Scheinwerfer.",
     "Was steht auf dem Grabstein einer Putzfrau?  'Sie wird nie wieder kehren.'",
     u"Abwasser ist ein Thema, das unbedingt geklärt werden muss.",
