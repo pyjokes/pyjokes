@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 neutral = [
-    #'Se abre el ascensor y hay un programador dentro, le preguntan: - Sube o baja? A lo que el programador responde: - Si.',
     'Se abre el ascensor y hay un programador dentro, le preguntan: - Sube o baja? A lo que el programador responde: - Si.',
-    #'Que le dice un bit al otro? Nos vemos en el bus.',
     'Que le dice un bit al otro? Nos vemos en el bus.',
     'Atracador: El dinero o la vida! Programador: Lo siento, soy programador. Atracador: Y? Programador: No tengo dinero ni vida.',
     'Que es un terapeuta? - 1024 Gigapeutas',
