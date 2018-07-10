@@ -101,7 +101,6 @@ neutral = [
     "What does 'Emacs' stand for? 'Exclusively used by middle aged computer scientists.'",
     "What does PyJokes's jokes have in common with Adobe Flash? They get updated all the time, but they don't get any better.",
     "How many demosceners are needed to change a lightbulb? Half. With a full one there is no challenge.",
-    "Did you hear the one about the guy with the broken hearing aid? Neither did he.",
     "What do you call a fly without wings? A walk.",
     "When my wife told me to stop impersonating a flamingo, I had to put my foot down.",
     "What do you call someone with no nose? Nobody knows.",
