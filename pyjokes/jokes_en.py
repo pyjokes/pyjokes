@@ -113,8 +113,7 @@ neutral = [
     "I went to the zoo the other day, there was only one dog in it. It was a shitzu.",
     "I gave all my dead batteries away today, free of charge.",
     "Why are skeletons so calm? Because nothing gets under their skin.",
-    "I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k.
-It was a trip down Memory Lane.",
+    "I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. It was a trip down Memory Lane.",
     "!false, (It’s funny because it’s true)",
     "[“hip”,”hip”] (hip hip array!)",
     "What did celery say when he broke up with his girlfriend? She wasn't right for me, so I really don't carrot all.",
