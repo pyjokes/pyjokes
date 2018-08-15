@@ -1,8 +1,6 @@
 # Install pyjokes
 
-## Pip or virtualenv
-
-If you have `pip` installed, or you're using a virtualenv, just install `pyjokes`:
+## Pip
 
 ```bash
 pip3 install pyjokes
@@ -14,44 +12,16 @@ or
 pip install pyjokes
 ```
 
-## Linux (Ubuntu)
-
-First install `pip`, Python's package manager using Ubuntu's package manager:
+## Linux & Raspberry Pi
 
 ```bash
-sudo apt-get install python3-pip
-```
-
-then install `pyjokes` using `pip`:
-
-```bash
+sudo apt install python3-pip
 sudo pip3 install pyjokes
 ```
 
-The instructions for Python 2 are similar:
+or for Python 2:
 
 ```bash
-sudo apt-get install python-pip
-sudo pip install pyjokes
-```
-
-## Raspberry Pi (Raspbian)
-
-First install `pip`, Python's package manager using your Raspbian's package manager:
-
-```bash
-sudo apt-get install python3-pip
-```
-
-then install `pyjokes` using `pip`:
-
-```bash
-sudo pip-3.2 install pyjokes
-```
-
-The instructions for Python 2 are similar:
-
-```bash
-sudo apt-get install python-pip
+sudo apt install python-pip
 sudo pip install pyjokes
 ```
