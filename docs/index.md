@@ -45,5 +45,5 @@ New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/
 
 - [GitHub](https://github.com/pyjokes/pyjokes)
 - [Wiki](https://github.com/pyjokes/pyjokes/wiki)
-- [PyPi](https://pypi.python.org/pypi/pyjokes)
+- [PyPI](https://pypi.org/project/pyjokes/)
 - [Twitter](https://twitter.com/pyjokes_bot)
