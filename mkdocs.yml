@@ -6,8 +6,8 @@ site_description: One-line programmer jokes (jokes-as-a-service)
 site_author: Pyjokes Society
 site_dir: website
 google_analytics: ['UA-65996819-1', 'pyjok.es']
-pages:
-- 'Home': 'index.md'
-- 'Install': 'install.md'
-- 'API Reference': 'api.md'
-- 'Pyjokes Society': 'society.md'
+nav:
+    - 'Home': 'index.md'
+    - 'Install': 'install.md'
+    - 'API Reference': 'api.md'
+    - 'Pyjokes Society': 'society.md'
