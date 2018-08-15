@@ -9,7 +9,7 @@ One line jokes for programmers (jokes as a service)
 Install with pip:
 
 ```bash
-sudo pip install pyjokes
+pip install pyjokes
 ```
 
 See the [install](install.md) page for information on installing on different platforms.
