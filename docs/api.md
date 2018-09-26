@@ -38,7 +38,7 @@ If the `category` value provided is not available, a `CategoryNotFoundError` exc
 
 ## Supported languages
 
-This are all the languages supported by pyjokes. You can add new langugages, see contributing page.
+These are all the languages supported by pyjokes:
 
 | Language   | Value | 
 | ---------- | ----- | 
@@ -48,3 +48,4 @@ This are all the languages supported by pyjokes. You can add new langugages, see
 | German     | 'de'  | 
 | Spanish    | 'es'  | 
 
+To add support for another language, please see the [contributing page](https://github.com/pyjokes/pyjokes/blob/master/CONTRIBUTING.md).
