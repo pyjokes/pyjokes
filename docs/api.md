@@ -35,3 +35,17 @@ Return type: list
 If the `language` value provided is not available, a `LanguageNotFoundError` exception is raised.
 
 If the `category` value provided is not available, a `CategoryNotFoundError` exception is raised.
+
+## Supported languages
+
+These are all the languages supported by pyjokes:
+
+| Language   | Value | 
+| ---------- | ----- | 
+| Basque     | 'eu'  | 'en', 'de', 'es', 'gl', 'eu' | 'en' |
+| English    | 'en'  | 
+| Galician   | 'gl'  | 
+| German     | 'de'  | 
+| Spanish    | 'es'  | 
+
+To add support for another language, please see the [contributing page](https://github.com/pyjokes/pyjokes/blob/master/CONTRIBUTING.md).
