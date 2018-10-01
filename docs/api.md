@@ -12,7 +12,7 @@ Returns a random joke from the given category in the given language.
 
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
-| language   | str   | 'en', 'de', 'es', 'gl' , 'eu'| 'en' |
+| language   | str   | 'en', 'de', 'es', 'gl' , 'eu', 'it'| 'en' |
 | category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
 
 Return type: str
@@ -27,7 +27,7 @@ Returns a list of jokes from the given category in the given language.
 
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
-| language   | str   | 'en', 'de', 'es', 'gl', 'eu' | 'en' |
+| language   | str   | 'en', 'de', 'es', 'gl', 'eu', 'it' | 'en' |
 | category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
 
 Return type: list
@@ -42,10 +42,11 @@ These are all the languages supported by pyjokes:
 
 | Language   | Value | 
 | ---------- | ----- | 
-| Basque     | 'eu'  | 'en', 'de', 'es', 'gl', 'eu' | 'en' |
+| Basque     | 'eu'  | 
 | English    | 'en'  | 
 | Galician   | 'gl'  | 
 | German     | 'de'  | 
+| Italian    | 'it'  |
 | Spanish    | 'es'  | 
 
 To add support for another language, please see the [contributing page](https://github.com/pyjokes/pyjokes/blob/master/CONTRIBUTING.md).
