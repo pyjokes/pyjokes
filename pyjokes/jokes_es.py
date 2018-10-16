@@ -11,7 +11,7 @@ neutral = [
     'Que le dice un GIF a un JPG? -Animate hombre...',
     'Que dice un informatico que se esta ahogando en la playa?: F1, F1!',
     'Hardware: La parte de un ordenador a la que puedes golpear',
-    'Optimista: El vaso está medio lleno. Pesimista: El vaso está medio vacío. Programador: El vaso es el doble de grande de lo necesario',
+    'Optimista: El vaso está medio lleno. Pesimista: El vaso está medio vacío. Programador: El vaso es el doble de grande de lo necesario.',
     'Si reproduces un CD de instalación de Windows al revés escucharás cánticos satánicos... y lo que es peor, si lo reproduces normalmente te instalará Windows.',
     'Hijo: ¿Papá, por qué el sol sale por el Este y se mete por el Oeste? Padre: Hijo, está funcionando, ¡así que no lo toques!',
     'Camarero: ¿Le gustaría tomar un te o un café? Programador: Sí',
