@@ -15,7 +15,7 @@ neutral = [
     'Si reproduces un CD de instalacion de Windows al reves escucharas canticos satanicos. Y lo que es peor, si lo reproduces normalmente te instalara Windows',
     'Hijo: Papa, por que el sol sale por el Este y se mete por el Oeste? Padre: Hijo, esta funcionando, asi que no lo toques!',
     'Camarero: Le gustaria tomar un te o un cafe? Programador: Si',
-    'Como generar una cadena aleatoria de caracteres alfanumericos? Pon a un estudiante de primer año de informatica delante de un documento en Vim y pidele que guarde y salga del programa',
+    'Como generar una cadena aleatoria de caracteres alfanumericos? Pon a un estudiante de primer curso de informatica delante de un documento en Vim y pidele que guarde y salga del programa',
     'Llevo usando Vim desde hace muchos años... principalmente porque no se exactamente como salir',
     'Como saber si una persona utiliza Vim? No te preocupes, el mismo te lo dira',
     'Camarero: ¡Socorro, esta persona se esta axfisiando! Hay algún doctor? Programador: No se preocupe, soy usuario de Vim.',
