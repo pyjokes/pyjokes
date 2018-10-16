@@ -11,6 +11,8 @@ neutral = [
     'Que le dice un GIF a un JPG? -Animate hombre...',
     'Que dice un informatico que se esta ahogando en la playa?: F1, F1!',
     'Hardware: La parte de un ordenador a la que puedes golpear',
+    'Vndo tclado casi nuvo a bun prcio solamnt falla una tcla.',
+    'Error 0094782: No se detecta ningun teclado. Pulse una tecla para continuar...',
     'Optimista: El vaso esta medio lleno. Pesimista: El vaso esta medio vacio. Programador: El vaso es el doble de grande de lo necesario.',
     'Hijo: Papa, por que el sol sale por el Este y se mete por el Oeste? Padre: Hijo, esta funcionando, asi que no lo toques!',
     'Camarero: Le gustaria tomar un te o un cafe? Programador: Si',
