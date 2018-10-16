@@ -18,7 +18,7 @@ neutral = [
     '¿Cómo generar una cadena aleatoria de caracteres alfanuméricos? Pon a un estudiante de primer año de informática delante de un documento en Vim y pídele que guarde y salga del programa',
     'Llevo usando Vim desde hace muchos años... principalmente porque no sé exactamente cómo salir',
     '¿Cómo saber si una persona utiliza Vim? No te preocupes, él mismo te lo dirá',
-    'Camarero: ¡Socorro, esta persona se está axfisiando! ¿Hay algún camarero? PRogramador: No se preocupe, soy usuario de Vim.',
+    'Camarero: ¡Socorro, esta persona se está axfisiando! ¿Hay algún doctor? Programador: No se preocupe, soy usuario de Vim.',
     'Un buen programador mira a ambos lados de la calle al cruzarla, aunque sea de sentido único',
     'Solo hay 10 tipos de personas, las que entienden hexadecimal y las 15 restantes.',
     'Solo hay 10 tipos de personas en el mundo, las que entienden binario y las que no.',
