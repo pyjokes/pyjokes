@@ -13,7 +13,7 @@ neutral = [
     'Hardware: La parte de un ordenador a la que puedes golpear',
     'Optimista: El vaso esta medio lleno. Pesimista: El vaso esta medio vacio. Programador: El vaso es el doble de grande de lo necesario.',
     'Si reproduces un CD de instalacion de Windows al reves escucharas canticos satanicos... y lo que es peor, si lo reproduces normalmente te instalara Windows.',
-    'Hijo: ¿Papa, por qué el sol sale por el Este y se mete por el Oeste? Padre: Hijo, está funcionando, ¡asi que no lo toques!',
+    'Hijo: ¿Papa, por que el sol sale por el Este y se mete por el Oeste? Padre: Hijo, está funcionando, ¡asi que no lo toques!',
     'Camarero: ¿Le gustaria tomar un te o un cafe? Programador: Si',
     '¿Cómo generar una cadena aleatoria de caracteres alfanumericos? Pon a un estudiante de primer año de informatica delante de un documento en Vim y pidele que guarde y salga del programa',
     'Llevo usando Vim desde hace muchos años... principalmente porque no se exactamente como salir',
