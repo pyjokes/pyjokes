@@ -35,7 +35,7 @@ neutral = [
     "A programmer was found dead in the shower. Next to their body was a bottle of shampoo with the instructions 'Lather, Rinse and Repeat'.",
     "Optimist: The glass is half full. Pessimist: The glass is half empty. Programmer: The glass is twice as large as necessary.",
     "In C we had to code our own bugs. In C++ we can inherit them.",
-    "How come there is not obfuscated Perl contest? Because everyone would win.",
+    "How come there is no obfuscated Perl contest? Because everyone would win.",
     "If you play a Windows CD backwards, you'll hear satanic chanting ... worse still, if you play it forwards, it installs Windows.",
     "How many programmers does it take to kill a cockroach? Two: one holds, the other installs Windows on it.",
     "What do you call a programmer from Finland? Nerdic.",
