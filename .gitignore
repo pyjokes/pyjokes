@@ -1,7 +1,8 @@
+__pycache__
 *.pyc
-*.egg-info/
-build/
-dist/
-website
-.idea/
-.cache/
+*.egg-info
+build
+dist
+.idea
+.cache
+.coverage

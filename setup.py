@@ -1,11 +1,9 @@
+"Setup script for the pyjokes package"
+
 import os
 import sys
-from   setuptools import setup, find_packages
-from   setuptools.command.test import test as TestCommand
-
-
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+from setuptools import setup, find_packages
+from setuptools.command.test import test as TestCommand
 
 
 class PyTest(TestCommand):
@@ -27,29 +25,36 @@ class PyTest(TestCommand):
         sys.exit(errno)
 
 
-setup(
-    name="pyjokes",
-    version="0.5.0",
-    author="Pyjokes Society",
-    description="One line jokes for programmers (jokes as a service)",
-    license="BSD",
-    keywords=[
-        "pyjokes",
-        "jokes",
-    ],
-    url="https://github.com/pyjokes/pyjokes",
-    packages=find_packages(),
-    long_description=read('README.rst'),
-    scripts=['scripts/pyjoke',
-             'scripts/pyjokes'],
-    classifiers=[
-        "Development Status :: 4 - Beta",
-        "Topic :: Utilities",
-        "License :: OSI Approved :: BSD License",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 3",
-    ],
-    #test requirements and class specification:
-    tests_require=['pytest'],
-    cmdclass={ 'test' : PyTest },
-)
+def main():
+    "Executes setup when this script is the top-level"
+    import pyjokes as app
+    from pathlib import Path
+
+    with Path(__file__).with_name('README.rst').open() as readme:
+        setup(
+            name=app.__project__,
+            version=app.__version__,
+            description=app.__doc__,
+            long_description=readme.read(),
+            classifiers=app.__classifiers__,
+            author=app.__author__,
+            author_email=app.__author_email__,
+            url=app.__url__,
+            license=[
+                c.rsplit('::', 1)[1].strip()
+                for c in app.__classifiers__
+                if c.startswith('License ::')
+            ][0],
+            keywords=app.__keywords__,
+            packages=find_packages(),
+            include_package_data=True,
+            platforms=app.__platforms__,
+            entry_points=app.__entry_points__,
+            tests_require=app.__test_requires__,
+            cmdclass={
+                'test': PyTest
+            },
+        )
+
+if __name__ == '__main__':
+    main()

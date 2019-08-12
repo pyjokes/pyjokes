@@ -19,7 +19,8 @@ See the `documentation`_ for installation instructions.
 Usage
 =====
 
-Once installed, simply call `pyjoke` from the command line or add it to your .bashrc file to see a joke everytime you start a terminal session.
+Once installed, simply call `pyjoke` from the command line or add it to your
+.bashrc file to see a joke every time you open a terminal.
 
 Use the `-c` flag to get jokes from a specific category. Options::
 
@@ -28,9 +29,10 @@ Use the `-c` flag to get jokes from a specific category. Options::
     -c all (all jokes)
     -c twister (Tongue-twister)
 
-You can also access the jokes in your own project by importing `pyjokes` and using the functions `get_joke` and `get_jokes`
+You can also access the jokes in your own project by importing `pyjokes` and
+using the functions `get_joke` and `get_jokes`.
 
-Comprehensive documentation is available at http://pyjok.es
+Documentation is available at https://pyjok.es/
 
 Contributors
 ============
@@ -64,19 +66,11 @@ Contributing
 * Feel free to contribute jokes (via pull request or `proposal issue`_)
 * See the `contributing policy`_ on GitHub
 
-Tests
-=====
-
-Install requirements (pytest)
-
-Run tests::
-
-    python setup.py test
-
 Pyjokes Society
 ===============
 
-This project was founded at `PySS 2014`_ and is directed by the `Pyjokes Society`_.
+This project was founded at `PySS 2014`_ and is directed by the
+`Pyjokes Society`_.
 
 
 .. _documentation: http://pyjok.es/install/
