@@ -2,7 +2,8 @@
 
 ## Jokes
 
-New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/pyjokes/issues/10) or via pull request.
+New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/pyjokes/issues/10)
+or via pull request.
 
 New languages are welcome and should follow the existing format.
 
@@ -22,11 +23,13 @@ New categories should be proposed in a [GitHub issue](https://github.com/pyjokes
 
 ## Technical Issues
 
-Please report bugs and other issues as [GitHub issues](https://github.com/pyjokes/pyjokes/issues) ensuring to give as much detail about your problem as possible.
+Please report bugs and other issues as [GitHub issues](https://github.com/pyjokes/pyjokes/issues)
+ensuring to give as much detail about your problem as possible.
 
 ## Complaints
 
-If you have a problem with the content of the jokes, please raise a [GitHub issue](https://github.com/pyjokes/pyjokes/issues) for us to discuss.
+If you have a problem with the content of the jokes, please raise a [GitHub issue](https://github.com/pyjokes/pyjokes/issues)
+for us to discuss.
 
 ## Development Policy
 

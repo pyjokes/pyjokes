@@ -27,4 +27,9 @@ __entry_points__ = {
     ],
 }
 
-__test_requires__ = ['pytest', 'tox', 'coverage']
+__requires__ = []
+
+__extra_requires__ = {
+    'doc':   ['mkdocs'],
+    'test':  ['pytest', 'coverage', 'tox'],
+}
