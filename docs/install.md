@@ -1,6 +1,6 @@
 # Install pyjokes
 
-## Pip
+## pip
 
 ```bash
 pip3 install pyjokes
@@ -19,9 +19,6 @@ sudo apt install python3-pip
 sudo pip3 install pyjokes
 ```
 
-or for Python 2:
-
-```bash
-sudo apt install python-pip
-sudo pip install pyjokes
-```
+pyjokes is also packaged for [Debian](https://packages.debian.org/source/buster/pyjokes)
+and [Ubuntu](https://packages.ubuntu.com/source/bionic/pyjokes), but this
+version may be older than what is available from PyPI.

@@ -4,8 +4,7 @@
 PYTHON=python
 PIP=pip
 TOX=tox
-PYTEST=py.test
-COVERAGE=coverage
+PYTEST=pytest
 TWINE=twine
 MKDOCS=mkdocs
 PYFLAGS=
@@ -51,8 +50,7 @@ develop: tags
 	$(PIP) install -U pip
 	$(PIP) install -e .[doc,test]
 
-test:
-	$(TOX)
+test: $(TOX)
 
 clean:
 	dh_clean
