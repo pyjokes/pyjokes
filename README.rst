@@ -6,8 +6,8 @@ pyjokes
     :target: https://badge.fury.io/py/pyjokes
 .. image:: https://travis-ci.org/pyjokes/pyjokes.svg
     :target: https://travis-ci.org/pyjokes/pyjokes
-.. image:: https://img.shields.io/codecov/c/github/pyjokes/pyjokes/master.svg?maxAge=2592000
-    :target: https://codecov.io/github/pyjokes/pyjokes
+.. image:: https://coveralls.io/repos/pyjokes/pyjokes/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/pyjokes/pyjokes?branch=master
 
 One line jokes for programmers (jokes as a service)
 
