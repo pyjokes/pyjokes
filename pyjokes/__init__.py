@@ -9,7 +9,7 @@ __version__      = '0.6.0'
 __keywords__     = ['pyjokes', 'pyjokes', 'jokes', 'joke']
 __author__       = 'Pyjokes Society'
 __author_email__ = 'ben@bennuttall.com'
-__url__          = 'https:/pyjok.es/'
+__url__          = 'https://pyjok.es/'
 __platforms__    = 'ALL'
 
 __classifiers__ = [
