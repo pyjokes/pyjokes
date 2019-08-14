@@ -1,6 +1,6 @@
 site_name: pyjokes
 theme: mkdocs
-site_url: http://pyjok.es/
+site_url: https://pyjok.es/
 repo_url: https://github.com/pyjokes/pyjokes
 site_description: One-line programmer jokes (jokes-as-a-service)
 site_author: Pyjokes Society
