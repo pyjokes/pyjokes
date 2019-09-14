@@ -5,6 +5,7 @@ from pyjokes.jokes_fr import jokes_fr
 from pyjokes.jokes_gl import jokes_gl
 from pyjokes.jokes_eu import jokes_eu
 from pyjokes.jokes_it import jokes_it
+from pyjokes.jokes_se import jokes_se
 
 
 def _test_joke_length(joke):
@@ -17,6 +18,6 @@ def _test_joke_group(jokes):
 
 
 def test_jokes_lengths():
-    jokes_sets = [jokes_en, jokes_es, jokes_fr, jokes_de, jokes_gl, jokes_eu, jokes_it]
+    jokes_sets = [jokes_en, jokes_es, jokes_fr, jokes_de, jokes_gl, jokes_eu, jokes_it, jokes_se]
     for jokes in jokes_sets:
-        _test_joke_group(jokes['all'])
+        _test_joke_group(jokes["all"])
