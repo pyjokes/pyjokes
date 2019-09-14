@@ -7,6 +7,7 @@ from .jokes_es import jokes_es
 from .jokes_gl import jokes_gl
 from .jokes_eu import jokes_eu
 from .jokes_it import jokes_it
+from .jokes_se import jokes_se
 
 all_jokes = {
     'en': jokes_en,
@@ -15,6 +16,7 @@ all_jokes = {
     'gl': jokes_gl,
     'eu': jokes_eu,
     'it': jokes_it,
+    'se': jokes_se,
 }
 
 
