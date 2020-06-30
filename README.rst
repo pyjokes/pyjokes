@@ -55,6 +55,7 @@ Jokes:
 * `Martin O'Hanlon`_
 * `Graham Markall`_
 * `Andreas Reinle`_
+* `Tomasz Rozynek`_
 
 
 Contributing
