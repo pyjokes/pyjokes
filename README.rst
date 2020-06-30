@@ -89,6 +89,7 @@ This project was founded at `PySS 2014`_ and is directed by the
 .. _Martin O'Hanlon: https://github.com/martinohanlon
 .. _Graham Markall: https://github.com/gmarkall
 .. _Andreas Reinle: https://github.com/gras64
+.. _Tomasz Rozynek: https://github.com/r0d0dendr0n
 .. _BSD Licence: http://opensource.org/licenses/BSD-3-Clause
 .. _GitHub: https://github.com/pyjokes/pyjokes
 .. _GitHub Issues: https://github.com/pyjokes/pyjokes/issues
