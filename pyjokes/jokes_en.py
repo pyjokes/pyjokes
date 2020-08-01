@@ -8,6 +8,7 @@ http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page
 neutral = [
     "Complaining about the lack of smoking shelters, the nicotine addicted Python programmers said there ought to be 'spaces for tabs'.",
     "Ubuntu users are apt to get this joke.",
+    "How many Haskell programmers does it take to change a lightbulb? Haskell programmers don't 'change' lightbulbs, they 'replace' them. And you must also replace the whole house at the same time.",
     "Obfuscated Reality Mappers (ORMs) can be useful database tools.",
     "Asked to explain Unicode during an interview, Geoff went into detail about his final year university project. He was not hired.",
     "Triumphantly, Beth removed Python 2.7 from her server in 2030. 'Finally!' she said with glee, only to see the announcement for Python 4.4.",
