@@ -9,7 +9,7 @@ pyjokes
 .. image:: https://coveralls.io/repos/pyjokes/pyjokes/badge.svg?branch=master&service=github
     :target: https://coveralls.io/github/pyjokes/pyjokes?branch=master
 
-One line jokes for programmers (jokes as a service)
+One line jokes for programmers (jokes as a service) and serving programmers for future
 
 Installation
 ============
