@@ -9,8 +9,8 @@ pyjokes
 .. image:: https://coveralls.io/repos/pyjokes/pyjokes/badge.svg?branch=master&service=github
     :target: https://coveralls.io/github/pyjokes/pyjokes?branch=master
 
-One line jokes for programmers (jokes as a service)
-Example- "Complaining about the lack of smoking shelters, the nicotine addicted Python programmers said there ought to be 'spaces for tabs'.",
+One line jokes for programmers (jokes as a service).
+Like- "Complaining about the lack of smoking shelters, the nicotine addicted Python programmers said there ought to be 'spaces for tabs'.",
 
 Installation
 ============
