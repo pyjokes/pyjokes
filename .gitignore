@@ -1,7 +1,10 @@
+__pycache__
 *.pyc
-*.egg-info/
-build/
-dist/
+*.egg-info
+build
+dist
+.idea
+.cache
+.coverage*
+.tox
 website
-.idea/
-.cache/

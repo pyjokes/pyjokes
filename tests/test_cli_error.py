@@ -4,9 +4,8 @@ from subprocess import PIPE
 
 
 def test_pyjokes_call_exception():
-    pytest.raises(
-        subprocess.CalledProcessError, "subprocess.check_call('pyjokes')"
-    )
+    with pytest.raises(subprocess.CalledProcessError):
+        subprocess.check_call('pyjokes')
 
 
 def test_pyjokes_call_output():

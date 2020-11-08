@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import os
 import argparse
 from pyjokes import pyjokes
@@ -13,7 +11,7 @@ def create_argparser():
     parser.add_argument(
         '-c', '--category',
         dest='category',
-        choices=['neutral', 'adult', 'chuck', 'all'],
+        choices=['neutral', 'chuck', 'all', 'twister'],
         default='neutral',
         help='Joke category.'
     )
@@ -21,7 +19,7 @@ def create_argparser():
     parser.add_argument(
         '-l', '--language',
         dest='language',
-        choices=['en', 'de', 'es', 'fr'],
+        choices=['en', 'de', 'es', 'fr', 'gl', 'eu', 'it'],
         default='en',
         help='Joke language.'
     )
