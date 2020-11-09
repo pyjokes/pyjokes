@@ -103,6 +103,10 @@ neutral = [
     "I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. It was a trip down Memory Lane.",
     "!false, (It's funny because it's true)",
     "['hip', 'hip'] (hip hip array!)",
+    "Are you a RESTful API? because you GET my attention, PUT some love, POST the cutest smile, and DELETE my bad day.",
+    "I used to know a joke about Java, but I run out of memory.",
+    "Two bytes meet. The first byte asks, “Are you ill?” The second byte replies, “No, just feeling a bit off.",
+    "My girlfriend dumped me after I named a class after her. She felt I treated her like an object.",
 ]
 
 
