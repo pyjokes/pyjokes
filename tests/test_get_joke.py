@@ -3,7 +3,7 @@ from pyjokes import get_joke, get_jokes
 from pyjokes.pyjokes import LanguageNotFoundError, CategoryNotFoundError
 
 
-languages = ['en', 'de', 'es', 'gl', 'eu', 'it']
+languages = ['en', 'de', 'es', 'gl', 'eu', 'it', 'lt']
 categories = ['neutral', 'all']
 test_data = ['', 'abc', '123']
 
