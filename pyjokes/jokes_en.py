@@ -215,6 +215,7 @@ chuck = [
     "Chuck Norris writes directly in binary. He then writes the source code as documentation for other programmers.",
     "Chuck Norris once shifted a bit so hard, it ended up on a different computer.",
     "Q: What is Chuck Norris's favorite Javascript framework? A: Knockout.js.",
+    "Q: Why does python live on land? A: Because it is above C level.",
 ]
 
 jokes_en = {
