@@ -20,3 +20,9 @@ neutral = [
 chuck = [
     "- Miért Chuck Norris a világ legjobb programozója? - ??? - Mert olyan kódot ír, ami saját magát képes optimalizálni."
 ]
+
+jokes_hu = {
+    'neutral': neutral,
+    'chuck': chuck,
+    'all': neutral + chuck,
+}
