@@ -2,10 +2,12 @@
 
 """
 Most of the jokes are from https://viccfaktor.hu/cimke/programozo-viccek/, and https://gremmedia.hu/programozo-viccek
-Chuck Norris jokes transated from english
+Chuck Norris jokes translated from english
+12-16 also translated from english
 //
 A viccek nagy része a https://viccfaktor.hu/cimke/programozo-viccek/ weboldalról és a https://gremmedia.hu/programozo-viccek weboldalról származik
 Chuck Norris viccek angolról fordítva
+12-16 szintén angolról fordítva.
 """
 
 neutral = [
@@ -20,7 +22,12 @@ neutral = [
     "Mit mond egy GitHub felhasználő amikor megtudja hogy ellopták a kódját? 'Köszönöm a fork-ot.'",
     "A programozó elmegy a hamburgereshez. Megkérdezik tőle: -Ketchup vagy majonéz? Programozó: -Igen",
     "A programozó vizsgázik. -A 0 az hamis, az 1 pedig igaz, nemde? -1.",
-    "Miért mondható el, hogy a programozók mind őrültek? Ha éppen nincs semmi problémájuk, akkor kitalálnak egyet saját maguk számára."
+    "Miért mondható el, hogy a programozók mind őrültek? Ha éppen nincs semmi problémájuk, akkor kitalálnak egyet saját maguk számára.",
+    "Egy COBOL programozó milliókat keres az Y2K kármentesítéssel, és úgy dönt, hogy kriogén módon lefagyasztja magát. \"Az év 9999. Ismeri a COBOL-t, ugye?\"",
+    "A C nyelv az assembly nyelv minden erejét egyesíti az assembly nyelv könnyű használhatóságával.",
+    "Egy SEO szakértő besétál egy bárba, bárba, kocsmába, nyilvános házba, ír kocsmába, kocsmába, csaposba, sörbe, italba, borba, alkoholba, szeszes italokba...",
+    "Mit jelent az \"Emacs\"? \"Kizárólag középkorú informatikusok használják.\"",
+    "Mi a közös a pyjokes és az Adobe Flash között? Folyamatosan frissül, de soha nem lesz jobb."
 ]
 
 chuck = [
@@ -40,7 +47,6 @@ chuck = [
     "Chuck Norris nem használ webes szabványokat, mivel a web megfelelni fog neki.",
     "\"Az én gépemen működik\" Chuck Norrisra mindig igaz.",
     "Chuck Norris nem Burn Down listákat, hanem Smack Down slágereket készít.",
-    "Chuck Norris törölheti a kukát.",
     "Chuck Norris szakálla percenként 140 szót tud gépelni.",
     "Chuck Norris képes teljes alkalmazásokat tesztelni egyetlen kijelentéssel: \"működik\".",
     "Chuck Norris nem bugokra vadászik, mivel ez a kudarc valószínűségét jelenti, hanem bugokat gyilkol.",
