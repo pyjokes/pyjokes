@@ -53,7 +53,7 @@ neutral = [
     "What is Benoit B. Mandelbrot's middle name? Benoit B. Mandelbrot.",
     "Why are you always smiling? That's just my... regular expression.",
     "ASCII stupid question, get a stupid ANSI.",
-    "A programmer had a problem. He thought to himself, 'I know, I'll solve it with threads!'. has Now problems. two he",
+    "A programmer had a problem. He thought to himself, 'I know, I'll solve it with threads!'. He now has 2 problems.",
     "Why do sin and tan work? Just cos.",
     "Java: Write once, run away.",
     "I would tell you a joke about UDP, but you would never get it.",
