@@ -14,7 +14,10 @@ neutral = [
     'Solo hay 10 tipos de personas en el mundo: las que entienden trinario, las que no, y las que lo confunden con binario.',
     'Una mujer le dice a su marido informático: Ve al supermercado y trae una barra de pan, y si hay huevos, doce. Trajo doce barras de pan.',
     '¿Quién demonios es el General Failure, y qué hace intentando leer mi disco duro?',
-    '¿En qué se diferencian Windows y un virus? En que el virus funciona, y es gratis.'
+    '¿En qué se diferencian Windows y un virus? En que el virus funciona, y es gratis.',
+    'Cuando un informático te diga que tiene gemelos, en realidad lo que tiene es un hijo y la copia de seguridad.',
+    '¿Qué diferencia hay entre hacer la colada y utilizar Windows? Que la colada no se cuelga sola',
+    '¿Por qué C consigue todas las chicas y Java no consigue ninguna? Porque C no las trata como objetos'
 ]
 
 jokes_es = {
