@@ -20,7 +20,27 @@ neutral = [
     '¿Por qué C consigue todas las chicas y Java no consigue ninguna? Porque C no las trata como objetos'
 ]
 
+chuck = [
+    'El código de Chuck Norris no sigue ninguna convención de programación. Chuck Norris es la convención de programación.',
+    'Cuando Chuck Norris lanza una excepción, nada ni nadie puede atraparla.',
+    'No hay ninguna tecla CONTROL en el ordenador de Chuck Norris. Chuck Norris siempre tiene el control.',
+    'Chuck Norris no utiliza excepciones cuando programa. No ha sido capaz de identificar nada en su código que no sea excepcional.',
+    'Chuck Norris hizo su último proyecto enteramente en Microsoft Paint, sólo por el desafío.',
+    'Chuck Norris no reconoce los tipos anónimos en .NET... Los conoce a todos y sabe dónde viven.',
+    'La séptima forma normal (7NF) para la normalización de bases de datos es Chuck Norris.',
+    'Cuando Chuck Norris resuelve una ecuación, las variables se convierten en constantes.',
+    'Todas las funciones y tipos anónimos se llaman en realidad Chuck Norris. Solo que no les gusta presumir.',
+    'Chuck Norris hace programación en pareja, pero con él mismo.',
+    'Chuck Norris no nació, fue compilado.',
+    'Chuck Norris no necesita delegados, hace todo el trabajo él mismo.',
+    'El teclado de Chuck Norris no tiene tecla F1, es el ordenador el que le pide ayuda a él.',
+    'Si Chuck Norris hiciera una pregunta duplicada en StackOverflow, la pregunta original se marcaría como duplicada.',
+    'Chuck Norris puede dividir entre 0.',
+    'Cuando Chuck Norris referencia un puntero a null, null tiembla de miedo'
+]
+
 jokes_es = {
     'neutral': neutral,
-    'all': neutral,
+    'chuck': chuck,
+    'all': neutral + chuck,
 }
