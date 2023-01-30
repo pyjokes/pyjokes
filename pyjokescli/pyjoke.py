@@ -19,7 +19,7 @@ def create_argparser():
     parser.add_argument(
         '-l', '--language',
         dest='language',
-        choices=['en', 'de', 'es', 'gl', 'eu', 'it', 'hu', 'ru'],
+        choices=['en', 'de', 'es', 'gl', 'eu', 'it', 'hu', 'ru', 'fr'],
         default='en',
         help='Joke language.'
     )
@@ -38,7 +38,7 @@ def main():
         exit(-1)
 
     try:
-        joke = pyjokes.get_joke(language=args.language, category=args.category)
+        joke = pyjokes.get_joke(lang=args.language, category=args.category)
     except pyjokes.LanguageNotFoundError:
         print('No such language %s' % args.language)
         exit(-1)
