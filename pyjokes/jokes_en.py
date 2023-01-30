@@ -103,7 +103,7 @@ neutral = [
     "I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. It was a trip down Memory Lane.",
     "!false, (It's funny because it's true)",
     "['hip', 'hip'] (hip hip array!)",
-    "In a call, Programmer: The ship I boarded crashed and I am dying! Project Manager: Then let's do a quick knowledge transfer session before you go"
+    "Programmer: The ship I boarded crashed and I am dying! Project Manager: Then let's do a quick knowledge transfer session before you go"
 ]
 
 
