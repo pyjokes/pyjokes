@@ -33,7 +33,7 @@ def get_jokes(language='en', category='neutral'):
     Parameters
     ----------
     category: str
-        Choices: 'neutral', 'chuck', 'all', 'twister'
+        Choices: 'neutral', 'chuck', 'all', 'twister', 'dark'
     lang: str
         Choices: 'en', 'de', 'es', 'gl', 'eu', 'it', 'hu'
 
@@ -58,7 +58,7 @@ def get_joke(language='en', category='neutral'):
     Parameters
     ----------
     category: str
-        Choices: 'neutral', 'chuck', 'all', 'twister'
+        Choices: 'neutral', 'chuck', 'all', 'twister', 'dark'
     lang: str
         Choices: 'en', 'de', 'es', 'gl', 'eu', 'it', 'hu'
 
