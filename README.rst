@@ -28,6 +28,7 @@ Use the `-c` flag to get jokes from a specific category. Options::
 
     -c neutral [default] (neutral geek jokes)
     -c chuck (Chuck Norris geek jokes)
+    -c dark (Dark Humor jokes)
     -c all (all jokes)
 
 You can also access the jokes in your own project by importing `pyjokes` and
