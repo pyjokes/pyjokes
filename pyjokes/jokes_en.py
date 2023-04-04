@@ -103,6 +103,7 @@ neutral = [
     "I went to a street where the houses were numbered 8k, 16k, 32k, 64k, 128k, 256k and 512k. It was a trip down Memory Lane.",
     "!false, (It's funny because it's true)",
     "['hip', 'hip'] (hip hip array!)",
+    "Why do programmers prefer dark mode? Because light attracts bugs.",
 ]
 
 
