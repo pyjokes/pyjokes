@@ -19,7 +19,7 @@ def create_argparser():
     parser.add_argument(
         '-l', '--language',
         dest='language',
-        choices=['en', 'de', 'es', 'fr', 'gl', 'eu', 'it'],
+        choices=['en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu'],
         default='en',
         help='Joke language.'
     )
