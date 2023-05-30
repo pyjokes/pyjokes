@@ -1,4 +1,3 @@
-import os
 import argparse
 from pyjokes import pyjokes
 
@@ -47,6 +46,7 @@ def main():
         exit(-1)
 
     print(joke)
+
 
 if __name__ == '__main__':
     main()
