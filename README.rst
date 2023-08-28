@@ -44,7 +44,7 @@ Development:
 * `Alex Savio`_
 * `Borja Ayerdi`_
 * `Oier Etxaniz`_
-* `Petras Balint`_
+* `Bálint Petrás`_
 
 Jokes:
 
