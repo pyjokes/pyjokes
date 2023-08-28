@@ -1,6 +1,6 @@
 """Setup script for the pyjokes package"""
 
-import sys
+# import sys
 from setuptools import setup, find_packages
 import os
 

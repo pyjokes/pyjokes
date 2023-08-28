@@ -12,7 +12,7 @@ def test_get_joke():
     assert get_joke()
 
     for language in languages:
-        assert get_joke()
+        assert get_joke(language=language)
 
     for category in categories:
         assert get_joke(category=category)
@@ -42,6 +42,6 @@ def test_get_joke_in_language_with_category_raises():
 
 def test_all_jokes_are_funny():
     for language in languages:
-        jokes = get_jokes(category='all')
+        jokes = get_jokes(language=language, category='all')
         for joke in jokes:
             assert True

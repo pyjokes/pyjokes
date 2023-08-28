@@ -1,4 +1,3 @@
-import os
 import argparse
 from pyjokes import pyjokes
 
@@ -38,7 +37,7 @@ def main():
         exit(-1)
 
     try:
-        joke = pyjokes.get_joke(lang=args.language, category=args.category)
+        joke = pyjokes.get_joke(language=args.language, category=args.category)
     except pyjokes.LanguageNotFoundError:
         print('No such language %s' % args.language)
         exit(-1)
@@ -47,6 +46,7 @@ def main():
         exit(-1)
 
     print(joke)
+
 
 if __name__ == '__main__':
     main()
