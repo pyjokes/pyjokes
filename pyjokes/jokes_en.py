@@ -108,6 +108,7 @@ neutral = [
     "What does IBM stand for? I'm Buying Maggots.",
     "What does IBM stand for? I'm Buying Milk.",
     "What does IBM stand for? I'm Buying M...",
+    "Why do programmers prefer dark mode? Because light attracts bugs.",
 ]
 
 
