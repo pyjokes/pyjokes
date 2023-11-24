@@ -64,7 +64,7 @@ def get_joke(language='en', category='neutral'):
     category: str
         Choices: 'neutral', 'chuck', 'all', 'twister'
     lang: str
-        Choices: 'en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'ru
+        Choices: 'en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'ru'
 
     Returns
     -------
