@@ -7,7 +7,7 @@ http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page
 
 neutral = [
     "Quel Pokemon a une mitraillette ?   Ratatatatatatatatata",
-    "A quoi sert Internet Explorer ? À télécharger Google Chrome."
+    "A quoi sert Internet Explorer ? À télécharger Google Chrome."
 ]
 
 jokes_fr = {
