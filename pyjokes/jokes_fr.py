@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 
+"""
+Initial jokes from stackoverflow - provided under CC BY-SA 3.0
+http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page=4&tab=votes#tab-top
+"""
+
 neutral = [
+    "Quel Pokemon a une mitraillette? Ratatatatatatatatata",
+    "A quoi sert Internet Explorer ? À télécharger Google Chrome.",
     "Optimiste: Le verre est à moitié plein. Pessimiste: Le verre est à moitié vide. Programmeur: Le verre est 2 fois plus grand que nécessaire.",
     "Où les programmeurs sortent habituellement. R. Foo Bar",
     "Comment comparer HTML et HTML5? Est-ce que cela fonctionne avec Internet Explorer? Non? C'est du HTML5.",
