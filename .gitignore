@@ -8,3 +8,7 @@ dist
 .coverage*
 .tox
 website
+.pytest_cache
+.vscode
+Pipfile
+Pipfile.lock
