@@ -28,6 +28,7 @@ Use the `-c` flag to get jokes from a specific category. Options::
 
     -c neutral [default] (neutral geek jokes)
     -c chuck (Chuck Norris geek jokes)
+    -c dark (Dark Humor jokes)
     -c all (all jokes)
 
 You can also access the jokes in your own project by importing `pyjokes` and
@@ -44,6 +45,7 @@ Development:
 * `Alex Savio`_
 * `Borja Ayerdi`_
 * `Oier Etxaniz`_
+* `Bálint Petrás`_
 
 Jokes:
 
@@ -82,6 +84,7 @@ This project was founded at `PySS 2014`_ and is directed by the
 .. _Alex Savio: https://github.com/alexsavio
 .. _Borja Ayerdi: https://github.com/borjaayerdi
 .. _Oier Etxaniz: https://github.com/oiertwo
+.. _Petras Balint: https://github.com/petint
 .. _Luke Wren: https://github.com/wren6991
 .. _Sarah Bird: https://github.com/birdsarah
 .. _Yash Mehrotra: https://github.com/yashmehrotra

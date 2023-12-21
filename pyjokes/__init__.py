@@ -1,11 +1,10 @@
-"One line jokes for programmers (jokes as a service)"
+"""One line jokes for programmers (jokes as a service)"""
 
-from __future__ import absolute_import
 from .pyjokes import get_joke, get_jokes
 
 
 __project__      = 'pyjokes'
-__version__      = '0.6.0'
+__version__      = '0.6.1'
 __keywords__     = ['pyjokes', 'pyjokes', 'jokes', 'joke']
 __author__       = 'Pyjokes Society'
 __author_email__ = 'ben@bennuttall.com'
@@ -16,7 +15,6 @@ __classifiers__ = [
     "Development Status :: 4 - Beta",
     "Topic :: Utilities",
     "License :: OSI Approved :: BSD License",
-    "Programming Language :: Python :: 2",
     "Programming Language :: Python :: 3",
 ]
 

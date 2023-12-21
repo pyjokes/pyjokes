@@ -1,4 +1,4 @@
-"Setup script for the pyjokes package"
+"""Setup script for the pyjokes package"""
 
 # import sys
 from setuptools import setup, find_packages
