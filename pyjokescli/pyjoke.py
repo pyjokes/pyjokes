@@ -4,7 +4,7 @@ from pyjokes import pyjokes
 
 def create_argparser():
     parser = argparse.ArgumentParser(
-        description='One line jokes for programmers (jokes as a service)'
+        description="One line jokes for programmers (jokes as a service)"
     )
 
     parser.add_argument(
@@ -18,7 +18,7 @@ def create_argparser():
     parser.add_argument(
         '-l', '--language',
         dest='language',
-        choices=['en', 'de', 'es', 'gl', 'eu', 'it', 'hu', 'ru', 'fr'],
+        choices=['en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl', 'cs', 'ru', 'se'],
         default='en',
         help='Joke language.'
     )
@@ -32,21 +32,21 @@ def main():
     try:
         args = parser.parse_args()
     except argparse.ArgumentError as exc:
-        print('Error parsing arguments.')
+        print("Error parsing arguments.")
         parser.error(str(exc.message))
         exit(-1)
 
     try:
         joke = pyjokes.get_joke(language=args.language, category=args.category)
     except pyjokes.LanguageNotFoundError:
-        print('No such language %s' % args.language)
+        print("No such language %s" % args.language)
         exit(-1)
     except pyjokes.CategoryNotFoundError:
-        print('No such category %s' % args.category)
+        print("No such category %s" % args.category)
         exit(-1)
 
     print(joke)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
