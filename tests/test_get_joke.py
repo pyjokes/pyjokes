@@ -3,9 +3,9 @@ from pyjokes import get_joke, get_jokes
 from pyjokes.pyjokes import LanguageNotFoundError, CategoryNotFoundError
 
 
-languages = ["en", "de", "es", "fr", "gl", "eu", "it", "se"]
-categories = ["neutral", "all"]
-test_data = ["", "abc", "123"]
+languages = ['en', 'de', 'es', 'fr', 'gl', 'eu', 'hu', 'it', 'lt', 'pl', 'ru', 'se']
+categories = ['neutral', 'all']
+test_data = ['', 'abc', '123']
 
 
 def test_get_joke():

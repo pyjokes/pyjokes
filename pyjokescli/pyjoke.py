@@ -17,12 +17,11 @@ def create_argparser():
     )
 
     parser.add_argument(
-        "-l",
-        "--language",
-        dest="language",
-        choices=["en", "de", "es", "fr", "gl", "eu", "it", "se", "hu"],
-        default="en",
-        help="Joke language.",
+        '-l', '--language',
+        dest='language',
+        choices=['en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl', 'cs', 'ru', 'se'],
+        default='en',
+        help='Joke language.'
     )
 
     return parser
