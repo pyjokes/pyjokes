@@ -10,8 +10,9 @@ from .jokes_cs import jokes_cs
 from .jokes_hu import jokes_hu
 from .jokes_pl import jokes_pl
 from .jokes_lt import jokes_lt
-from .jokes_ru import jokes_ru
 from .jokes_fr import jokes_fr
+from .jokes_se import jokes_se
+from .jokes_ru import jokes_ru
 from .jokes_se import jokes_se
 
 all_jokes = {
@@ -21,12 +22,13 @@ all_jokes = {
     'gl': jokes_gl,
     'eu': jokes_eu,
     'it': jokes_it,
-    'cs': jokes_cs,
     'hu': jokes_hu,
+    'fr': jokes_fr,
+    'se': jokes_se,
+    'ru': jokes_ru,
+    'cs': jokes_cs,
     'pl': jokes_pl,
     'lt': jokes_lt,
-    'ru': jokes_ru,
-    'fr': jokes_fr,
     'se': jokes_se
 }
 
@@ -46,8 +48,7 @@ def get_jokes(language='en', category='neutral'):
     category: str
         Choices: 'neutral', 'chuck', 'all', 'twister', 'dark'
     lang: str
-        Choices: 'en', 'de', 'es', 'gl', 'eu', 'fr', 'it', 'hu', 'lt', 'pl', 'cs', 'ru', 'se'
-
+        Choices: 'en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl', 'cs', 'ru', 'se', 'fr'
 
     Returns
     -------
@@ -72,7 +73,7 @@ def get_joke(language='en', category='neutral'):
     category: str
         Choices: 'neutral', 'chuck', 'all', 'twister', 'dark'
     lang: str
-        Choices: 'en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl', 'cs', 'ru'
+        Choices: 'en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl', 'cs', 'ru', 'fr'
 
     Returns
     -------
