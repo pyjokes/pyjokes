@@ -1,4 +1,3 @@
-import os
 import argparse
 from pyjokes import pyjokes
 
@@ -19,7 +18,7 @@ def create_argparser():
     parser.add_argument(
         '-l', '--language',
         dest='language',
-        choices=['en', 'de', 'es', 'gl', 'eu', 'it', 'pl'],
+        choices=['en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl'],
         default='en',
         help='Joke language.'
     )
@@ -47,6 +46,7 @@ def main():
         exit(-1)
 
     print(joke)
+
 
 if __name__ == '__main__':
     main()
