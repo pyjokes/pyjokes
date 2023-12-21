@@ -4,7 +4,7 @@ neutral = [
     "Was steht auf dem Grabstein eines Mathematikers? 'Damit hat er nicht gerechnet.'",
     "Ein Beamter zum anderen: 'Was haben die Leute nur, wir tun doch nichts'.",
     "Wenn ein Yogalehrer seine Beine senkrecht nach oben streckt und dabei furzt, welche Yoga Figur stellt er da? Eine Duftkerze.",
-   u"Frage: Was ist das beste geschenkt für trump? Antwort : klopapier was soll man einem arschloch denn sonst schenken",
+    u"Frage: Was ist das beste geschenkt für trump? Antwort : klopapier was soll man einem arschloch denn sonst schenken",
     "Ich wollte Spiderman anrufen, aber er hatte kein Netz.",
     "Sitzen 2 Bomben im Keller. Sagt die eine: 'Komm, lass hoch gehen.'",
     u"Wie nennt man jemand der so tut als würde er etwas werfen?  Einen Scheinwerfer.",
@@ -129,7 +129,7 @@ chuck = [
     u"Wenn sich ein Zug umbringen möchte, wirft er sich vor Chuck Norris. ",
     "Chuck Norris telefoniert trotz Tastensperre.",
     u"Chuck Norris hat keinen Schatten. Die Wand möchte nur so aussehen wie Chuck Norris.",
-   "Chuck Norris hat als Kind Sandburgen gebaut - heute nennt man sie Pyramiden.",
+    "Chuck Norris hat als Kind Sandburgen gebaut - heute nennt man sie Pyramiden.",
     "Chuck Norris kann eine Bank ausrauben und zwar per Telefonbanking.",
 ]
 twister = [

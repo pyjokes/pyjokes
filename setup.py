@@ -1,6 +1,6 @@
 "Setup script for the pyjokes package"
 
-import sys
+# import sys
 from setuptools import setup, find_packages
 import os
 
@@ -35,6 +35,7 @@ def main():
         install_requires=app.__requires__,
         extras_require=app.__extra_requires__,
     )
+
 
 if __name__ == '__main__':
     main()
