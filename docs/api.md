@@ -12,8 +12,8 @@ Returns a random joke from the given category in the given language.
 
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
-| language   | str   | 'en', 'de', 'es', 'gl' , 'eu', 'it', 'hu'| 'en' |
-| category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
+| language   | str   | 'en', 'de', 'es', 'gl', 'eu', 'it', 'hu', 'ru', 'fr'| 'en' |
+| category   | str   | 'neutral', 'chuck', 'all', 'twister' | 'neutral' |
 
 Return type: str
 
@@ -27,8 +27,8 @@ Returns a list of jokes from the given category in the given language.
 
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
-| language   | str   | 'en', 'de', 'es', 'gl', 'eu', 'it', 'hu' | 'en' |
-| category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
+| language   | str   | 'en', 'de', 'es', 'gl', 'eu', 'it', 'hu', 'ru', 'fr' | 'en' |
+| category   | str   | 'neutral', 'chuck', 'all', 'twister' | 'neutral' |
 
 Return type: list
 
@@ -49,5 +49,8 @@ These are all the languages supported by pyjokes:
 | Italian    | 'it'  |
 | Spanish    | 'es'  |
 | Hungarian  | 'hu'  |
+| Russian    | 'ru'  |
+| French     | 'fr'  |
+
 
 To add support for another language, please see the [contributing page](https://github.com/pyjokes/pyjokes/blob/master/CONTRIBUTING.md).

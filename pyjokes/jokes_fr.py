@@ -6,8 +6,8 @@ http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page
 """
 
 neutral = [
-    "Quel Pokemon a une mitraillette? Ratatatatatatatatata",
-    "A quoi sert Internet Explorer ? À télécharger Google Chrome.",
+    'Quel Pokemon a une mitraillette ?   Ratatatatatatatatata',
+    'A quoi sert Internet Explorer ? À télécharger Google Chrome.'
     "Optimiste: Le verre est à moitié plein. Pessimiste: Le verre est à moitié vide. Programmeur: Le verre est 2 fois plus grand que nécessaire.",
     "Où les programmeurs sortent habituellement. R. Foo Bar",
     "Comment comparer HTML et HTML5? Est-ce que cela fonctionne avec Internet Explorer? Non? C'est du HTML5.",

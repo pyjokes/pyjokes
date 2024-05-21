@@ -8,12 +8,11 @@ def create_argparser():
     )
 
     parser.add_argument(
-        "-c",
-        "--category",
-        dest="category",
-        choices=["neutral", "chuck", "all", "twister"],
-        default="neutral",
-        help="Joke category.",
+        '-c', '--category',
+        dest='category',
+        choices=['neutral', 'chuck', 'all', 'twister', 'dark'],
+        default='neutral',
+        help='Joke category.'
     )
 
     parser.add_argument(

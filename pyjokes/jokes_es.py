@@ -10,7 +10,17 @@ neutral = [
     'Fallece una persona mientras estudiaba en la biblioteca. ¿Qué estaba estudiando? La API de Windows.',
     '¿Qué le dice un GIF a un JPG? Anímate hombre...',
     '¿Qué dice un informático que se está ahogando en la playa?: ¡F1, F1!',
-    'Hardware: La parte de un ordenador a la que puedes golpear.',
+    'Solo hay 10 tipos de personas en el mundo: las que entienden binario y las que no.',
+    'Se abre el ascensor y hay un programador dentro, le preguntan: - Sube o baja? A lo que el programador responde: - Si.',
+    'Que le dice un bit al otro? Nos vemos en el bus.',
+    'Atracador: El dinero o la vida! Programador: Lo siento, soy programador. Atracador: Y? Programador: No tengo dinero ni vida.',
+    'Que es un terapeuta? - 1024 Gigapeutas',
+    'Cuantos programadores hacen falta para cambiar una bombilla? - Ninguno, porque es un problema de hardware.',
+    'Se abre el telon, aparece un informatico y dice: que habeis tocado que no se cierra el telon!',
+    '- ...fallece una persona mientras estudiaba en la biblioteca - Que estaba estudiando? - La API de Windows.',
+    'Que le dice un GIF a un JPG? -Animate hombre...',
+    'Que dice un informatico que se esta ahogando en la playa?: F1, F1!',
+    'Hardware: La parte de un ordenador a la que puedes golpear',
     'Vndo tclado casi nuvo a bun prcio solamnt falla una tcla.',
     'Error 0094782: No se detecta ningun teclado. Pulse una tecla para continuar...',
     'Optimista: El vaso está medio lleno. Pesimista: El vaso está medio vacio. Programador: El vaso es el doble de grande de lo necesario.',
@@ -37,6 +47,7 @@ chuck = [
     'No hay ninguna tecla CONTROL en el ordenador de Chuck Norris. Chuck Norris siempre tiene el control.',
     'Chuck Norris no utiliza excepciones cuando programa. No ha sido capaz de identificar nada en su código que no sea excepcional.',
     'Chuck Norris hizo su último proyecto enteramente en Microsoft Paint, sólo por el desafío.',
+    'Chuck Norris no reconoce los tipos anónimos en .NET... Los conoce a todos y sabe dónde viven.',
     'Chuck Norris no reconoce los tipos anónimos en .NET... Los conoce a todos y sabe dónde vive cada uno de ellos.',
     'La séptima forma normal (7NF) para la normalización de bases de datos es Chuck Norris.',
     'Cuando Chuck Norris resuelve una ecuación, las variables se convierten en constantes.',
@@ -47,7 +58,7 @@ chuck = [
     'El teclado de Chuck Norris no tiene tecla F1, es el ordenador el que le pide ayuda a él.',
     'Si Chuck Norris hiciera una pregunta duplicada en StackOverflow, la pregunta original se marcaría como duplicada.',
     'Chuck Norris puede dividir entre 0.',
-    'Cuando Chuck Norris referencia un puntero a null, null tiembla de miedo.'
+    'Cuando Chuck Norris referencia un puntero a null, null tiembla de miedo'
 ]
 
 jokes_es = {
