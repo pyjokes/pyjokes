@@ -25,20 +25,19 @@ neutral = [
     "Ką Java kodas pasakė C kodui...Jūs neturite klasės.",
     "Piratai sako 'arg!', Kompiuterių piratai -' argv! '",
     "Padavėjas: ar norėtumėte kavos ar arbatos? Programuotojas: taip.",
-    "Programuotojas turėjo klaidą. Jis galvojo:" Žinau, aš tai išspręsiu su theads! ". Dabar jis turi 2 problemas",
+    'Programuotojas turėjo klaidą. Jis galvojo: "Žinau, aš tai išspręsiu su theads!". Dabar jis turi 2 problemas',
     "Kaip sugeneruoti atsitiktinę eilutę? Įveskite pirmųjų kursų informatikos studentą į Vimą ir paprašykite išsaugoti ir išeiti.",
-    "Aš jau seniai naudojau" Vim ", daugiausia todėl, kad negaliu suprasti, kaip išeiti.",
-    "3 duomenų bazių administratoriai įžengė į" NoSQL "juostą. Kiek vėliau jie išėjo, nes nerado stalo.",
-    „Geriausias dalykas, susijęs su Boolean reikšme, yra tas, kad jeigu Jūs suklystate, jūs suklydote tik šiek tiek.“,
+    'Aš jau seniai naudojau "Vim", daugiausia todėl, kad negaliu suprasti, kaip išeiti.',
+    '3 duomenų bazių administratoriai įžengė į "NoSQL "juostą. Kiek vėliau jie išėjo, nes nerado stalo.',
+    "Geriausias dalykas, susijęs su Boolean reikšme, yra tas, kad jeigu Jūs suklystate, jūs suklydote tik šiek tiek.",
     "Yra du būdai rašyti programas be klaidų; veikia tik trečiasis.",
     "Dienų skaičius nuo tada, kai įvyko masyvo indekso klaida: -1.",
-    „' Microsoft' du kartus per mėnesį rengia vidinę„ produktyvią savaitę “, kurioje vietoj„ Bing “naudoja„ Google “.",
-    "Kas bendro tarp pyjokų ir" Adobe Flash "? Jie abu yra nuolat atnaujinami, bet niekada nepagerėja.",
+    "' Microsoft' du kartus per mėnesį rengia vidinę„ produktyvią savaitę “, kurioje vietoj„ Bing “naudoja„ Google “.",
+    'Kas bendro tarp pyjokų ir "Adobe Flash "? Jie abu yra nuolat atnaujinami, bet niekada nepagerėja.',
     "! false, (Tai juokinga, nes tai yra tiesa)",
-    
 ]
 
 jokes_lt = {
-  'neutral': neutral,
-  'all': neutral,
+    "neutral": neutral,
+    "all": neutral,
 }
