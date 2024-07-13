@@ -132,31 +132,9 @@ chuck = [
     "Chuck Norris hat als Kind Sandburgen gebaut - heute nennt man sie Pyramiden.",
     "Chuck Norris kann eine Bank ausrauben und zwar per Telefonbanking.",
 ]
-twister = [
-    "Acht alte Ameisen aßen am Abend Ananas. ",
-    "Als wir noch in der Wiege lagen, gab's noch keine Liegewagen. Jetzt kann man in den Wagen liegen und sich in allen Lagen wiegen. ",
-    "Brautkleid bleibt Brautkleid und Blaukraut bleibt Blaukraut.",
-    "Denen Dänen, denen Dänen Dänen dehnen, dehnen deren Dänen.",
-    "Einsame Esel essen nasse Nesseln gern, nasse Nesseln essen einsame Esel gern.",
-    "Der dicke Dachdecker deckt dir dein Dach. Drum dank dem Dachdecker, der dir dein Dach deckt.",
-    "Der Frosterfrosch frostet im Froschfroster, frostet der Frosterfrosch im Froschfroster? Im Froschfroster frostet der Frosterfrosch.",
-    "Fromme Frösche fressen frische Frühlingszwiebeln, aber freche Frösche fressen frische Früchte",
-    "Der Cottbusser Postkutscher putzt den Cottbusser Postkutschkasten. Den Cottbusser Postkutschkasten putzt der Cottbusser Postkutscher.",
-    "Es soll vorkommen, daß die Nachkommen mit dem Einkommen nicht mehr auskommen und dann vollkommen verkommen umkommen.",
-    "Auf den sieben Robbenklippen sitzen sieben Robbensippen, die sich in die Rippen stippen, bis sie von den Klippen kippen.",
-    "Das Schleimschwein schleimt schweinisch im Schleim, im Schleim schleimt schweinisch das Schleimschwein.",
-    "Wer nichts weiß und weiß, dass er nichts weiß, weiß mehr als der, der nichts weiß und nicht weiß, dass er nichts weiß.",
-    "Wir Wiener Wäscheweiber würden weiße Wäsche waschen, wenn wir wüssten, wo warmes, weiches Wasser wäre.",
-    "Vor Weihnachten wirbeln wunderschöne weiße Schneeflocken wie weiche wollige Watte über den Waldrand hinweg.",
-    "Zwischen zwei Zwetschgenzweigen sitzen zwei zechenschwarze tschechisch zwitschernde Zwergschwalben.",
-    "Geschwisterzwist zwischen Slivovic schlürfenden, spitzen, twistenden und schwitzenden Zwitscherschwestern.",
-    "Wenn Grillen Grillen grillen, grillen Grillen Grillen!",
-    "Herr von Hagen darf ich's wagen, sie zu fragen, welchen Kragen sie getragen, als sie lagen krank am Magen in der Stadt zu Kopenhagen.",
-]
 
 jokes_de = {
     "neutral": neutral,
-    "all": neutral + chuck + twister,
+    "all": neutral + chuck,
     "chuck": chuck,
-    "twister": twister,
 }
