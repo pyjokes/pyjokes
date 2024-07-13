@@ -1,4 +1,3 @@
-__pycache__
 *.pyc
 *.egg-info
 build
@@ -9,6 +8,4 @@ dist
 .tox
 website
 .pytest_cache
-.vscode
-Pipfile
-Pipfile.lock
+poetry.lock
