@@ -14,6 +14,7 @@ from .jokes_hu import jokes_hu
 from .jokes_fr import jokes_fr
 from .jokes_se import jokes_se
 from .jokes_ru import jokes_ru
+from .exc import LanguageNotFoundError, CategoryNotFoundError
 
 
 all_jokes = {
@@ -32,14 +33,6 @@ all_jokes = {
     "pl": jokes_pl,
     "lt": jokes_lt,
 }
-
-
-class LanguageNotFoundError(Exception):
-    pass
-
-
-class CategoryNotFoundError(Exception):
-    pass
 
 
 def get_jokes(language="en", category="neutral"):
