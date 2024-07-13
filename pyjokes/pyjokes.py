@@ -1,78 +1,61 @@
 import random
+from typing import Literal
 
-from .jokes_en import jokes_en
+from .jokes_cs import jokes_cs
 from .jokes_de import jokes_de
+from .jokes_en import jokes_en
 from .jokes_es import jokes_es
+from .jokes_eu import jokes_eu
 from .jokes_fr import jokes_fr
 from .jokes_gl import jokes_gl
-from .jokes_eu import jokes_eu
-from .jokes_it import jokes_it
-from .jokes_cs import jokes_cs
-from .jokes_pl import jokes_pl
-from .jokes_lt import jokes_lt
 from .jokes_hu import jokes_hu
-from .jokes_fr import jokes_fr
-from .jokes_se import jokes_se
+from .jokes_it import jokes_it
+from .jokes_lt import jokes_lt
+from .jokes_pl import jokes_pl
 from .jokes_ru import jokes_ru
+from .jokes_se import jokes_se
 from .exc import LanguageNotFoundError, CategoryNotFoundError
 
 
 all_jokes = {
-    "en": jokes_en,
+    "cs": jokes_cs,
     "de": jokes_de,
+    "en": jokes_en,
     "es": jokes_es,
+    "eu": jokes_eu,
     "fr": jokes_fr,
     "gl": jokes_gl,
-    "eu": jokes_eu,
-    "it": jokes_it,
     "hu": jokes_hu,
-    "fr": jokes_fr,
-    "se": jokes_se,
-    "ru": jokes_ru,
-    "cs": jokes_cs,
-    "pl": jokes_pl,
+    "it": jokes_it,
     "lt": jokes_lt,
+    "pl": jokes_pl,
+    "ru": jokes_ru,
+    "se": jokes_se,
 }
 
 
-def get_jokes(language="en", category="neutral"):
+LANGUAGES = Literal["cs", "de", "en", "es", "eu", "fr", "gl", "hu", "it", "lt", "pl", "ru", "se"]
+CATEGORIES = Literal["neutral", "chuck", "all"]
+
+
+def get_jokes(language: LANGUAGES = "en", category: CATEGORIES = "neutral") -> list[str]:
     """
-    Parameters
-    ----------
-    category: str
-        Choices: 'neutral', 'chuck', 'all', 'twister'
-    lang: str
-        Choices: 'en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl', 'cs', 'ru', 'se', 'fr'
-
-    Returns
-    -------
-    jokes: list
+    Get a list of jokes from the given language and category
     """
+    try:
+        jokes = all_jokes[language]
+    except KeyError:
+        raise LanguageNotFoundError(f"No such language: {language}")
 
-    if language not in all_jokes:
-        raise LanguageNotFoundError("No such language %s" % language)
-
-    jokes = all_jokes[language]
-
-    if category not in jokes:
+    try:
+        return jokes[category]
+    except KeyError:
         raise CategoryNotFoundError("No such category %s in language %s" % (category, language))
 
-    return jokes[category]
 
-
-def get_joke(language="en", category="neutral"):
+def get_joke(language: LANGUAGES = "en", category: CATEGORIES = "neutral") -> str:
     """
-    Parameters
-    ----------
-    category: str
-        Choices: 'neutral', 'chuck', 'all', 'twister'
-    lang: str
-        Choices: 'en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl', 'cs', 'ru', 'fr'
-
-    Returns
-    -------
-    joke: str
+    Get a single joke from the given language and category
     """
-
     jokes = get_jokes(language, category)
     return random.choice(jokes)
