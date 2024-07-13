@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyjokes"
-version = "0.7.0"
+version = "0.7.1"
 description = "One line jokes for programmers (jokes as a service)"
 authors = [
     "Ben Nuttall <ben@bennuttall.com>",

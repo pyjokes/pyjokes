@@ -1,7 +1,6 @@
 # pyjokes
 
-.. image:: https://badge.fury.io/py/pyjokes.svg
-    :target: https://badge.fury.io/py/pyjokes
+[![](https://badge.fury.io/py/pyjokes.svg)](https://pypi.org/project/pyjokes/)
 
 One line jokes for programmers (jokes as a service)
 
