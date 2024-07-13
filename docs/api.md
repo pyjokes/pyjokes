@@ -12,10 +12,10 @@ Returns a random joke from the given category in the given language.
 
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
-| language   | str   | 'en', 'de', 'es', 'gl' , 'eu', 'it', 'hu'| 'en' |
-| category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
+| `language` | `str` | See `LANGUAGES` | `en` |
+| `category` | `str` | See `CATEGORIES` | `neutral` |
 
-Return type: str
+Return type: `str`
 
 If the `language` value provided is not available, a `LanguageNotFoundError` exception is raised.
 
@@ -27,10 +27,10 @@ Returns a list of jokes from the given category in the given language.
 
 | Parameters | Types | Values | Default |
 | ---------- | ----- | ------ | ------- |
-| language   | str   | 'en', 'de', 'es', 'gl', 'eu', 'it', 'hu' | 'en' |
-| category   | str   | 'neutral', 'chuck', 'all' | 'neutral' |
+| `language` | `str` | See `LANGUAGES` | `en` |
+| `category` | `str` | See `CATEGORIES` | `neutral` |
 
-Return type: list
+Return type: `list[str]`
 
 If the `language` value provided is not available, a `LanguageNotFoundError` exception is raised.
 
@@ -40,14 +40,38 @@ If the `category` value provided is not available, a `CategoryNotFoundError` exc
 
 These are all the languages supported by pyjokes:
 
-| Language   | Value |
-| ---------- | ----- |
-| Basque     | 'eu'  |
-| English    | 'en'  |
-| Galician   | 'gl'  |
-| German     | 'de'  |
-| Italian    | 'it'  |
-| Spanish    | 'es'  |
-| Hungarian  | 'hu'  |
+| Language   | Value (ISO 639 two-letter language code) |
+| ---------- | ---- |
+| Basque     | `cs` |
+| German     | `de` |
+| English    | `en` |
+| Spanish    | `es` |
+| Basque     | `eu` |
+| French     | `fr` |
+| Galician   | `gl` |
+| Hungarian  | `hu` |
+| Italian    | `it` |
+| Lithuanian | `lt` |
+| Polish     | `pl` |
+| Russian    | `ru` |
+| Swedish    | `sv` |
 
 To add support for another language, please see the [contributing page](https://github.com/pyjokes/pyjokes/blob/master/CONTRIBUTING.md).
+
+## Joke categories
+
+Joke categories are:
+
+| Category name | Value     | Notes |
+| ------------- | --------- | ----- |
+| Neutral       | `neutral` | Standard programmer jokes     |
+| Chuck Norris  | `chuck`   | Chuck Norris programmer jokes |
+| All           | `all`     | All joke categories combined  |
+
+## Exceptions
+
+Exceptions are available at `pyjokes.exc`:
+
+- `PyjokesError` (base class for all library exceptions)
+- `LanguageNotFoundError`
+- `CategoryNotFoundError`

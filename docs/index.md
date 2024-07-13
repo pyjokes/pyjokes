@@ -18,7 +18,7 @@ See the [install](install.md) page for information on installing on different pl
 
 ### Command line
 
-Run `pyjoke` at the command line to get a random joke:
+Run `pyjoke` or `pyjokes` at the command line to get a random joke:
 
 ```
 $ pyjoke
@@ -27,7 +27,8 @@ Why did the programmer quit his job? Because he didn't get arrays.
 
 ### Python
 
-Import the `pyjokes` module in a Python file and use the `get_joke` function to easily drop a random joke into your application:
+Import the `pyjokes` module in a Python file and use the `get_joke` function to easily access a
+random joke into your application:
 
 ```python
 import pyjokes
@@ -39,11 +40,16 @@ See the [API reference](api.md) for full documentation.
 
 ## Proposal of new jokes
 
-New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/pyjokes/issues/10) or via pull request.
+New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/pyjokes/issues/10)
+or via pull request.
 
 ## Reference
 
 - [GitHub](https://github.com/pyjokes/pyjokes)
-- [Wiki](https://github.com/pyjokes/pyjokes/wiki)
-- [PyPI](https://pypi.org/project/pyjokes/)
+- [PyPI](https://pypi.org/project/pyjokes)
 - [Twitter](https://twitter.com/pyjokes_bot)
+
+## PyJokes logo
+
+The logo was designed by [Sam Alder](https://samalder.co.uk/). The PyJokes Society is eternally
+grateful for his contribution.

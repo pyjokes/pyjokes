@@ -6,6 +6,6 @@ dist
 .cache
 .coverage*
 .tox
-website
+www
 .pytest_cache
 poetry.lock
