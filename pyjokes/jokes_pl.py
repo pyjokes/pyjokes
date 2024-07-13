@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# POLISH
+
 """
 Jokes below come from the "jokes_en.py" file.
 Translation to Polish: Tomasz Rozynek - provided under CC BY-SA 3.0

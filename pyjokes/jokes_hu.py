@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# HUNGARIAN
+
 """
 Most of the jokes are from https://viccfaktor.hu/cimke/programozo-viccek/, and https://gremmedia.hu/programozo-viccek
 //

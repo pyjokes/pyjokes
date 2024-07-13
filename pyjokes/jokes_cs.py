@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# CZECH
+
 neutral = [
     "Webmaster vyplňuje dotazník: Věk: 25 Výška: 185 Barva očí: #4040FF",
     "Víte, proč blondýna pokládá vedle počítače sýr? Aby měla myš co jíst!",

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# GALICIAN
+
 neutral = [
     "Abrese o elevador e hai un programador dentro. Preguntanlle: Sube ou baixa? O programador respondelle: - Si",
     "Que lle di un bit a outro? Vemonos no bus.",

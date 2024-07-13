@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# SPANISH
+
 neutral = [
     "Se abre el ascensor y hay un programador dentro, le preguntan: ¿Sube o baja? A lo que el programador responde: Sí.",
     "¿Qué le dice un bit a otro? Nos vemos en el bus.",

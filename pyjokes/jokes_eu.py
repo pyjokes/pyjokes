@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
+# BASQUE
+
 neutral = [
-    "Zer dira 8 Bocabits? BocaByte bat ",
+    "Zer dira 8 Bocabits? BocaByte bat",
     "Zer esaten dio bit batek besteari? Busean ikusten gara!",
     "Zer da terapeuta bat? - 1024 Gigapeuta",
     "Aita, aita, aita!!! Utziko al didazu telebista ikusten? Bai! Baina pizten ez!",

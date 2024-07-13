@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# LITHUANIAN
+
 """
 One liner jokes for coders in Lithuanian language
 """

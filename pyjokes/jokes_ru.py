@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# RUSSIAN
+
 """
 Jokes from:
     https://anekdoty.ru/pro-programmistov/

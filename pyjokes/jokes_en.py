@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# ENGLISH
+
 """
 Initial jokes from stackoverflow - provided under CC BY-SA 3.0
 http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page=4&tab=votes#tab-top

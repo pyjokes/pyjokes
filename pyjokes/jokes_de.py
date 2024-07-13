@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# GERMAN
+
 neutral = [
     "Was steht auf dem Grabstein eines Mathematikers? 'Damit hat er nicht gerechnet.'",
     "Ein Beamter zum anderen: 'Was haben die Leute nur, wir tun doch nichts'.",
