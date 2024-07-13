@@ -1,5 +1,5 @@
 import random
-from typing import Literal
+from typing import Literal, get_args
 
 from .jokes_cs import jokes_cs
 from .jokes_de import jokes_de
@@ -36,6 +36,9 @@ all_jokes = {
 
 LANGUAGES = Literal["cs", "de", "en", "es", "eu", "fr", "gl", "hu", "it", "lt", "pl", "ru", "sv"]
 CATEGORIES = Literal["neutral", "chuck", "all"]
+
+LANGUAGE_VALUES = set(get_args(LANGUAGES))
+CATEGORY_VALUES = set(get_args(CATEGORIES))
 
 
 def get_jokes(language: LANGUAGES = "en", category: CATEGORIES = "neutral") -> list[str]:
