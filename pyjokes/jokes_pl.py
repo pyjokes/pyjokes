@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# POLISH
+
 """
 Jokes below come from the "jokes_en.py" file.
 Translation to Polish: Tomasz Rozynek - provided under CC BY-SA 3.0
@@ -64,13 +66,13 @@ neutral = [
     "Zarządzanie jakością składa się w 55% z wody, 30% krwi i 15% ticketów z bugtrackera",
     "Sympatyzowanie z Diabłem to tak naprawdę bycie uprzejmym dla Testerów.",
     "Ilu Testerów potrzeba do zmiany żarówki? Oni zauważyli, że pokój jest ciemny. Nie rozwiązują problemów, tylko ich szukają.",
-    "Programista rozbił auto zjeżdżając z góry. Przechodzień spytał co się stało. \"Nie wiem. Wnieśmy go na górę i spróbujmy ponownie.\".",
+    'Programista rozbił auto zjeżdżając z góry. Przechodzień spytał co się stało. "Nie wiem. Wnieśmy go na górę i spróbujmy ponownie.".',
     "Pisanie w PHP jest jak sikanie do basenu. Wszyscy to robili, ale niekoniecznie trzeba się tym chwalić publicznie.",
     "Dlaczego Tester przeszedł przez ulicę? Żeby zepsuć dzień wszystkim innym.",
     "Ilość dni od ostatniego błędu indeksowania tablicy: -1.",
     "Ilość dni od ostatniej pomyłki o 1: 0.",
     "Szybkie randki są bez sensu. 5 minut to zbyt mało czasu, aby prawidłowo wyjaśnić filozofię Unix'a.",
-    "Microsoft co dwa miesiące organizuje \"tydzień produktywności\", podczas którego używają Google zamiast Bing'a",
+    'Microsoft co dwa miesiące organizuje "tydzień produktywności", podczas którego używają Google zamiast Bing\'a',
     "Podejście Schroedinger'a do budowy stron www: Jeśli nie oglądasz tego w Internet Explorerze, jest szansa, że będzie wyglądało dobrze.",
     "Szukanie dobrego programisty PHP jest jak szukanie igły w stogu siana. Czy raczej stogu siana w igle?",
     "Unix jest bardzo przyjazny użytkownikom. Po prostu jest również bardzo wybredny przy wyborze przyjaciół.",
@@ -192,7 +194,7 @@ chuck = [
 ]
 
 jokes_pl = {
-    'neutral': neutral,
-    'chuck': chuck,
-    'all': neutral + chuck,
+    "neutral": neutral,
+    "chuck": chuck,
+    "all": neutral + chuck,
 }

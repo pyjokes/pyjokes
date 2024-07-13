@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "pyjokes"
+version = "0.7.0"
+description = "One line jokes for programmers (jokes as a service)"
+authors = [
+    "Ben Nuttall <ben@bennuttall.com>",
+    "Alexandre Savio <alexsavio@gmail.com>",
+    "Oier Echaniz Beneitez <badtrex@gmail.com>",
+    "Borja Ayerdi <ayerdi.borja@gmail.com>",
+]
+license = "BSD License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+mkdocs = "^1.6.0"
+pytest = "^8.2.2"
+tox = "^4.16.0"
+twine = "^5.1.1"
+
+[tool.poetry.scripts]
+pyjoke = "pyjokes:cli.main"
+pyjokes = "pyjokes:cli.main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100

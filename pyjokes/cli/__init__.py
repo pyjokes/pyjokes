@@ -11,17 +11,33 @@ def create_argparser():
         "-c",
         "--category",
         dest="category",
-        choices=["neutral", "chuck", "all", "twister"],
+        choices=["neutral", "chuck", "all"],
         default="neutral",
         help="Joke category.",
     )
 
     parser.add_argument(
-        '-l', '--language',
-        dest='language',
-        choices=['en', 'de', 'es', 'fr', 'gl', 'eu', 'it', 'hu', 'lt', 'pl', 'cs', 'ru', 'se', 'fr'],
-        default='en',
-        help='Joke language.'
+        "-l",
+        "--language",
+        dest="language",
+        choices=[
+            "en",
+            "de",
+            "es",
+            "fr",
+            "gl",
+            "eu",
+            "it",
+            "hu",
+            "lt",
+            "pl",
+            "cs",
+            "ru",
+            "se",
+            "fr",
+        ],
+        default="en",
+        help="Joke language.",
     )
 
     return parser

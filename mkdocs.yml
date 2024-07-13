@@ -3,11 +3,11 @@ theme: mkdocs
 site_url: https://pyjok.es/
 repo_url: https://github.com/pyjokes/pyjokes
 site_description: One-line programmer jokes (jokes-as-a-service)
-site_author: Pyjokes Society
-site_dir: website
-google_analytics: ['UA-65996819-1', 'pyjok.es']
+site_author: PyJokes Society
+site_dir: www
 nav:
     - 'Home': 'index.md'
     - 'Install': 'install.md'
     - 'API Reference': 'api.md'
-    - 'Pyjokes Society': 'society.md'
+    - 'PyJokes Society': 'society.md'
+    - 'Story': 'story.md'

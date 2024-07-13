@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# ITALIAN
+
 """
 Jokes from stackoverflow - provided under CC BY-SA 3.0
 http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page=4&tab=votes#tab-top
@@ -176,7 +178,7 @@ chuck = [
 ]
 
 jokes_it = {
-    'neutral': neutral,
-    'chuck': chuck,
-    'all': neutral + chuck,
+    "neutral": neutral,
+    "chuck": chuck,
+    "all": neutral + chuck,
 }

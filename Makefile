@@ -1,77 +1,52 @@
-# vim: set noet sw=4 ts=4 fileencoding=utf-8:
-
-# External utilities
-PYTHON=python
-PIP=pip
-TOX=tox
-PYTEST=pytest
-TWINE=twine
-MKDOCS=mkdocs
-PYFLAGS=
-DEST_DIR=/
-
-NAME:=$(shell $(PYTHON) $(PYFLAGS) setup.py --name)
-VER:=$(shell $(PYTHON) $(PYFLAGS) setup.py --version)
-
-# Calculate the name of all outputs
-DIST_WHEEL=dist/$(NAME)-$(VER)-py2.py3-none-any.whl
-DIST_TAR=dist/$(NAME)-$(VER).tar.gz
+# Get the project name and version from pyproject.toml
+NAME:=$(shell awk -F '"' '/^name/ {print $$2; exit}' pyproject.toml)
+WHEEL_NAME:=$(subst -,_,$(NAME))
+VER:=$(shell awk -F '"' '/^version/ {print $$2}' pyproject.toml)
+DIST_TARGZ:=dist/$(WHEEL_NAME)-$(VER).tar.gz
+DIST_WHEEL:=dist/$(WHEEL_NAME)-$(VER)-py3-none-any.whl
+WWW_DIR:=www
 
 # Default target
-all:
-	@echo "make install - Install on local system"
-	@echo "make develop - Install symlinks for development"
+help:
+	@echo "make develop - Install dependencies"
+	@echo "make format - Format all Python code with black"
+	@echo "make doc - Build the documentation site"
+	@echo "make doc-serve - Serve the documentation site locally"
 	@echo "make test - Run tests"
-	@echo "make doc - Generate HTML and PDF documentation"
-	@echo "make sdist - Generate a source tar package"
-	@echo "make wheel - Generate a bdist wheel package"
-	@echo "make dist - Generate all packages"
-	@echo "make clean - Get rid of all generated files"
-	@echo "make release - Create and tag a new release"
-	@echo "make upload - Upload the new release to PyPI"
+	@echo "make clean - Remove the dist directory"
+	@echo "make build - Build a wheel distribuition"
+	@echo "make publish - Publish the wheel to Artifactory"
+	
+develop:
+	pip install poetry
+	poetry install --all-extras
 
-install: $(SUBDIRS)
-	$(PYTHON) $(PYFLAGS) setup.py install --root $(DEST_DIR)
+format:
+	black . --line-length=100
 
-doc:
-	$(MKDOCS) build
+$(WWW_DIR): 
+	mkdocs build
 
-source: $(DIST_TAR) $(DIST_ZIP)
+doc: $(WWW_DIR)
 
-wheel: $(DIST_WHEEL)
+doc-serve:
+	mkdocs serve
 
-tar: $(DIST_TAR)
-
-dist: $(DIST_WHEEL) $(DIST_TAR)
-
-develop: tags
-	@# These have to be done separately to avoid a cockup...
-	$(PIP) install -U setuptools
-	$(PIP) install -U pip
-	$(PIP) install -e .[doc,test]
-
-test: $(TOX)
+test:
+	pytest tests
 
 clean:
-	dh_clean
-	rm -fr dist/ $(NAME).egg-info/ tags
-	for dir in $(SUBDIRS); do \
-		$(MAKE) -C $$dir clean; \
-	done
+	rm -rf dist || true
 
-$(SUBDIRS):
-	$(MAKE) -C $@
+$(DIST_TARGZ):
+	poetry build -f sdist
 
-$(DIST_TAR): $(PY_SOURCES) $(SUBDIRS)
-	$(PYTHON) $(PYFLAGS) setup.py sdist --formats gztar
+$(DIST_WHEEL):
+	poetry build -f wheel
 
-$(DIST_WHEEL): $(PY_SOURCES) $(SUBDIRS)
-	$(PYTHON) $(PYFLAGS) setup.py bdist_wheel --universal
+build: clean $(DIST_TARGZ) $(DIST_WHEEL)
 
-release: $(DIST_DEB) $(DIST_DSC) $(DIST_TAR) $(DIST_WHEEL)
-	git tag -s v$(VER) -m "Release v$(VER)"
-	git push --tags
-	# build a source archive and upload to PyPI
-	$(TWINE) upload $(DIST_TAR) $(DIST_WHEEL)
+publish: $(DIST_TARGZ) $(DIST_WHEEL)
+	twine upload $(DIST_TARGZ) $(DIST_WHEEL)
 
-.PHONY: all install develop test doc sdist wheel tar dist clean tags release upload $(SUBDIRS)
+.PHONY: help develop format doc doc-serve test clean build publish

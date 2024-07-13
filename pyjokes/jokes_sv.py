@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# SWEDISH
+
 # Joke credit to https://www.allaroligahistorier.se/datorer-it/
 # Commented jokes do not pass the ascii tests, but can be uncommented if this restriction is removed
 
@@ -51,4 +53,4 @@ neutral = [
     "Tryck valfri tangent för att fortsätta eller någon annan tangent för att avsluta.",
 ]
 
-jokes_se = {"neutral": neutral, "all": neutral}
+jokes_sv = {"neutral": neutral, "all": neutral}

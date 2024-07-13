@@ -33,6 +33,5 @@ for us to discuss.
 
 ## Development Policy
 
-- Python 2/3 compatibility
-- PEP8-compliance (with exceptions)
+- Code should be formatted with Black
 - Tests should be passing
