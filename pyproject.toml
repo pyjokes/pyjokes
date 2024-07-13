@@ -19,6 +19,7 @@ black = "*"
 mkdocs = "^1.6.0"
 pytest = "^8.2.2"
 tox = "^4.16.0"
+twine = "^5.1.1"
 
 [tool.poetry.scripts]
 pyjoke = "pyjokes:cli.main"
