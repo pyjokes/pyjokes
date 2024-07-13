@@ -176,7 +176,7 @@ chuck = [
 ]
 
 jokes_it = {
-    'neutral': neutral,
-    'chuck': chuck,
-    'all': neutral + chuck,
+    "neutral": neutral,
+    "chuck": chuck,
+    "all": neutral + chuck,
 }

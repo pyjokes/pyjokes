@@ -7,7 +7,7 @@ http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke?page
 
 neutral = [
     "Quel Pokemon a une mitraillette? Ratatatatatatatatata",
-    "A quoi sert Internet Explorer ? À télécharger Google Chrome.",
+    "A quoi sert Internet Explorer? À télécharger Google Chrome.",
     "Optimiste: Le verre est à moitié plein. Pessimiste: Le verre est à moitié vide. Programmeur: Le verre est 2 fois plus grand que nécessaire.",
     "Où les programmeurs sortent habituellement. R. Foo Bar",
     "Comment comparer HTML et HTML5? Est-ce que cela fonctionne avec Internet Explorer? Non? C'est du HTML5.",
@@ -20,12 +20,12 @@ neutral = [
     "Ne jamais copier et coller toute une fonction. Toujours créer une nouvelle méthode.",
     "C'est C++ qui dit à C: 'Voyons! Tu n'as pas de classe'",
     "C'est C++ qui dit à C: 'Pourquoi, ne viens-tu jamais en classe?'",
-    "Il y a 2 types de programmeurs. 1) Je suis Dieu. 2) Je n’ai aucune idée de ce que je fais.",
+    "Il y a 2 types de programmeurs. 1) Je suis Dieu. 2) Je n'ai aucune idée de ce que je fais.",
     "Il y a 10 types de personnes: ceux qui savent compter en binaire, et les autres.",
     "Si Microsoft inventait un truc qui ne plante pas, ce serait un clou",
     "Combien faut-il de programmeurs pour changer une ampoule? Aucun c'est un problème matériel.",
     "Quelle est la différence entre Windows XP et un virus? Le virus fonctionne sans aide.",
-    "Quelle est la différence entre Bill Gates et Dieu ? Dieu ne se prend pas pour Bill Gates.",
+    "Quelle est la différence entre Bill Gates et Dieu? Dieu ne se prend pas pour Bill Gates.",
     "Un programmeur dit à un autre programmeur. Je ne comprends pas, cela fonctionnait mercredi dernier.",
     "Un programmeur expérimenté se pose toujours des questions lorsque le code compile du premier coup.",
     "Toc Toc. Qui est là ? *Très longue pause* C'est Internet Explorer.",
@@ -35,6 +35,6 @@ neutral = [
 ]
 
 jokes_fr = {
-    'neutral': neutral,
-    'all': neutral,
+    "neutral": neutral,
+    "all": neutral,
 }

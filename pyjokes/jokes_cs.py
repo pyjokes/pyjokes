@@ -48,7 +48,7 @@ chuck = [
 ]
 
 jokes_cs = {
-    'neutral': neutral,
-    'chuck': chuck,
-    'all': neutral + chuck,
+    "neutral": neutral,
+    "chuck": chuck,
+    "all": neutral + chuck,
 }
