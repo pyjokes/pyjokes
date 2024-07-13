@@ -9,3 +9,4 @@ dist
 www
 .pytest_cache
 poetry.lock
+.DS_Store
