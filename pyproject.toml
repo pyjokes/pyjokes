@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyjokes"
-version = "0.7.1"
+version = "0.7.2"
 description = "One line jokes for programmers (jokes as a service)"
 authors = [
     "Ben Nuttall <ben@bennuttall.com>",
@@ -8,7 +8,7 @@ authors = [
     "Oier Echaniz Beneitez <badtrex@gmail.com>",
     "Borja Ayerdi <ayerdi.borja@gmail.com>",
 ]
-license = "BSD License"
+license = "BSD-3-Clause"
 readme = "README.md"
 
 [tool.poetry.dependencies]
