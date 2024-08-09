@@ -62,3 +62,11 @@ def get_joke(language: LANGUAGES = "en", category: CATEGORIES = "neutral") -> st
     """
     jokes = get_jokes(language, category)
     return random.choice(jokes)
+
+
+def forever(language: LANGUAGES = "en", category: CATEGORIES = "neutral"):
+    """
+    Generate jokes forever.
+    """
+    while True:
+        yield get_joke(language, category)

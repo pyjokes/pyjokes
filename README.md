@@ -18,7 +18,16 @@ Once installed, simply call `pyjoke` or `pyjokes` from the command line or add i
 or `.zshrc` file to see a joke every time you open a terminal.
 
 You can also access the jokes in your own project by importing `pyjokes` and using the functions
-`get_joke` and `get_jokes`.
+`get_joke` and `get_jokes`. Alternatively, use the `pyjokes.forever` generator function:
+
+```python
+import pyjokes
+
+
+for joke in pyjokes.forever():
+    # This will go on forever... you're welcome.
+    print(joke)
+```
 
 ## Maintainers
 
