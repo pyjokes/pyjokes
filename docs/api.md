@@ -25,16 +25,17 @@ If the `category` value provided is not available, a `CategoryNotFoundError` exc
 
 Returns a list of jokes from the given category in the given language.
 
-| Parameters | Types | Values | Default |
-| ---------- | ----- | ------ | ------- |
-| `language` | `str` | See `LANGUAGES` | `en` |
-| `category` | `str` | See `CATEGORIES` | `neutral` |
+Takes the same parameters as `get_joke()`.
 
 Return type: `list[str]`
 
-If the `language` value provided is not available, a `LanguageNotFoundError` exception is raised.
+## pyjokes.forever()
 
-If the `category` value provided is not available, a `CategoryNotFoundError` exception is raised.
+A generator which yields jokes.
+
+Takes the same parameters as `get_joke()`.
+
+Yield type: `str`
 
 ## Supported languages
 
@@ -56,7 +57,7 @@ These are all the languages supported by pyjokes:
 | Russian    | `ru` |
 | Swedish    | `sv` |
 
-To add support for another language, please see the [contributing page](https://github.com/pyjokes/pyjokes/blob/master/CONTRIBUTING.md).
+To add support for another language, please see the [contributing page](https://github.com/pyjokes/pyjokes/blob/main/CONTRIBUTING.md).
 
 ## Joke categories
 

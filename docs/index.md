@@ -2,54 +2,83 @@
 
 One line jokes for programmers (jokes as a service)
 
-![pyjokes](images/pyjokes.png)
+[![](images/pyjokes.png)](images/pyjokes_logo.png)
 
-## Install
+## Installation
 
-Install with pip:
+Install the `pyjokes` module with pip:
 
-```bash
-pip install pyjokes
+```console
+pip3 install pyjokes
 ```
-
-See the [install](install.md) page for information on installing on different platforms.
 
 ## Usage
 
-### Command line
+Once installed, simply call `pyjoke` or `pyjokes` from the command line:
 
-Run `pyjoke` or `pyjokes` at the command line to get a random joke:
-
-```
+```console
 $ pyjoke
-Why did the programmer quit his job? Because he didn't get arrays.
+Why do Java programmers have to wear glasses? Because they don't see sharp.
 ```
 
-### Python
+Or add it to your `.bashrc` or `.zshrc` file to see a joke every time you open a terminal!
 
-Import the `pyjokes` module in a Python file and use the `get_joke` function to easily access a
-random joke into your application:
+You can also access the jokes in your own project by importing `pyjokes` and using the function
+`get_joke`:
+
+```pycon
+>>> import pyjokes
+>>> print(pyjokes.get_joke())
+Why do programmers confuse Halloween with Christmas? Because OCT 31 == DEC 25.
+```
+
+We support many languages, and have multiple joke categories:
+
+```pycon
+>>> import pyjokes
+>>> print(pyjokes.get_joke("eu"))  # basque joke
+Zer dira 8 Bocabits? BocaByte bat
+>>> print(pyjokes.get_joke("es", "chuck"))  # spanish chuck norris joke
+El teclado de Chuck Norris no tiene tecla F1, es el ordenador el que le pide ayuda a él.
+```
+
+There is also a `get_jokes` function which returns all the jokes in the given language and category:
 
 ```python
 import pyjokes
 
-print(pyjokes.get_joke())
+for joke in pyjokes.get_jokes():
+    print(joke)
 ```
 
-See the [API reference](api.md) for full documentation.
+Alternatively, use the `pyjokes.forever` generator function:
 
-## Proposal of new jokes
+```python
+import pyjokes
 
-New jokes should be proposed in the [proposal issue](https://github.com/pyjokes/pyjokes/issues/10)
-or via pull request.
+for joke in pyjokes.forever():
+    # This will go on forever... you're welcome.
+    print(joke)
+```
 
-## Reference
+## Maintainers
 
-- [GitHub](https://github.com/pyjokes/pyjokes)
-- [PyPI](https://pypi.org/project/pyjokes)
-- [Twitter](https://twitter.com/pyjokes_bot)
+The project is maintained by the members of the PyJokes Society:
+
+- Ben Nuttall
+- Alex Savio
+- Borja Ayerdi
+- Oier Etxaniz ([RIP](https://www.europython-society.org/farewell-to-oier-echaniz-beneitez))
+
+## Contributing
+
+- The code is licensed under the [BSD Licence](http://opensource.org/licenses/BSD-3-Clause)
+- Please use GitHub issues to submit bugs and report issues
+- Feel free to contribute to the code
+- Feel free to contribute jokes (via pull request or [proposal issue](https://github.com/pyjokes/pyjokes/issues/10))
+- See the [contributing policy](https://github.com/pyjokes/pyjokes/tree/main/CONTRIBUTING.md)
 
 ## PyJokes logo
 
-The logo was designed by [Sam Alder](https://samalder.co.uk/). The PyJokes Society is eternally
-grateful for his contribution.
+The [logo](images/pyjokes_logo.png) was designed by [Sam Alder](https://samalder.co.uk/). The
+PyJokes Society is eternally grateful for his contribution.
