@@ -20,7 +20,7 @@ neutral = [
     "Camarero: ¿Le gustaría tomar un té o un café? Programador: Sí",
     "Llevo usando Vim desde desde hace mucho... principalmente porque no sé exactamente cómo salir.",
     "¿Cómo saber si una persona utiliza Vim? No te preocupes, ella te lo dirá.",
-    "Camarero: ¡Socorro, esta persona se esta axfisiando! ¿Hay algun doctor? Programador: No se preocupe, soy usuario de Vim.",
+    "Camarero: ¡Socorro, esta persona se esta asfixiando! ¿Hay algun doctor? Programador: No se preocupe, soy usuario de Vim.",
     "Un buen programador mira a ambos lados de la calle al cruzarla, aunque sea de sentido único",
     "Solo hay 10 tipos de personas, las que entienden hexadecimal y las 15 restantes.",
     "Solo hay 10 tipos de personas en el mundo, las que entienden binario y las que no.",
