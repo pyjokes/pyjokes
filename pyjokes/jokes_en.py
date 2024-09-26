@@ -188,6 +188,7 @@ neutral = [
     "Programmers are tools for converting caffeine into code.",
     "There are three kinds of people: those who can count and those who can't.",
     "Why do programmers prefer dark mode? Because light attracts bugs.",
+    "She said she likes me as a friend. I told her that in C++, Friends can access the private parts.",
 ]
 
 
