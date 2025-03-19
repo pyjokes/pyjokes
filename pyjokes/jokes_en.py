@@ -259,7 +259,7 @@ chuck = [
     "Chuck Norris does not need to type-cast. The Chuck-Norris Compiler (CNC) sees through things. All the way down. Always.",
     "Chuck Norris does not code in cycles, he codes in strikes.",
     "Chuck Norris compresses his files by doing a flying round house kick to the hard drive.",
-    "Chick Norris solved the halting problem.",
+    "Chuck Norris solved the halting problem.",
     "With Chuck Norris P = NP. There's no nondeterminism with Chuck Norris decisions.",
     "Chuck Norris can retrieve anything from /dev/null.",
     "No one has ever pair-programmed with Chuck Norris and lived to tell the tale.",
