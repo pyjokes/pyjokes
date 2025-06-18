@@ -34,7 +34,7 @@ def create_argparser():
             "cs",
             "ru",
             "se",
-            "fr",
+            "tr",
         ],
         default="en",
         help="Joke language.",

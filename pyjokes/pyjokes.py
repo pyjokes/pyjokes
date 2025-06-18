@@ -14,6 +14,7 @@ from .jokes_lt import jokes_lt
 from .jokes_pl import jokes_pl
 from .jokes_ru import jokes_ru
 from .jokes_sv import jokes_sv
+from .jokes_tr import jokes_tr
 from .exc import LanguageNotFoundError, CategoryNotFoundError
 
 
@@ -31,10 +32,13 @@ all_jokes = {
     "pl": jokes_pl,
     "ru": jokes_ru,
     "sv": jokes_sv,
+    "tr": jokes_tr,
 }
 
 
-LANGUAGES = Literal["cs", "de", "en", "es", "eu", "fr", "gl", "hu", "it", "lt", "pl", "ru", "sv"]
+LANGUAGES = Literal[
+    "cs", "de", "en", "es", "eu", "fr", "gl", "hu", "it", "lt", "pl", "ru", "sv", "tr"
+]
 CATEGORIES = Literal["neutral", "chuck", "all"]
 
 LANGUAGE_VALUES = set(get_args(LANGUAGES))
@@ -64,7 +68,9 @@ def get_joke(language: LANGUAGES = "en", category: CATEGORIES = "neutral") -> st
     return random.choice(jokes)
 
 
-def forever(language: LANGUAGES = "en", category: CATEGORIES = "neutral") -> Generator[str, Any, Any]:
+def forever(
+    language: LANGUAGES = "en", category: CATEGORIES = "neutral"
+) -> Generator[str, Any, Any]:
     """
     Generate jokes forever
     """
