@@ -190,6 +190,7 @@ neutral = [
     "Why do programmers prefer dark mode? Because light attracts bugs.",
     "Why did the computer show up at work late? It had a hard drive.",
     "Why do programmers hate nature? Too many bugs.",
+    "Whhy do some people say 'Linux is bloated'? Because they installed cutefetch, fastfetch, neofetch, pfetch!",
 ]
 
 
