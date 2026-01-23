@@ -190,6 +190,7 @@ neutral = [
     "Why do programmers prefer dark mode? Because light attracts bugs.",
     "Why did the computer show up at work late? It had a hard drive.",
     "Why do programmers hate nature? Too many bugs.",
+    "I have a HTTP joke but if I POST it you wouldn't GET it.",
 ]
 
 
