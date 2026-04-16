@@ -175,7 +175,6 @@ neutral = [
     "I changed my password to BeefStew but the computer told me it wasn't Stroganoff.",
     "Changed my password to fortnight but apparently that's two week.",
     "Artificial intelligence usually beats real stupidity.",
-    "The Internet: where men are men, women are men, and children are FBI agents.",
     "Bugs come in through open Windows.",
     "Unix is user friendly. It's just selective about who its friends are.",
     "Failure is not an option. It comes bundled with your Microsoft product.",
