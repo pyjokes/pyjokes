@@ -34,6 +34,7 @@ neutral = [
     "C'est l'histoire d'un administrateur qui configure ses variables d'environnement, et là... PATH le chemin !",
     "Un professeur dit à ses élèves que pour réussir, ils ne doivent pas se fier à un moteur de recherche... Le programmeur rit très fort!",
     "Un programmeur se dira toujours: Cela ne fonctionne pas, pourquoi? Et, cela fonctionne, pourquoi?",
+    "Ma résolution du Nouvel An est 3840 x 2160",
 ]
 
 jokes_fr = {
