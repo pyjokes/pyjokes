@@ -15,6 +15,7 @@ from .jokes_pl import jokes_pl
 from .jokes_ru import jokes_ru
 from .jokes_sv import jokes_sv
 from .jokes_tr import jokes_tr
+from .jokes_pt_br import jokes_pt_br
 from .exc import LanguageNotFoundError, CategoryNotFoundError
 
 
@@ -33,11 +34,12 @@ all_jokes = {
     "ru": jokes_ru,
     "sv": jokes_sv,
     "tr": jokes_tr,
+    "pt-br": jokes_pt_br,
 }
 
 
 LANGUAGES = Literal[
-    "cs", "de", "en", "es", "eu", "fr", "gl", "hu", "it", "lt", "pl", "ru", "sv", "tr"
+    "cs", "de", "en", "es", "eu", "fr", "gl", "hu", "it", "lt", "pl", "ru", "sv", "tr","pt-br"
 ]
 CATEGORIES = Literal["neutral", "chuck", "all"]
 
