@@ -8,5 +8,4 @@ dist
 .tox
 www
 .pytest_cache
-poetry.lock
 .DS_Store

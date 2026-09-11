@@ -15,8 +15,7 @@ help:
 	@echo "make release - Release the package to PyPI"
 	
 develop:
-	pip install poetry
-	poetry install --all-extras
+	pip install -e ".[dev]"
 
 format:
 	black .
@@ -28,10 +27,10 @@ clean:
 	rm -rf dist
 
 $(DIST_TARGZ):
-	poetry build -f sdist
+	python -m build --sdist
 
 $(DIST_WHEEL):
-	poetry build -f wheel
+	python -m build --wheel
 
 build: clean $(DIST_TARGZ) $(DIST_WHEEL)
 
